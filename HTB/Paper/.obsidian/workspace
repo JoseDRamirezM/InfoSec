@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Report.md",
+            "file": "Main.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Report.md",
+                "file": "Main.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,13 @@
   },
   "active": "0bf28cfe2b1400c8",
   "lastOpenFiles": [
-    "Report.md",
-    "Vulnerability assessment.md",
     "Main.md",
+    "Vulnerability report.md",
+    "Vulnerability assessment chat.office.paper.md",
+    "Vulnerability assessment office.paper.md",
+    "Vulnerability assessment.md",
+    "Exploitation dwight user.md",
+    "Exploitation chat bot.md",
     "Footprinting and port scanning.md",
     "Information gathering.md"
   ]

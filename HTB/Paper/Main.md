@@ -12,5 +12,17 @@
 
 [[Vulnerability assessment]]
 
+[[Vulnerability assessment office.paper]]
+
+[[Vulnerability assessment chat.office.paper]]
+
 ## Exploitation
+
+[[Exploitation chat bot]]
+
+[[Exploitation dwight user]]
+
+## Vulnerability report
+
+[[Vulnerability report]]
 
