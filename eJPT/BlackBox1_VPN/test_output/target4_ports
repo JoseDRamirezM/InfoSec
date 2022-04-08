@@ -1,0 +1,36 @@
+# Nmap 7.92 scan initiated Thu Apr  7 18:09:40 2022 as: nmap -O -sS -n -Pn -p- --min-rate 5000 -oN target4_ports 172.16.64.199
+Nmap scan report for 172.16.64.199
+Host is up (0.15s latency).
+Not shown: 65523 closed tcp ports (reset)
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+1433/tcp  open  ms-sql-s
+49664/tcp open  unknown
+49665/tcp open  unknown
+49666/tcp open  unknown
+49667/tcp open  unknown
+49668/tcp open  unknown
+49669/tcp open  unknown
+49670/tcp open  unknown
+49943/tcp open  unknown
+MAC Address: 00:50:56:A0:30:9A (VMware)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.92%E=4%D=4/7%OT=135%CT=1%CU=39543%PV=Y%DS=1%DC=D%G=Y%M=005056%T
+OS:M=624F6F55%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10C%TI=I%CI=I%II=I
+OS:%SS=S%TS=A)SEQ(SP=105%GCD=1%ISR=10C%TI=I%CI=I%TS=A)OPS(O1=M4E7NW8ST11%O2
+OS:=M4E7NW8ST11%O3=M4E7NW8NNT11%O4=M4E7NW8ST11%O5=M4E7NW8ST11%O6=M4E7ST11)W
+OS:IN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=80%W=2
+OS:000%O=M4E7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%D
+OS:F=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O
+OS:=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W
+OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)
+OS:T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%U
+OS:N=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Apr  7 18:10:13 2022 -- 1 IP address (1 host up) scanned in 33.12 seconds

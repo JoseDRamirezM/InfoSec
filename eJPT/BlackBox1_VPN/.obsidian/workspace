@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "30d6528d488f5302",
+    "id": "b36fe3bac3b00058",
     "type": "split",
     "children": [
       {
-        "id": "0bf28cfe2b1400c8",
+        "id": "eadf290ca65b8921",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2f3a931ec2c3d28c",
+    "id": "4441b4fe2c414293",
     "type": "split",
     "children": [
       {
-        "id": "8019bf4816b496ba",
+        "id": "c9248f5da9dee8c6",
         "type": "tabs",
         "children": [
           {
-            "id": "a03622176dd81358",
+            "id": "d3b2153b7a65efa0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "5d92c98349edae94",
+            "id": "f0ec08af88b23a0d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,15 +56,15 @@
     "width": 300
   },
   "right": {
-    "id": "5349e78430670a77",
+    "id": "1ebf5e1e7cde30b3",
     "type": "split",
     "children": [
       {
-        "id": "3198f2e4e22143f2",
+        "id": "072ce2570d2fae12",
         "type": "tabs",
         "children": [
           {
-            "id": "fb7a2331e8b27bf8",
+            "id": "a90e95f95072f629",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -87,16 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0bf28cfe2b1400c8",
+  "active": "eadf290ca65b8921",
   "lastOpenFiles": [
     "Main.md",
-    "Exploitation chat bot.md",
-    "Vulnerability report.md",
-    "Vulnerability assessment chat.office.paper.md",
-    "Vulnerability assessment office.paper.md",
-    "Vulnerability assessment.md",
-    "Exploitation dwight user.md",
-    "Footprinting and port scanning.md",
-    "Information gathering.md"
+    "Vulnerability assessment target 2 port 80.md",
+    "Vulnerability assessment target 3 port 139,445 (SAMBA).md",
+    "Vulnerability assessment target 2.md",
+    "Exploitation target 3 port 22.md",
+    "Exploitation target 4 port 1433.md",
+    "Exploitation target 2 port 80.md",
+    "Scanning 172.16.64.182 (target 3).md",
+    "Exploitation target 1 port 8080.md",
+    "Vulnerability assessment target 4 port 1433.md"
   ]
 }

@@ -1,0 +1,12 @@
+# Nmap 7.92 scan initiated Thu Apr  7 14:51:27 2022 as: nmap -sC -sV -Pn -p 80 -oN target_2_targeted 172.16.64.140
+Nmap scan report for 172.16.64.140
+Host is up (0.17s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-title: 404 HTML Template by Colorlib
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+MAC Address: 00:50:56:A0:26:1E (VMware)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Apr  7 14:52:03 2022 -- 1 IP address (1 host up) scanned in 36.50 seconds

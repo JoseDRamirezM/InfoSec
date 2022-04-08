@@ -1,0 +1,30 @@
+# Nmap 7.92 scan initiated Thu Apr  7 14:44:18 2022 as: nmap -O -sS -n -Pn -p- --min-rate 5000 -oN ports 172.16.64.101
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 172.16.64.101
+Host is up (0.19s latency).
+Not shown: 65531 closed tcp ports (reset)
+PORT      STATE SERVICE
+22/tcp    open  ssh
+8080/tcp  open  http-proxy
+9080/tcp  open  glrpc
+59919/tcp open  unknown
+MAC Address: 00:50:56:A0:BB:96 (VMware)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.92%E=4%D=4/7%OT=22%CT=1%CU=39011%PV=Y%DS=1%DC=D%G=Y%M=005056%TM
+OS:=624F3F3F%P=x86_64-pc-linux-gnu)SEQ(SP=FD%GCD=1%ISR=10F%TI=Z%CI=I%II=I%T
+OS:S=8)SEQ(SP=FD%GCD=1%ISR=10F%TI=Z%TS=8)SEQ(SP=FD%GCD=1%ISR=10F%TI=Z%II=I%
+OS:TS=8)OPS(O1=M4E7ST11NW7%O2=M4E7ST11NW7%O3=M4E7NNT11NW7%O4=M4E7ST11NW7%O5
+OS:=M4E7ST11NW7%O6=M4E7ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=
+OS:7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M4E7NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%
+OS:A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0
+OS:%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S
+OS:=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R
+OS:=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N
+OS:%T=40%CD=S)
+
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Apr  7 14:45:03 2022 -- 1 IP address (1 host up) scanned in 45.75 seconds

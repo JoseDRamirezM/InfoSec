@@ -1,0 +1,13 @@
+# Nmap 7.92 scan initiated Thu Apr  7 14:53:12 2022 as: nmap -O -sS -n -Pn --min-rate 5000 -oN target_2_ports 172.16.64.140
+Nmap scan report for 172.16.64.140
+Host is up (1.4s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:50:56:A0:26:1E (VMware)
+Aggressive OS guesses: ASUS RT-N56U WAP (Linux 3.4) (95%), Linux 3.16 (95%), Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC (95%), Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6) (93%), Linux 2.6.18 (93%), AXIS 211A Network Camera (Linux 2.6.20) (93%), Linux 3.1 (93%), Linux 3.2 (93%), Linux 2.6.16 (93%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Apr  7 14:54:26 2022 -- 1 IP address (1 host up) scanned in 73.99 seconds
