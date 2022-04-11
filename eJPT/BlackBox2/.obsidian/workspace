@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "2f437242605b0b86",
+    "type": "split",
+    "children": [
+      {
+        "id": "67d292b3b03d87a2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Exploit Jenkinks.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7f5c0873c678c65f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8ca980f762dc8b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63a16b35c751e41e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1787cc6c67fb7a84",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "119b6bc5490784a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2649ee8adf23d14a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe7ee98d77e1566c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Exploit Jenkinks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "67d292b3b03d87a2",
+  "lastOpenFiles": [
+    "Exploit Jenkinks.md",
+    "bash_confirmed.md",
+    "Information gathering pivoted network.md",
+    "Information gathering target 1.md",
+    "Pivoting target 1.md",
+    "Exploitation target 1.md",
+    "Engagement target 2.md",
+    "Engagement target 1.md",
+    "Port 8000.md",
+    "Main.md"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "127bdb58fb322cc3",
+    "type": "split",
+    "children": [
+      {
+        "id": "68c3a67036f2ccc0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Network pivoting.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3037de4cfbda12ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "9997673f33b649df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f36188a19ee85c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "442f1b91bab22448",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ba95bc1f3ce2ac12",
+    "type": "split",
+    "children": [
+      {
+        "id": "162e722cfde97513",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98321fb04dcb61d8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Network pivoting.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "68c3a67036f2ccc0",
+  "lastOpenFiles": [
+    "Network pivoting.md",
+    "Information gathering.md",
+    "Exploitation.md",
+    "Engagement.md",
+    "Black box 1.md",
+    "Compromised machine 1.md",
+    "Nmap Scan.md",
+    "Web testing.md"
+  ]
+}
