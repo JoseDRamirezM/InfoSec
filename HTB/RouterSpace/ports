@@ -1,0 +1,13 @@
+# Nmap 7.92 scan initiated Wed Apr 13 18:18:32 2022 as: nmap -O -sS -n -Pn --min-rate 5000 -p- -oN ports 10.10.11.148
+Nmap scan report for 10.10.11.148
+Host is up (0.083s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 4.15 - 5.6 (92%), Linux 5.0 (92%), Linux 5.0 - 5.4 (91%), Linux 5.0 - 5.3 (90%), Crestron XPanel control system (90%), Linux 5.3 - 5.4 (90%), Linux 2.6.32 (90%), Linux 5.4 (89%), ASUS RT-N56U WAP (Linux 3.4) (87%), Linux 3.1 (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Apr 13 18:19:02 2022 -- 1 IP address (1 host up) scanned in 30.60 seconds

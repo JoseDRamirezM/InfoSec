@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "30d6528d488f5302",
+    "id": "d4d4607b8cca79dd",
     "type": "split",
     "children": [
       {
-        "id": "0bf28cfe2b1400c8",
+        "id": "ed067c70816ef9b9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vulnerability report.md",
+            "file": "cheatsheet.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2f3a931ec2c3d28c",
+    "id": "81ce21330f2e8782",
     "type": "split",
     "children": [
       {
-        "id": "8019bf4816b496ba",
+        "id": "8418535057e13939",
         "type": "tabs",
         "children": [
           {
-            "id": "a03622176dd81358",
+            "id": "4dfc9ef7d8d76130",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "5d92c98349edae94",
+            "id": "6206a829ce614416",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -53,24 +53,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "5349e78430670a77",
+    "id": "95f7e0f060af50ea",
     "type": "split",
     "children": [
       {
-        "id": "3198f2e4e22143f2",
+        "id": "dd9a0f64ee76e048",
         "type": "tabs",
         "children": [
           {
-            "id": "fb7a2331e8b27bf8",
+            "id": "5d7baae392698f7c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vulnerability report.md",
+                "file": "cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,16 +87,8 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0bf28cfe2b1400c8",
+  "active": "ed067c70816ef9b9",
   "lastOpenFiles": [
-    "Vulnerability report.md",
-    "Footprinting and port scanning.md",
-    "Information gathering.md",
-    "Vulnerability assessment.md",
-    "Main.md",
-    "Exploitation dwight user.md",
-    "Exploitation chat bot.md",
-    "Vulnerability assessment chat.office.paper.md",
-    "Vulnerability assessment office.paper.md"
+    "cheatsheet.md"
   ]
 }
