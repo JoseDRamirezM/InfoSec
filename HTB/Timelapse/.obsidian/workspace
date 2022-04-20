@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "30d6528d488f5302",
+    "id": "c553b66703b71f37",
     "type": "split",
     "children": [
       {
-        "id": "4a83018591983e58",
+        "id": "da7c31772605c706",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Information gathering.md",
+            "file": "Vulnerability report.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2f3a931ec2c3d28c",
+    "id": "f8e48f891d736e78",
     "type": "split",
     "children": [
       {
-        "id": "8019bf4816b496ba",
+        "id": "63ef1c21f44edaa3",
         "type": "tabs",
         "children": [
           {
-            "id": "a03622176dd81358",
+            "id": "bf0b468365ca957d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "5d92c98349edae94",
+            "id": "dadad5b3d858444e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,20 +56,20 @@
     "width": 300
   },
   "right": {
-    "id": "5349e78430670a77",
+    "id": "5cd57b8d51b041f4",
     "type": "split",
     "children": [
       {
-        "id": "3198f2e4e22143f2",
+        "id": "1040eb70253a0a82",
         "type": "tabs",
         "children": [
           {
-            "id": "fb7a2331e8b27bf8",
+            "id": "5b5580540b9647ac",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information gathering.md",
+                "file": "Vulnerability report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,16 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4a83018591983e58",
+  "active": "da7c31772605c706",
   "lastOpenFiles": [
-    "Information gathering.md",
-    "Footprinting and port scanning.md",
-    "Main.md",
     "Vulnerability report.md",
-    "Vulnerability assessment.md",
-    "Exploitation dwight user.md",
-    "Exploitation chat bot.md",
-    "Vulnerability assessment chat.office.paper.md",
-    "Vulnerability assessment office.paper.md"
+    "Main.md",
+    "Exploitation administrator user.md",
+    "Exploitation svc_deploy user.md",
+    "Exploitation legacyy user.md",
+    "Vulnerability assessment winrm port 5986.md",
+    "Footprinting and port scanning.md",
+    "Vulnerability assessment Samba.md",
+    "Footprinting and scanning.md",
+    "Vulnerability assessment.md"
   ]
 }
