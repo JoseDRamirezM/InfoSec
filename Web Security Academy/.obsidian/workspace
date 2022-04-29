@@ -1,0 +1,104 @@
+{
+  "main": {
+    "id": "74847cd325d5c807",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2421d057c2eabdb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "OAUTH/OAUTH 2.0.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0e0857912f794a04",
+    "type": "split",
+    "children": [
+      {
+        "id": "501287415287edde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbdf8a589956dbf3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e73ad1c5237bfa99",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "cc485481a34e5c24",
+    "type": "split",
+    "children": [
+      {
+        "id": "dab67e6eaa45c51f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6e1d82a5e4bc9ba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OAUTH/OAUTH 2.0.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e2421d057c2eabdb",
+  "lastOpenFiles": [
+    "OAUTH/OAUTH 2.0.md",
+    "OAUTH/OAuth grant types.md",
+    "OAUTH/Implicit grant type.md",
+    "OAUTH/Authorization code grant type.md",
+    "images/OAUTH/API_call.png",
+    "Pasted image 20220428204434.png",
+    "images/OAUTH/access_token.png",
+    "Pasted image 20220428195731.png",
+    "Pasted image 20220428195431.png.md",
+    "images/OAUTH/oauth_process.png"
+  ]
+}
