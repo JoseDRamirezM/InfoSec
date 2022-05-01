@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e2421d057c2eabdb",
+        "id": "6fa5dab4419239e7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OAUTH/OAUTH 2.0.md",
+            "file": "SQL injection/Attacks/Retrieving data from other database tables.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OAUTH/OAUTH 2.0.md",
+                "file": "SQL injection/Attacks/Retrieving data from other database tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,17 +88,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e2421d057c2eabdb",
+  "active": "6fa5dab4419239e7",
   "lastOpenFiles": [
-    "OAUTH/OAUTH 2.0.md",
-    "OAUTH/OAuth grant types.md",
-    "OAUTH/Implicit grant type.md",
-    "OAUTH/Authorization code grant type.md",
-    "images/OAUTH/API_call.png",
-    "Pasted image 20220428204434.png",
-    "images/OAUTH/access_token.png",
-    "Pasted image 20220428195731.png",
-    "Pasted image 20220428195431.png.md",
-    "images/OAUTH/oauth_process.png"
+    "SQL injection/Attacks/Retrieving data from other database tables.md",
+    "SQL injection/Attacks/Retrieving hidden data.md",
+    "SQL injection/SQL injection.md",
+    "OAUTH/Service theory/Authorization code grant type.md",
+    "OAUTH/Vulns study/Vulns/Client app/Flawed CSRF protection.md",
+    "OAUTH/Vulns study/Vulns/Client app/Improper implementation of the implicit grant type.md",
+    "OAUTH/Vulns study/Vulns/Client app/LABS/LAB Improper implementation of the implicit grant type/LAB Improper implementation of the implicit grant type.md",
+    "OAUTH/Vulns study/Exploiting OAuth authentication vulnerabilities.md",
+    "OAUTH/Service theory/OAuth 2.0.md",
+    "OAUTH/OAuth methodology.md"
   ]
 }
