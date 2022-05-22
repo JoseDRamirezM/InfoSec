@@ -1,0 +1,104 @@
+{
+  "main": {
+    "id": "18c74c9ba7a846a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "532612d3869f18b2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/Non-Oracle databases listing contents.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ee89a6bc722c7f88",
+    "type": "split",
+    "children": [
+      {
+        "id": "337c2880d450346e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c67c361ab522f6e4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "64cd2a90632a9f23",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#WRITEUP",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 269.5036334991455,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d4691078c27744a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "feeeb1061725c71e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30610ed760bfa33e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/Non-Oracle databases listing contents.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "532612d3869f18b2",
+  "lastOpenFiles": [
+    "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/Non-Oracle databases listing contents.md",
+    "Attacks/Enumerating the database/Listing the contents of the database.md",
+    "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/images/string.png",
+    "Pasted image 20220521221821.png",
+    "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/Untitled.md",
+    "Attacks/Enumerating the database/Querying the database type and version.md",
+    "Attacks/Enumerating the database/Examining the database.md",
+    "Attacks/Enumerating the database/labs/SQL injection attack, querying the database type and version on MySQL and Microsoft/MySQL & Microsoft querying database type and version.md",
+    "Attacks/UNION attacks/Methodology UNION attacks.md",
+    "Attacks/Enumerating the database/labs/SQL injection attack, querying the database type and version on Oracle/Oracle querying database type and version.md"
+  ]
+}

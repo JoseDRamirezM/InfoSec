@@ -1,4 +1,4 @@
-# Retrieving data from other database tables
+# Subverting application logic
 
 Consider the scenario of a user and password login, based on the user input the application performs an SQL query like so:
 
