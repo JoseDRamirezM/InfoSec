@@ -13,9 +13,9 @@ Other possible threats are compromising the server/back-end infrastructure or to
 	- Regulatory fines
 2. In some cases obtaining a persistent backdoor into an organization's systems.
 
-# SQLi examples
+# SQL injection examples
 - [[Retrieving hidden data]]: return additional results modifying a SQL query.
 - [[Subverting application logic]]: modify a query to interfere with the application logic.
 - [[UNION attacks]]: retrieve information from different database tables.
-- Examining the database: extract information about the version and structure of the database.
+- [[Examining the database]]: extract information about the version and structure of the database.
 - Blind SQL injection: the results of a vulnerable query are not returned in the application response.

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "532612d3869f18b2",
+        "id": "69386761200c5568",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/Non-Oracle databases listing contents.md",
+            "file": "Exploiting blind SQL injection by triggering conditional responses.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/Non-Oracle databases listing contents.md",
+                "file": "Exploiting blind SQL injection by triggering conditional responses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,17 +88,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "532612d3869f18b2",
+  "active": "69386761200c5568",
   "lastOpenFiles": [
-    "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/Non-Oracle databases listing contents.md",
-    "Attacks/Enumerating the database/Listing the contents of the database.md",
-    "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/images/string.png",
-    "Pasted image 20220521221821.png",
-    "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/Untitled.md",
-    "Attacks/Enumerating the database/Querying the database type and version.md",
+    "Exploiting blind SQL injection by triggering conditional responses.md",
+    "Attacks/Blind SQL injection/Blind SQL injection.md",
+    "OAST.md",
+    "SQL injection.md",
     "Attacks/Enumerating the database/Examining the database.md",
-    "Attacks/Enumerating the database/labs/SQL injection attack, querying the database type and version on MySQL and Microsoft/MySQL & Microsoft querying database type and version.md",
+    "Attacks/Enumerating the database/Methodology Examining the database.md",
     "Attacks/UNION attacks/Methodology UNION attacks.md",
-    "Attacks/Enumerating the database/labs/SQL injection attack, querying the database type and version on Oracle/Oracle querying database type and version.md"
+    "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on Oracle/Oracle database listing.md",
+    "Attacks/Enumerating the database/Listing an Oracle database.md",
+    "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/Non-Oracle databases listing contents.md"
   ]
 }

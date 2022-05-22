@@ -31,6 +31,6 @@ Microsoft SQL Server 2016 (SP2) (KB4052908) - 13.0.5026.0 (X64) Mar 18 2018 09:1
 - MySQL & Microsoft [[MySQL & Microsoft querying database type and version]]
 
 
-Further enumeration:
+## Further enumeration
 
 [[Listing the contents of the database]]
