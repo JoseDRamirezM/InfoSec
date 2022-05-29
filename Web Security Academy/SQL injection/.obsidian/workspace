@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Exploiting blind SQL injection by triggering conditional responses.md",
+            "file": "Attacks/Blind SQL injection/labs/Blind SQL injection with conditional responses/Blind SQL injection with conditional responses.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5036334991455,
-    "collapsed": true
+    "width": 269.5036334991455
   },
   "right": {
     "id": "d4691078c27744a5",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exploiting blind SQL injection by triggering conditional responses.md",
+                "file": "Attacks/Blind SQL injection/labs/Blind SQL injection with conditional responses/Blind SQL injection with conditional responses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +89,15 @@
   },
   "active": "69386761200c5568",
   "lastOpenFiles": [
-    "Exploiting blind SQL injection by triggering conditional responses.md",
+    "Attacks/Blind SQL injection/labs/Blind SQL injection with conditional responses/Blind SQL injection with conditional responses.md",
+    "Attacks/Blind SQL injection/labs/Blind SQL injection with conditional responses/images/result.png",
+    "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/Non-Oracle databases listing contents.md",
+    "Attacks/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
     "Attacks/Blind SQL injection/Blind SQL injection.md",
-    "OAST.md",
-    "SQL injection.md",
+    "Attacks/Enumerating the database/Listing the contents of the database.md",
     "Attacks/Enumerating the database/Examining the database.md",
-    "Attacks/Enumerating the database/Methodology Examining the database.md",
-    "Attacks/UNION attacks/Methodology UNION attacks.md",
-    "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on Oracle/Oracle database listing.md",
-    "Attacks/Enumerating the database/Listing an Oracle database.md",
-    "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/Non-Oracle databases listing contents.md"
+    "[SQL.md",
+    "OAST.md",
+    "SQL injection.md"
   ]
 }
