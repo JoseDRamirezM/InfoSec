@@ -7,8 +7,12 @@
         "id": "69386761200c5568",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Attacks/Blind SQL injection/labs/Blind SQL injection with conditional errors/Blind SQL injection with conditional errors.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -49,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5036334991455
+    "width": 269.5036334991455,
+    "collapsed": true
   },
   "right": {
     "id": "d4691078c27744a5",
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Attacks/Blind SQL injection/labs/Blind SQL injection with conditional errors/Blind SQL injection with conditional errors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +90,15 @@
   },
   "active": "69386761200c5568",
   "lastOpenFiles": [
+    "Attacks/Blind SQL injection/labs/Blind SQL injection with conditional errors/Blind SQL injection with conditional errors.md",
+    "Attacks/Blind SQL injection/Inducing conditional responses by triggering SQL errors.md",
+    "Attacks/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
+    "Attacks/Blind SQL injection/labs/Blind SQL injection with conditional responses/Blind SQL injection with conditional responses.md",
+    "Attacks/Blind SQL injection/Blind SQL injection.md",
     "Pasted image 20220529155254.png",
     "Attacks/Blind SQL injection/labs/Blind SQL injection with conditional responses/images/password.png",
-    "Attacks/Blind SQL injection/labs/Blind SQL injection with conditional responses/Blind SQL injection with conditional responses.md",
     "Attacks/Blind SQL injection/labs/Blind SQL injection with conditional responses/images/result.png",
     "Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/Non-Oracle databases listing contents.md",
-    "Attacks/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
-    "Attacks/Blind SQL injection/Blind SQL injection.md",
-    "Attacks/Enumerating the database/Listing the contents of the database.md",
-    "Attacks/Enumerating the database/Examining the database.md",
-    "[SQL.md"
+    "Attacks/Enumerating the database/Listing the contents of the database.md"
   ]
 }

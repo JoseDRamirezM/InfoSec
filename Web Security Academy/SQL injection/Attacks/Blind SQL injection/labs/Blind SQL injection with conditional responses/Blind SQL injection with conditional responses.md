@@ -1,4 +1,6 @@
 # Blind SQL injection with conditional responses
+#BLINDSQLI 
+#WRITEUP 
 
 For this lab `Burp Intruder` may not be the best strategy, I wrote a Python script to automate the process of sending each letter and incrementally construct the password string. This can be done on `Burp Intruder` but it will be very time consuming.
 
