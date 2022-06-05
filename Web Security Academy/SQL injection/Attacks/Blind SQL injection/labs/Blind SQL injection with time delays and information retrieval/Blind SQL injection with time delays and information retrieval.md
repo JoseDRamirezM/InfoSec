@@ -31,3 +31,4 @@ Inject the cookie value with the URL encoded payload.
 ```
 
 
+I triggered the time delay then I automated the process and set a lower delay time in a Python script available [here](https://github.com/JoseDRamirezM/InfoSec/blob/main/Web%20Security%20Academy/SQL%20injection/Attacks/Blind%20SQL%20injection/labs/Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/exploit.py)
