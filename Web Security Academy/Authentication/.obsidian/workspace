@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "18c74c9ba7a846a0",
+    "id": "dc18f07c2d36a8bb",
     "type": "split",
     "children": [
       {
-        "id": "f206234c3440270e",
+        "id": "46794a198a10b4c6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "How to prevent SQL injection.md",
+            "file": "What is authentication.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ee89a6bc722c7f88",
+    "id": "a7333d82052dc73a",
     "type": "split",
     "children": [
       {
-        "id": "337c2880d450346e",
+        "id": "fc8796c412eb1188",
         "type": "tabs",
         "children": [
           {
-            "id": "c67c361ab522f6e4",
+            "id": "2137dce51d696168",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,12 +35,12 @@
             }
           },
           {
-            "id": "64cd2a90632a9f23",
+            "id": "e9cca5fce9b1588b",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#WRITEUP",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,24 +53,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5036334991455,
+    "width": 300,
     "collapsed": true
   },
   "right": {
-    "id": "d4691078c27744a5",
+    "id": "e039f6ca542aabd4",
     "type": "split",
     "children": [
       {
-        "id": "feeeb1061725c71e",
+        "id": "144f81d2096db8ac",
         "type": "tabs",
         "children": [
           {
-            "id": "30610ed760bfa33e",
+            "id": "404f72db93ba553a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How to prevent SQL injection.md",
+                "file": "What is authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,17 +88,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f206234c3440270e",
+  "active": "46794a198a10b4c6",
   "lastOpenFiles": [
-    "How to prevent SQL injection.md",
-    "Database-specific factors.md",
-    "Second-order SQL injection.md",
-    "How to detect SQL injection vulnerabilities.md",
-    "Attacks/Blind SQL injection/labs/Blind SQL injection with time delays and information retrieval/Blind SQL injection with time delays and information retrieval.md",
-    "Attacks/Blind SQL injection/Exploiting blind SQL injection by triggering time delays.md",
-    "Attacks/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
-    "Attacks/Blind SQL injection/labs/Blind SQL injection with time delays/Blind SQL injection with time delays.md",
-    "Attacks/Blind SQL injection/labs/Blind SQL injection with conditional responses/Blind SQL injection with conditional responses.md",
-    "Attacks/Blind SQL injection/labs/Blind SQL injection with conditional errors/Blind SQL injection with conditional errors.md"
+    "What is authentication.md",
+    "Authentication vulnerabilities.md",
+    "images/auth.png"
   ]
 }

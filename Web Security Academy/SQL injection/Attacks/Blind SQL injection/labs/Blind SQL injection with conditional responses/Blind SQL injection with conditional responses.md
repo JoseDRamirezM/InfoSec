@@ -15,6 +15,6 @@ The above image corresponds to the function that makes the heavy lifting in term
 Then a string accumulates the characters until no character receives a positive response which means the password is complete. The output indicates the index that's been tested and the progress so far. Once it's finished login as the `administrator` user and the lab is complete!
 
 ![[password.png]]
-
+The script is available [here](https://github.com/JoseDRamirezM/InfoSec/blob/main/Web%20Security%20Academy/SQL%20injection/Attacks/Blind%20SQL%20injection/labs/Blind%20SQL%20injection%20with%20conditional%20responses/get_pass.py)
 
 
