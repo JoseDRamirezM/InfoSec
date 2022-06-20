@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Exploitation SSTI.md",
+            "file": "Vulnerability report.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exploitation SSTI.md",
+                "file": "Vulnerability report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,14 +90,15 @@
   },
   "active": "0eed7119a88ea535",
   "lastOpenFiles": [
+    "Vulnerability report.md",
+    "Privilege escalation.md",
     "Exploitation SSTI.md",
+    "Footprinting and port scanning.md",
+    "Information gathering.md",
     "Exploitation.md",
     "Vulnerability assessment port 80.md",
-    "Footprinting and port scanning.md",
-    "Vulnerability report.md",
-    "Vulnerability assessment port 22.md",
     "Vulnerability assessment.md",
-    "Information gathering.md",
-    "Main.md"
+    "Main.md",
+    "Vulnerability assessment port 22.md"
   ]
 }

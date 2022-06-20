@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Information gathering.md",
+            "file": "Vulnerability report.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5349e78430670a77",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information gathering.md",
+                "file": "Vulnerability report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +90,10 @@
   },
   "active": "4a83018591983e58",
   "lastOpenFiles": [
+    "Vulnerability report.md",
     "Information gathering.md",
     "Footprinting and port scanning.md",
     "Main.md",
-    "Vulnerability report.md",
     "Vulnerability assessment.md",
     "Exploitation dwight user.md",
     "Exploitation chat bot.md",
