@@ -7,3 +7,5 @@ Authentication vulnerabilities are conceptually the simplest issues. However the
 The most common authentication mechanisms used in websites have potential, inherent and  implementation-related vulnerabilities.
 
 ![[auth.png]]
+
+[[What is authentication]]

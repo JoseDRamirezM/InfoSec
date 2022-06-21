@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "What is authentication.md",
+            "file": "Vulnerabilities/labs/password-based login/Username enumeration via subtly different responses/Username enumeration via subtly different responses.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e039f6ca542aabd4",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "What is authentication.md",
+                "file": "Vulnerabilities/labs/password-based login/Username enumeration via subtly different responses/Username enumeration via subtly different responses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,8 +89,15 @@
   },
   "active": "46794a198a10b4c6",
   "lastOpenFiles": [
-    "What is authentication.md",
-    "Authentication vulnerabilities.md",
-    "images/auth.png"
+    "Vulnerabilities/labs/password-based login/Username enumeration via subtly different responses/Username enumeration via subtly different responses.md",
+    "Vulnerabilities/labs/password-based login/Username enumeration via subtly different responses/images/password.png",
+    "Vulnerabilities/labs/password-based login/Username enumeration via subtly different responses/images/filter.png",
+    "Vulnerabilities/labs/password-based login/Username enumeration via different responses/Username enumeration via different responses.md",
+    "Vulnerabilities/labs/password-based login/Username enumeration via different responses/images/pass.png",
+    "Vulnerabilities/labs/password-based login/Username enumeration via different responses/images/user.png",
+    "Vulnerabilities/labs/password-based login/Username enumeration via different responses/images/intruder.png",
+    "Vulnerabilities/Password-based login vulnerabilities.md",
+    "Vulnerabilities/Vulnerabilities in authentication mechanisms.md",
+    "Authentication vulnerabilities.md"
   ]
 }
