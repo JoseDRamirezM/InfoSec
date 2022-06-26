@@ -91,5 +91,39 @@ This approach offers protection against targeted brute-forcing of an specific ac
 The scenario in which the attacker has both a set of valid usernames and a short list of potential passwords, the attacker can try the credentials on each account (the number of passwords depends on the limit of failed attempts) without locking the accounts.
 
 ## Exploitation example
+
+[[Username enumeration via account lock]]
+
 <hr>
 
+# User rate limiting
+
+If an IP address makes too many login requests wihtin a short period of time the IP address is blocked. IT can be unblocked by:
+
+- Automatically after a certain period of time.
+- Manually by an administrator.
+- Manually by the user after successfully completing a CAPTCHA.
+
+This approach is often preferred as it is less prone to user enumeration and denial of service attacks. However this is still not completely secure. There are many ways to manipulate the apparent IP in order to bypass the block.
+
+As the limit is based on the rate of HTTP requests sent from the user's IP address, this can be bypassed if there's a way to guess multiple passwords with a single request.
+
+## Exploitation example
+
+[[Broken brute-force protection, multiple credentials per request]]
+
+<hr>
+
+# HTTP Basic authentication
+
+It's a simple and old mechanism. The client receives an authentication token from the server, which is constructed by concatenating the username and password and encoding it in `Base64`. Then the token is placed on the `Authorization` header of every subsequent request.
+
+```HTTP
+Authorization: Basic base64(username:password)
+```
+
+This is not considered a secure authentication method. If HSTS (HTTP Strict Transport Security read more [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)) is not implemented, the user credentials are open to be captured on a MiTM (Man in The Middle) attack.
+
+HTTP Basic authentication does not support protection against brute-force attacks and it's vulnerable to session-related exploits, notably CSRF, which it can't mitigate on its own.
+
+In some cases, exploiting HTTP basic authentication might only grant an attacker access to an irrelevant page. But it expands the attack surface and also the credentials might be reused on other sensitive context.
