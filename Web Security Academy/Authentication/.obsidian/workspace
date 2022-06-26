@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vulnerabilities/labs/password-based login/Username enumeration via subtly different responses/Username enumeration via subtly different responses.md",
+            "file": "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via account lock/Username enumeration via account lock.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vulnerabilities/labs/password-based login/Username enumeration via subtly different responses/Username enumeration via subtly different responses.md",
+                "file": "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via account lock/Username enumeration via account lock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "46794a198a10b4c6",
   "lastOpenFiles": [
-    "Vulnerabilities/labs/password-based login/Username enumeration via subtly different responses/Username enumeration via subtly different responses.md",
-    "Vulnerabilities/labs/password-based login/Username enumeration via subtly different responses/images/password.png",
-    "Vulnerabilities/labs/password-based login/Username enumeration via subtly different responses/images/filter.png",
-    "Vulnerabilities/labs/password-based login/Username enumeration via different responses/Username enumeration via different responses.md",
-    "Vulnerabilities/labs/password-based login/Username enumeration via different responses/images/pass.png",
-    "Vulnerabilities/labs/password-based login/Username enumeration via different responses/images/user.png",
-    "Vulnerabilities/labs/password-based login/Username enumeration via different responses/images/intruder.png",
+    "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via account lock/Username enumeration via account lock.md",
     "Vulnerabilities/Password-based login vulnerabilities.md",
-    "Vulnerabilities/Vulnerabilities in authentication mechanisms.md",
-    "Authentication vulnerabilities.md"
+    "Vulnerabilities/labs/password-based login/Broken brute-force protection IP block/Broken brute-force protection IP block.md",
+    "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via different responses/Username enumeration via different responses.md",
+    "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via response timing/Username enumeration via response timing.md",
+    "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via subtly different responses/Username enumeration via subtly different responses.md",
+    "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via response timing/images/user_password.png",
+    "Pasted image 20220626123235.png",
+    "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via response timing/images/highest.png",
+    "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via response timing/images/login_req.png"
   ]
 }

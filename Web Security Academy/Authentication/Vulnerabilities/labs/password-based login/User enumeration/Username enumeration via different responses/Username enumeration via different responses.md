@@ -1,4 +1,6 @@
 # Username enumeration via different responses
+#AUTHENTICATION 
+#WRITEUP 
 
 1. Enumerate the user
 
