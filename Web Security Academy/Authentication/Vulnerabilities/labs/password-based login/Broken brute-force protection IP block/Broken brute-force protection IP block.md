@@ -18,7 +18,7 @@ The solution didn't work so I tried to change the interval to two login attempts
 
 Change to a `Forksplit` attack and provide both payload sets. After waiting for a bit the `carlos` user password is found.
 
-![[carlos_pass.png]]
+![[Vulnerabilities/labs/password-based login/Broken brute-force protection IP block/images/carlos_pass.png]]
 
 
 Log in with `carlos:11111111` and the lab is solved.

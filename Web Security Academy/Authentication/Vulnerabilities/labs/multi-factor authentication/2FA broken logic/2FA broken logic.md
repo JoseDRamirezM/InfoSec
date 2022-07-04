@@ -58,6 +58,6 @@ Start fuzzing and find the correct verification code.
 
 Then resend the request and check the response.
 
-![[success.png]]
+![[Vulnerabilities/labs/multi-factor authentication/2FA broken logic/images/success.png]]
 
 The lab is solved!
