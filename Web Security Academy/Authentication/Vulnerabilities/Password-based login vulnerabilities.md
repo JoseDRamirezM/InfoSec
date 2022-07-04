@@ -1,4 +1,7 @@
 # Password-based login vulnerabilities
+
+#AUTHENTICATION 
+#THEORY 
 <hr>
 
 This section contains the most common vulnerabilities is password-based authentication and how to exploit them. The mechanism works by providing the user with a username and a secret password via registration or by an administrator, which allow the users to authenticate.

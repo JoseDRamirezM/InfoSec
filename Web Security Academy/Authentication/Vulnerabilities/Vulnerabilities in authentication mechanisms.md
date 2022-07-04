@@ -1,4 +1,6 @@
 # Vulnerabilities in authentication mechanisms
+#AUTHENTICATION 
+#THEORY 
 
 An authentication system in a website consists of several mechanisms where vulnerabilities can occur.
 
