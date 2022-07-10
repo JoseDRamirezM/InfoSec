@@ -1,4 +1,6 @@
 # Offline password cracking
+#WRITEUP 
+#AUTHENTICATION 
 <hr>
 
 ## Recon

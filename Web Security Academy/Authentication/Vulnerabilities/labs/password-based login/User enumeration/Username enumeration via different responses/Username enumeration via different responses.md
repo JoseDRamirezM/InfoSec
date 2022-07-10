@@ -6,7 +6,7 @@
 
 Provided with the username wordlist use Burp's `Intruder` to automate the requests.
 
-![[intruder.png]]
+![[Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via different responses/images/intruder.png]]
 
 Now look at the responses searching for differences in the response
 

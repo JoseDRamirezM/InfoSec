@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vulnerabilities/Other authentication vulnerabilites.md",
+            "file": "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/Password brute-force via password change.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e039f6ca542aabd4",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vulnerabilities/Other authentication vulnerabilites.md",
+                "file": "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/Password brute-force via password change.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +89,15 @@
   },
   "active": "46794a198a10b4c6",
   "lastOpenFiles": [
+    "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/Password brute-force via password change.md",
+    "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/images/username_param.png",
+    "What is authentication.md",
+    "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/images/intruder.png",
+    "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/images/found.png",
     "Vulnerabilities/Other authentication vulnerabilites.md",
-    "Vulnerabilities/Multi-factor authentication vulnerabilities.md",
-    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/Offline password cracking.md",
-    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/images/access_log.png",
-    "Pasted image 20220710111936.png",
-    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/images/payload.png",
-    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/images/decoded_carlos_cookie.png",
-    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/images/stored_XSS.png",
-    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/images/cookie.png",
-    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/images/console.png"
+    "Vulnerabilities/labs/other authentication mechanisms/Password reset poisoning via middleware/Password reset poisoning via middleware.md",
+    "Vulnerabilities/labs/other authentication mechanisms/Password reset poisoning via middleware/images/token.png",
+    "Vulnerabilities/labs/other authentication mechanisms/Password reset poisoning via middleware/images/req_1.png",
+    "Vulnerabilities/labs/other authentication mechanisms/Password reset poisoning via middleware/images/flow.png"
   ]
 }
