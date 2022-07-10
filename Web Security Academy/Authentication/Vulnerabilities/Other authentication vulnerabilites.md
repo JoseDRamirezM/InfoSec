@@ -21,7 +21,23 @@ Not properly implemented encryption or simple encoding offer no protection when 
 
 [[Brute-forcing a stay-logged-in cookie]]
 
+Even if the attacker can't create their own account, using techniques such as XSS, an attacker could steal another user's "remember me" cookie and deduce how it's constructed. If the websites was built using an open-source framework, the details of the construction of the cookie may be publicly available.
+
+In other rare cases, the user's password can be obtained if the cookie contains a hash of a well-known password, which makes decrypting the hash trivial. This demonstrates the importance of salt in effective encryption.
+
+[[Offline password cracking]]
+
 <hr>
 
+# Resetting user passwords
+It's common for websites to have a way to reset users passwords in case the user forgets it. Which rely on alternative methods to authenticate the user before resetting the password. For this reason password reset functionality is inherently dangerous and needs to be implemented securely.
 
+There's a few ways that websites do this with varying degrees of vulnerability.
+
+## Sending passwords by email
+It is imperative when implementing this functionality to send a new password to the user email (never the current password). Also the sent password should expire after a very short period or the user changing their password again immediately. Otherwise this approach is highly susceptible to man-in-the-middle attacks.
+
+Email is also generally not considered secure given that inboxes both persistent and not designed to store confidential information. Many users sync their inbox between multiple devices across insecure channels.
+
+## Resetting passwords using an URL
 

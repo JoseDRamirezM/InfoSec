@@ -36,7 +36,7 @@ Go to
 
 Intercept the `POST` request to `/login2` and send it to the Intruder.
 
-![[payload.png]]
+![[Vulnerabilities/labs/multi-factor authentication/2FA bypass using a brute-force attack/images/payload.png]]
 
 Define the payload as usual, look into the `Resource Pool` tab and use a custom resource pool setting the Maximum concurrent requests to 1.
 

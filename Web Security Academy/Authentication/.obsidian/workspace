@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vulnerabilities/labs/other authentication mechanisms/Brute-forcing a stay-logged-in cookie/Brute-forcing a stay-logged-in cookie.md",
+            "file": "Vulnerabilities/Other authentication vulnerabilites.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vulnerabilities/labs/other authentication mechanisms/Brute-forcing a stay-logged-in cookie/Brute-forcing a stay-logged-in cookie.md",
+                "file": "Vulnerabilities/Other authentication vulnerabilites.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +90,15 @@
   },
   "active": "46794a198a10b4c6",
   "lastOpenFiles": [
-    "Vulnerabilities/labs/other authentication mechanisms/Brute-forcing a stay-logged-in cookie/Brute-forcing a stay-logged-in cookie.md",
-    "Vulnerabilities/labs/other authentication mechanisms/Brute-forcing a stay-logged-in cookie/images/processing.png",
-    "Vulnerabilities/labs/other authentication mechanisms/Brute-forcing a stay-logged-in cookie/images/cookie_encoded.png",
     "Vulnerabilities/Other authentication vulnerabilites.md",
-    "Vulnerabilities/labs/multi-factor authentication/2FA bypass using a brute-force attack/2FA bypass using a brute-force attack.md",
-    "Vulnerabilities/labs/multi-factor authentication/2FA broken logic/2FA broken logic.md",
     "Vulnerabilities/Multi-factor authentication vulnerabilities.md",
-    "Vulnerabilities/labs/multi-factor authentication/2FA broken logic/images/code.png",
-    "Vulnerabilities/labs/multi-factor authentication/2FA broken logic/images/code_request.png",
-    "Vulnerabilities/labs/multi-factor authentication/2FA broken logic/images/correct_req.png"
+    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/Offline password cracking.md",
+    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/images/access_log.png",
+    "Pasted image 20220710111936.png",
+    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/images/payload.png",
+    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/images/decoded_carlos_cookie.png",
+    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/images/stored_XSS.png",
+    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/images/cookie.png",
+    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/images/console.png"
   ]
 }

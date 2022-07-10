@@ -9,7 +9,7 @@ Analyze the generated cookie when the Stay logged-in functionality is enabled.
 
 ![[login.png]]
 
-![[cookie.png]]
+![[Vulnerabilities/labs/other authentication mechanisms/Brute-forcing a stay-logged-in cookie/images/cookie.png]]
 
 ## Analyze cookie
 
