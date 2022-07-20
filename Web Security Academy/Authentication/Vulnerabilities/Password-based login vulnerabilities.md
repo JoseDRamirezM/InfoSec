@@ -62,7 +62,7 @@ t is best practice that the website returns the same generic message regardless 
 - [[Username enumeration via different responses]]
 - [[Username enumeration via subtly different responses]]
 - [[Username enum
-eration via response timing]]
+eration via response timing]]]
 
 <hr>
 # Flawed brute-force protection

@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/Password brute-force via password change.md",
+            "file": "Vulnerabilities/Password-based login vulnerabilities.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "a5935ef65097e276",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Methodology.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e039f6ca542aabd4",
@@ -69,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/Password brute-force via password change.md",
+                "file": "Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +100,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "46794a198a10b4c6",
+  "active": "a5935ef65097e276",
   "lastOpenFiles": [
-    "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/Password brute-force via password change.md",
-    "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/images/username_param.png",
-    "What is authentication.md",
-    "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/images/intruder.png",
-    "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/images/found.png",
-    "Vulnerabilities/Other authentication vulnerabilites.md",
-    "Vulnerabilities/labs/other authentication mechanisms/Password reset poisoning via middleware/Password reset poisoning via middleware.md",
-    "Vulnerabilities/labs/other authentication mechanisms/Password reset poisoning via middleware/images/token.png",
-    "Vulnerabilities/labs/other authentication mechanisms/Password reset poisoning via middleware/images/req_1.png",
-    "Vulnerabilities/labs/other authentication mechanisms/Password reset poisoning via middleware/images/flow.png"
+    "Vulnerabilities/Password-based login vulnerabilities.md",
+    "Methodology.md",
+    "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via account lock/Username enumeration via account lock.md",
+    "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via different responses/Username enumeration via different responses.md",
+    "Vulnerabilities/Password reset poisoning.md",
+    "Vulnerabilities/labs/password-based login/Broken brute-force protection, multiple credentials per request/Broken brute-force protection, multiple credentials per request.md",
+    "Vulnerabilities/labs/password-based login/Broken brute-force protection IP block/Broken brute-force protection IP block.md",
+    "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via subtly different responses/Username enumeration via subtly different responses.md",
+    "Authentication vulnerabilities.md",
+    "Vulnerabilities/labs/password poisoning attacks/Basic password reset poisoning/Basic password reset poisoning.md"
   ]
 }

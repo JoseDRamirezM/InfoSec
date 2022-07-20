@@ -10,7 +10,7 @@
 
 Log in with the provided credentials and interact with the password change functionality.
 
-If the current password is entered incorrectly and the new password match. The account is locked for a minute.
+If the current password is entered incorrectly and the new passwords match. The account is locked for a minute.
 
 The thing with this lab is to play with the combination of "right/wrong" or "equal/different" elements in the password change form. Until it is known that providing the correct current password and new passwords that don't match generate a particular error message, that is `New passwords do not match`.
 
