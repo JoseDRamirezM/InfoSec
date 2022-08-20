@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vulnerabilities/Password-based login vulnerabilities.md",
+            "file": "Vulnerabilities/Multi-factor authentication vulnerabilities.md",
             "mode": "source",
             "source": false
           }
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e039f6ca542aabd4",
@@ -102,15 +101,15 @@
   },
   "active": "a5935ef65097e276",
   "lastOpenFiles": [
-    "Vulnerabilities/Password-based login vulnerabilities.md",
+    "Vulnerabilities/labs/multi-factor authentication/2FA broken logic/2FA broken logic.md",
+    "Vulnerabilities/labs/multi-factor authentication/2FA bypass using a brute-force attack/2FA bypass using a brute-force attack.md",
     "Methodology.md",
+    "Vulnerabilities/Multi-factor authentication vulnerabilities.md",
+    "Vulnerabilities/Password-based login vulnerabilities.md",
     "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via account lock/Username enumeration via account lock.md",
     "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via different responses/Username enumeration via different responses.md",
     "Vulnerabilities/Password reset poisoning.md",
     "Vulnerabilities/labs/password-based login/Broken brute-force protection, multiple credentials per request/Broken brute-force protection, multiple credentials per request.md",
-    "Vulnerabilities/labs/password-based login/Broken brute-force protection IP block/Broken brute-force protection IP block.md",
-    "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via subtly different responses/Username enumeration via subtly different responses.md",
-    "Authentication vulnerabilities.md",
-    "Vulnerabilities/labs/password poisoning attacks/Basic password reset poisoning/Basic password reset poisoning.md"
+    "Vulnerabilities/labs/password-based login/Broken brute-force protection IP block/Broken brute-force protection IP block.md"
   ]
 }

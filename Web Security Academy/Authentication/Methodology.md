@@ -18,7 +18,7 @@ Check if it is possible to brute-force user passwords and if there's no protecti
 
 ### User enumeration
 
-Test this by providing a wordlist with multiple users with a test password
+Test this by providing a wordlist with multiple users with a test password, identify this vulnerability by checking:
 
 #### Status codes
 
@@ -45,4 +45,59 @@ Provide an excessively long password and look for differences in the response ti
 When account locking is implemented check for differences in the response length that may indicate that the user is valid (a message warning that the account was blocked), when trying to guess the password of an user with a constant amount of attempts.
 
 [[Username enumeration via account lock]]
+
+## Multi-factor based login
+
+### 2FA simple bypass
+
+Check if the user is in a `logged in` state without providing a valid verification code by trying to access `logged in only` pages after completing the first authentication step.
+
+### Flawed two factor login
+
+Check if the application checks properly that the same user is completing the second step of the authentication flow. This scenario is clearer with the following example:
+
+A user logs in with normal credentials in the first step.
+
+```HTTP
+POST /login-steps/first HTTP/1.1 
+Host: vulnerable-website.com
+... 
+username=carlos&password=qwerty
+```
+
+Next the server assigns a cookie that relates to the user account, before being taken to the second step of the login process:
+
+```HTTP
+HTTP/1.1 200 OK 
+Set-Cookie: account=carlos
+```
+
+```HTTP
+GET /login-steps/second HTTP/1.1 
+Cookie: account=carlos
+```
+
+When submitting the verification code, the requests uses the assigned cookie to determine which account the user is trying to access:
+
+```HTTP
+POST /login-steps/second HTTP/1.1 
+Host: vulnerable-website.com 
+Cookie: account=carlos 
+... 
+verification-code=123456
+```
+
+In this case, an attacker could log in using their own credentials but then change the value of the account cookie to any arbitrary username when submitting the verification code.
+
+```HTTP
+POST /login-steps/second HTTP/1.1 
+Host: vulnerable-website.com 
+Cookie: account=victim-user 
+... 
+verification-code=123456
+```
+
+This is extremely dangerous if the attacker is able to brute-force the verification code as it would allow to log in to arbitrary user accounts based entirely on their username, not even knowing the user's password.
+
+### Brute-forcing 2FA verification codes
 
