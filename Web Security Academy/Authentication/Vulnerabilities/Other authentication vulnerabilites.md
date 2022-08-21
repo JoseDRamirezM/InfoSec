@@ -54,6 +54,10 @@ More secure implementations generate a high-entropy, hard to guess token and cre
 
 [[Password reset broken logic]]
 
+## Password reset poisoning
+
+[[Password reset poisoning]]
+
 If the URL in the rest email is generated dynamically, this may also be vulnerable to password reset poisoning. In this case, an attacker could potentially steal another user's token and use it to change the user password. 
 
 [[Password reset poisoning via middleware]]
@@ -66,4 +70,4 @@ Typically, changing a password involves entering the current password and then t
 Password change functionality is particularly dangerous if it allows an attacker to access it directly without being logged in as the victim user. As an example, if the username in provided in a `<hidden>` field an attacker could enumerate usernames and brute-force passwords changing the field value.
 
 ## Exploitation example
-
+[[]]

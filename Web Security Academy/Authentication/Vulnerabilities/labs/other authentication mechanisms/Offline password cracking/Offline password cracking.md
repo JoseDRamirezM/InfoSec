@@ -21,7 +21,7 @@ The stay logged in cookie structure is:
 
 ### Find the XSS vulnerability
 
-I tested the comment section of a post in the blog for storesd XSS, by injecting a simple XSS payload in the page.
+I tested the comment section of a post in the blog for stored XSS, by injecting a simple XSS payload in the page.
 
 Payload:
 

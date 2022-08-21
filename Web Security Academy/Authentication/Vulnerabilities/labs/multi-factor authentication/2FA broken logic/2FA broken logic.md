@@ -27,7 +27,7 @@ Response
 
 ![[second_step.png]]
 
-It describes the same scenario as the material, so FIRST request send a `GET` request to `/login2` changing the `verify` cookie value to `carlos`. Then brute force the verification code again changing the cookie value to `carlos`.
+It describes the same scenario as the material, so FIRST send a `GET` request to `/login2` changing the `verify` cookie value to `carlos`. Then brute force the verification code again changing the cookie value to `carlos`.
 
 As I don't have Burp Suite Professional I managed to do it with `OWASP ZAP`.
 

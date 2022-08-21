@@ -9,19 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vulnerabilities/Multi-factor authentication vulnerabilities.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "a5935ef65097e276",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Methodology.md",
+            "file": "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/Password brute-force via password change.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodology.md",
+                "file": "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/Password brute-force via password change.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a5935ef65097e276",
+  "active": "46794a198a10b4c6",
   "lastOpenFiles": [
-    "Vulnerabilities/labs/multi-factor authentication/2FA broken logic/2FA broken logic.md",
-    "Vulnerabilities/labs/multi-factor authentication/2FA bypass using a brute-force attack/2FA bypass using a brute-force attack.md",
     "Methodology.md",
-    "Vulnerabilities/Multi-factor authentication vulnerabilities.md",
-    "Vulnerabilities/Password-based login vulnerabilities.md",
-    "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via account lock/Username enumeration via account lock.md",
-    "Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via different responses/Username enumeration via different responses.md",
+    "Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/Password brute-force via password change.md",
+    "Vulnerabilities/labs/password poisoning attacks/Basic password reset poisoning/Basic password reset poisoning.md",
+    "Vulnerabilities/Other authentication vulnerabilites.md",
+    "Vulnerabilities/labs/other authentication mechanisms/Password reset poisoning via middleware/Password reset poisoning via middleware.md",
     "Vulnerabilities/Password reset poisoning.md",
-    "Vulnerabilities/labs/password-based login/Broken brute-force protection, multiple credentials per request/Broken brute-force protection, multiple credentials per request.md",
-    "Vulnerabilities/labs/password-based login/Broken brute-force protection IP block/Broken brute-force protection IP block.md"
+    "Vulnerabilities/labs/other authentication mechanisms/Password reset broken logic/Password reset broken logic.md",
+    "Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/Offline password cracking.md",
+    "Vulnerabilities/labs/other authentication mechanisms/Brute-forcing a stay-logged-in cookie/Brute-forcing a stay-logged-in cookie.md",
+    "Vulnerabilities/labs/multi-factor authentication/2FA bypass using a brute-force attack/2FA bypass using a brute-force attack.md"
   ]
 }

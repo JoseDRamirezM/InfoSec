@@ -14,7 +14,7 @@ If the code is entered incorrectly two times the user is redirected to the login
 
 ## Session handling
 
-The nature of the application forces the attack to send login request before any attempt on the 2FA code. Otherwise the requests will be rejected based on a CSRF token policy. For handling that (sessions) define a Macro in Burp Suite as follows:
+The nature of the application forces the attack to send a login request before any attempt on the 2FA code. Otherwise the requests will be rejected based on a CSRF token policy. For handling that (sessions) define a Macro in Burp Suite as follows:
 
 Go to
 - Project Options -> Sessions

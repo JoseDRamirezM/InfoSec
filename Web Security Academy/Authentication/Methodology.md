@@ -1,7 +1,7 @@
 # Methodology
-
+<hr>
 The scope of these tests is mostly the login page of a website.
-
+<hr>
 ## Password based login
 
 ### Brute-force attacks
@@ -46,11 +46,14 @@ When account locking is implemented check for differences in the response length
 
 [[Username enumeration via account lock]]
 
+<hr>
 ## Multi-factor based login
 
 ### 2FA simple bypass
 
 Check if the user is in a `logged in` state without providing a valid verification code by trying to access `logged in only` pages after completing the first authentication step.
+
+Exploitation example [[2FA simple bypass]]
 
 ### Flawed two factor login
 
@@ -99,5 +102,62 @@ verification-code=123456
 
 This is extremely dangerous if the attacker is able to brute-force the verification code as it would allow to log in to arbitrary user accounts based entirely on their username, not even knowing the user's password.
 
+Exploitation example [[2FA broken logic]]
+
 ### Brute-forcing 2FA verification codes
 
+As verification codes are often 4 to 6 characters long, cracking them is trivial, test this in the following scenarios:
+
+1. 2FA without brute force protection
+
+In this scenario use burp Intruder to figure out the correct code, making sure the request contains whatever mechanism to authenticate as the target user.
+
+2. 2FA with brute force protection
+
+When some kind if protection is implemented (session handling with a CSRF token or logging out a user after a number of tries) try to use `Macros` to handle a custom `flow` or `sequence` of requests that have to be made in order to perform the attack more on that in this lab [[2FA bypass using a brute-force attack]].
+
+
+
+<hr>
+## Other authentication mechanisms
+
+### Brute force a stay logged in cookie
+
+Check for functionalities like:
+- Remember me
+- Keep me logged in
+
+Then check the site generated cookies and test if it is possible to reverse the contents in which the cookie was created (often user related information), or even using brute force, in an attempt to bypass the login process for other user account.
+
+If it is possible try using Burp Intruder and processing the payload in order to generate a valid cookie.
+
+Exploitation example [[Brute-forcing a stay-logged-in cookie]]
+
+### Offline password cracking
+
+If an XSS vulnerability is found try to steal a `Stay logged in` cookie from other user, depending on how it is constructed it may be possible to obtain sensitive information about the user (username, password).
+
+Exploitation example [[Offline password cracking]]
+
+<hr>
+## Password reset functionalities
+
+#### Broken logic
+
+Test the necessary steps for a password reset, checking if it is possible to change other user password altering the information sent in each request pointing to other username.
+
+Exploitation example [[Password reset broken logic]]
+
+#### Password reset poisoning
+
+Trick the application server to send the password reset request containing a secret token for a specific user to an attacker controlled site.
+
+Exploitation example [[Password reset poisoning via middleware]]
+
+
+
+## Password change
+
+Test thoroughly the password change form, looking for information that the site may provide which strongly indicates that an user current password is correct i.e. the form gives an error message like `New passwords do not match` when the user password is correct but the new password and its confirmation don't match.
+
+Exploitation example [[Password brute-force via password change]]

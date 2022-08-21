@@ -25,6 +25,6 @@ Knowing the user is `archie` guess the password using Burp's `Intruder`
 
 The password is easily found looking at the response status code.
 
-![[password.png]]
+![[Authentication/Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via subtly different responses/images/password.png]]
 
 Log in and the lab is solved.
