@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "e713f76e7ba65557",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9131f4950daa9e4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Vulnerability assessment server machine.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "53a1c1e47179b4b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7bc6c78bb9787b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2fbbdd05b590279c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7b484734f9ba92ac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db643e2c84e583c3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "7a5f0d601bd2898b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a2e5979e57f8f5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8093462f22b89b20",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Vulnerability assessment server machine.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0a9ca699e70d48bf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Vulnerability assessment server machine.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a4b7c4943340d68b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b5d6cf7a29cb02aa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Vulnerability assessment server machine.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c9131f4950daa9e4",
+  "lastOpenFiles": [
+    "Exploitation RCE port 8080.md",
+    "Exploitation SSTI port 8080.md",
+    "Main.md",
+    "Vulnerability assessment port 8080.md",
+    "Exploitation.md",
+    "Vulnerability assessment port 22.md",
+    "Vulnerability assessment.md",
+    "Footprinting and port scanning.md",
+    "Vulnerability report.md"
+  ]
+}
