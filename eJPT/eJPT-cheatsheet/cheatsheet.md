@@ -28,10 +28,13 @@ nmap -sU -n -Pn -p- --min-rate 5000 $target_IP -oN allPorts -oG allPorts
 
 ### Service fingerprinting and NSE scripts
 
-Enter the comma separated open port list after the `-p` parameter
+Enter the comma separated list of the open ports after the `-p` parameter
 
 ```shell
 nmap -sC -sV -p $OPEN_PORTS -oN targeted
+```
+```shell
+nmap -sV --script vuln -p $OPEN_PORTS -oN scripts
 ```
 
 
