@@ -2,7 +2,7 @@
 
 def main():
 
-        command = "ls" # specify command 
+        command = "/tmp/shell.sh" # specify command 
         convert = []
 
         for x in command:

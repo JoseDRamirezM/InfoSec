@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c9131f4950daa9e4",
+        "id": "20309aa7923732e5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vulnerability assessment server machine.md",
+            "file": "Vulnerability report.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "credit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vulnerability assessment server machine.md",
+                "file": "Vulnerability report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vulnerability assessment server machine.md",
+                "file": "Vulnerability report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vulnerability assessment server machine.md"
+                "file": "Vulnerability report.md"
               }
             }
           }
@@ -129,16 +130,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c9131f4950daa9e4",
+  "active": "20309aa7923732e5",
   "lastOpenFiles": [
-    "Exploitation RCE port 8080.md",
-    "Exploitation SSTI port 8080.md",
     "Main.md",
-    "Vulnerability assessment port 8080.md",
-    "Exploitation.md",
-    "Vulnerability assessment port 22.md",
     "Vulnerability assessment.md",
+    "Exploitation.md",
     "Footprinting and port scanning.md",
-    "Vulnerability report.md"
+    "images/root_ssh_key.png",
+    "images/log_parsing.png",
+    "Exploitation XXE linux system.md",
+    "Vulnerability assessment server machine.md",
+    "Exploitation RCE port 8080.md",
+    "Exploitation SSTI port 8080.md"
   ]
 }
