@@ -61,6 +61,8 @@ whatweb $TARGET_URL
 
 ### gobuster
 
+gobuster dir -u $URL -w $WORDLIST -q -o $OUTPUT_FILE -x old,bak,zip,rar,sql,java,php,cs
+
 # XSS
 
 Test all user inputs to render HTML placing tags or execute JavaScript code with the `<script>` tag.
