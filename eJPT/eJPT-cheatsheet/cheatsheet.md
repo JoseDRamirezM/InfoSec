@@ -63,12 +63,12 @@ whatweb $TARGET_URL
 ### dirsearch
 
 ```bash
-dirsearch -u $TARGET -w $WORDLISTS -e zip,txt,xxx,old,bak,sql,php,html,js,json,png,jpg -f
+dirsearch -u $TARGET -w $WORDLISTS -e zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,inc,config,txt,xxx,old,bak,sql,php,html,js,json,png,jpg -f
 ```
 
 ### gobuster
 ```bash
-gobuster dir -u $URL -w $WORDLIST -q -o $OUTPUT_FILE -x old,bak,zip,rar,sql,java,php,cs
+gobuster dir -u $URL -w $WORDLIST -q -o $OUTPUT_FILE zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,inc,config,txt,xxx,old,bak,sql,php,html,js,json,png,jpg
 ```
 # XSS
 
