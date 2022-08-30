@@ -25,6 +25,13 @@ nmap -sT -n -Pn -p- --min-rate 5000 $target_IP -oN allPorts -oG allPorts
 nmap -sU -n -Pn -p- --min-rate 5000 $target_IP -oN allPorts -oG allPorts
 ```
 
+## When a domain resolves to multiple IP addresses
+
+To scan all the resolved IP addresses use the following option
+```bash
+nmap ...( command)... --resolve-all
+```
+Note the use of the **resolve-all** option.
 
 ### Service fingerprinting and NSE scripts
 
