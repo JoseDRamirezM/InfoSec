@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "a1f5337d0bc8f75e",
+        "id": "ab4a2029f0633632",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CommandInjection/OS Command Injection.md",
+            "file": "BusinessLogic/labs/High-level logic vulnerability/High-level logic vulnerability.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CommandInjection/OS Command Injection.md",
+                "file": "BusinessLogic/labs/High-level logic vulnerability/High-level logic vulnerability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,17 +88,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a1f5337d0bc8f75e",
+  "active": "ab4a2029f0633632",
   "lastOpenFiles": [
-    "CommandInjection/Methodology.md",
+    "BusinessLogic/labs/Excessive trust in client-side controls/Lab Excessive trust in client-side controls.md",
+    "BusinessLogic/labs/High-level logic vulnerability/High-level logic vulnerability.md",
+    "BusinessLogic/Failing to handle unconventional input.md",
+    "BusinessLogic/Examples of business logic vulnerabilities.md",
+    "BusinessLogic/Business Logic Vulnerabilities.md",
+    "BusinessLogic/Excessive trust in client-side controls.md",
+    "Authentication/Vulnerabilities/labs/multi-factor authentication/2FA broken logic/2FA broken logic.md",
     "CommandInjection/OS Command Injection.md",
-    "CommandInjection/labs/OS command injection simple case/OS command injection, simple case.md",
-    "DirectoryTraversal/Methodology.md",
-    "DirectoryTraversal/Directory Traversal.md",
-    "DirectoryTraversal/labs/Validation of file extension with null byte bypass/File path traversal, validation of file extension with null byte bypass.md",
-    "DirectoryTraversal/labs/Validation of start of path/File path traversal, validation of start of path.md",
-    "DirectoryTraversal/labs/Traversal sequences stripped with superfluous URL-decode/File path traversal, traversal sequences stripped with superfluous URL-decode.md",
-    "DirectoryTraversal/labs/Traversal sequences stripped non-recursively/File path traversal, traversal sequences stripped non-recursively.md",
-    "DirectoryTraversal/labs/File path traversal simple case/File path traversal simple case.md"
+    "CommandInjection/Methodology.md",
+    "CommandInjection/labs/OS command injection simple case/OS command injection, simple case.md"
   ]
 }

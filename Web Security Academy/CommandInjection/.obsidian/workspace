@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "1752734756164ac5",
+    "id": "b57eec7a848467fe",
     "type": "split",
     "children": [
       {
-        "id": "b0eeac0abfc86e52",
+        "id": "f85783129a5f2920",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Excessive trust in client-side controls.md",
+            "file": "Methodology.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2d959bee05e4368e",
+    "id": "f487d3a1ac08842c",
     "type": "split",
     "children": [
       {
-        "id": "61cac6eb2fed1878",
+        "id": "099e2c52aef3bbdb",
         "type": "tabs",
         "children": [
           {
-            "id": "edad05dbadb0d6f0",
+            "id": "492ba8eb58fa6ce1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "e5cbb199acf38973",
+            "id": "8def2c3335042af8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "f99e9cb500ec5718",
+            "id": "5b43526b54418891",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,20 +64,20 @@
     "width": 300
   },
   "right": {
-    "id": "739e9b3e4c09693a",
+    "id": "4be1b27411ec29f8",
     "type": "split",
     "children": [
       {
-        "id": "de3d4ef3cc8a79a6",
+        "id": "f26036e4ac6da239",
         "type": "tabs",
         "children": [
           {
-            "id": "27edc1095d0ec30e",
+            "id": "7b63e85b01a601f1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excessive trust in client-side controls.md",
+                "file": "Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,19 +89,19 @@
             }
           },
           {
-            "id": "2efea99db1520629",
+            "id": "0a3726b05af1533b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excessive trust in client-side controls.md",
+                "file": "Methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "9099953b55d25eda",
+            "id": "d37b639be9d25b8e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -112,12 +112,12 @@
             }
           },
           {
-            "id": "ad9581d8647517cd",
+            "id": "e96d061ed9ab2476",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excessive trust in client-side controls.md"
+                "file": "Methodology.md"
               }
             }
           }
@@ -128,11 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b0eeac0abfc86e52",
+  "active": "492ba8eb58fa6ce1",
   "lastOpenFiles": [
-    "labs/Excessive trust in client-side controls/Lab Excessive trust in client-side controls.md",
-    "Excessive trust in client-side controls.md",
-    "Examples of business logic vulnerabilities.md",
-    "Business Logic Vulnerabilities.md"
+    "OS Command Injection.md",
+    "Methodology.md",
+    "labs/Blind OS command injection with output redirection/images/injected_req.png",
+    "Pasted image 20220827150255.png",
+    "labs/Blind OS command injection with output redirection/images/frontend.png",
+    "Pasted image 20220827145706.png",
+    "labs/Blind OS command injection with output redirection/images/image_logic.png",
+    "labs/Blind OS command injection with output redirection/images/exploited.png",
+    "Pasted image 20220827145705 1.png",
+    "labs/Blind OS command injection with output redirection/Blind OS command injection with output redirection.md"
   ]
 }

