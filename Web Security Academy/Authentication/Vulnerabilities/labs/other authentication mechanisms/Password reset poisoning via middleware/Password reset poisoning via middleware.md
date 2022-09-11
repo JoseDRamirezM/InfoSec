@@ -32,3 +32,4 @@ A request containing the reset password token for user `carlos` is present. I as
 
  Go back to the provided user email client and go to the provided URL for the password reset but edit the token to the one received in the exploit server. Complete the password reset, and log in as user `carlos`.
 
+![[path.png]]

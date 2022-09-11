@@ -4,7 +4,7 @@
 
 For this lab `Burp Intruder` may not be the best strategy, I wrote a Python script to automate the process of sending each letter and incrementally construct the password string. This can be done on `Burp Intruder` but it will be very time consuming.
 
-	Note: I realized maybe it can be done fast by using the Burp's Turbo Intruder extension.
+	Note: I realized maybe it can be done faster by using the Burp's Turbo Intruder extension.
 
 ## The script
 

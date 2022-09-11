@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ab4a2029f0633632",
+        "id": "0327a8057d9cb5aa",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BusinessLogic/labs/High-level logic vulnerability/High-level logic vulnerability.md",
+            "file": "BusinessLogic/labs/Low-level-logic-flaw/Low-level logic flaw.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#DIRECTORYTRAVERSAL",
+                "query": "x-fo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cc485481a34e5c24",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BusinessLogic/labs/High-level logic vulnerability/High-level logic vulnerability.md",
+                "file": "BusinessLogic/labs/Low-level-logic-flaw/Low-level logic flaw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ab4a2029f0633632",
+  "active": "0327a8057d9cb5aa",
   "lastOpenFiles": [
-    "BusinessLogic/labs/Excessive trust in client-side controls/Lab Excessive trust in client-side controls.md",
-    "BusinessLogic/labs/High-level logic vulnerability/High-level logic vulnerability.md",
-    "BusinessLogic/Failing to handle unconventional input.md",
+    "BusinessLogic/labs/Inconsistent security controls/Inconsistent security controls.md",
+    "BusinessLogic/Making flawed assumptions about user behavior.md",
+    "BusinessLogic/labs/Inconsistent-handling-of-exceptional-input/images/evil_req.png",
     "BusinessLogic/Examples of business logic vulnerabilities.md",
-    "BusinessLogic/Business Logic Vulnerabilities.md",
+    "BusinessLogic/Failing to handle unconventional input.md",
     "BusinessLogic/Excessive trust in client-side controls.md",
-    "Authentication/Vulnerabilities/labs/multi-factor authentication/2FA broken logic/2FA broken logic.md",
-    "CommandInjection/OS Command Injection.md",
-    "CommandInjection/Methodology.md",
-    "CommandInjection/labs/OS command injection simple case/OS command injection, simple case.md"
+    "BusinessLogic/labs/Inconsistent-handling-of-exceptional-input/Inconsistent handling of exceptional input.md",
+    "BusinessLogic/Business Logic Vulnerabilities.md",
+    "Authentication/Vulnerabilities/labs/other authentication mechanisms/Password reset poisoning via middleware/Password reset poisoning via middleware.md",
+    "Authentication/Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via response timing/Username enumeration via response timing.md"
   ]
 }

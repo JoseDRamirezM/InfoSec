@@ -6,7 +6,13 @@ It's important for the developers to anticipate all possible scenarios when impl
 
 Consider a funds transfer between two bank accounts. This functionality will almost certainly check whether the sender has sufficient funds before completing the transfer:
 
-`$transferAmount = $_POST['amount']; $currentBalance = $user->getBalance(); if ($transferAmount <= $currentBalance) { // Complete the transfer } else { // Block the transfer: insufficient funds }`
+```
+$transferAmount = $_POST['amount']; 
+$currentBalance = $user->getBalance(); 
+if ($transferAmount <= $currentBalance) 
+	{ // Complete the transfer } 
+else { // Block the transfer: insufficient funds }
+```
 
 But if the logic doesn't sufficiently prevent users from supplying a negative value in the `amount` parameter, this could be exploited by an attacker to both bypass the balance check and transfer funds in the "wrong" direction. If the attacker sent -$1000 to the victim's account, this might result in them receiving $1000 from the victim instead. The logic would always evaluate that -1000 is less than the current balance and approve the transfer.
 
