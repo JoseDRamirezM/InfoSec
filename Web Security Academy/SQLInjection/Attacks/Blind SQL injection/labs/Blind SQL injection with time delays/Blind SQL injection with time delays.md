@@ -13,7 +13,7 @@ I tried the PostgreSQL payload and it worked.
 
 Using and batched query and URL encoding the payload above, will solve the lab.
 
-![[exploit.png]]
+![[SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL injection with time delays/images/exploit.png]]
 
 The response to the request takes around 10 seconds to come back, demonstrating that the payload works.
 

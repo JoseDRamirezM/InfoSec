@@ -62,3 +62,7 @@ Try to identify which assumptions developers have made and where the attack surf
 
 Pay close attention to error/debug messages as they can be the source of information disclosure, which can help to fine-tune attacks and understand details about the back-end behavior.
 
+## More exploitation examples
+
+- [[Insufficient workflow validation]]
+- [[Authentication bypass via flawed state machine]]
