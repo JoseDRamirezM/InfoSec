@@ -13,3 +13,7 @@ The base scenario is as follows:
 And there's another functionality that provides the reverse function. This would tell an attacker the specified structure to craft an exploit.
 
 The severity of an encryption oracle depends on what functionality also uses the same algorithm as the oracle.
+
+## Exploitation example
+
+[[Authentication bypass via encryption oracle]]
