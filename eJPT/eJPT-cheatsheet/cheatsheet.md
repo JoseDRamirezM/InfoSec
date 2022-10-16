@@ -51,9 +51,36 @@ nmap -sV --script vuln -p $OPEN_PORTS -oN scripts
 
 ## Web server fingerprinting
 
+Check for dangerous HTTP methods, server version, ...
+
 ### Ncat
 
+```bash
+nc <target> 80
+```
+Then perform requests
+
+```
+OPTIONS / HTTP/1.0  <- append TWO spaces at the end!
+```
 ### OpenSSL
+
+Use this for HTTPS context
+
+```bash
+openssl s_client -connect target.site:443
+```
+Then perform requests
+
+```
+OPTIONS / HTTP/1.0  <- append TWO spaces at the end!
+```
+
+### Curl OPTIONS request
+
+```bash
+curl -X OPTIONS https://example.org -i
+```
 
 ### whatweb
 
@@ -61,6 +88,12 @@ To get the server banners run
 
 ```shell
 whatweb $TARGET_URL
+```
+
+### Nikto (slow but useful)
+
+```bash
+nikto -h target.site
 ```
 
 ## Directory and file enumeration
