@@ -1,0 +1,140 @@
+{
+  "main": {
+    "id": "74847cd325d5c807",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8744227ecf97cf9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6869510ec6658929",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FileUploadVulnerabilites/labs/Web shell upload via path traversal/Web shell upload via path traversal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b328895076fb336b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FileUploadVulnerabilites/labs/Web shell upload via extension blacklist bypass/Web shell upload via extension blacklist bypass.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ecd0ee0f9153f564",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FileUploadVulnerabilites/labs/Web shell upload via obfuscated file extension/Web shell upload via obfuscated file extension.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0e0857912f794a04",
+    "type": "split",
+    "children": [
+      {
+        "id": "501287415287edde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbdf8a589956dbf3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e73ad1c5237bfa99",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "cc485481a34e5c24",
+    "type": "split",
+    "children": [
+      {
+        "id": "dab67e6eaa45c51f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6e1d82a5e4bc9ba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "FileUploadVulnerabilites/labs/Web shell upload via extension blacklist bypass/Web shell upload via extension blacklist bypass.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "b328895076fb336b",
+  "lastOpenFiles": [
+    "FileUploadVulnerabilites/labs/Web shell upload via path traversal/Web shell upload via path traversal.md",
+    "FileUploadVulnerabilites/labs/Web shell upload via obfuscated file extension/Web shell upload via obfuscated file extension.md",
+    "FileUploadVulnerabilites/Exploitation techniques.md",
+    "FileUploadVulnerabilites/labs/Web shell upload via extension blacklist bypass/Web shell upload via extension blacklist bypass.md",
+    "DirectoryTraversal/Directory Traversal.md",
+    "FileUploadVulnerabilites/labs/Web shell upload via Content-Type restriction bypass/Web shell upload via Content-Type restriction bypass.md",
+    "FileUploadVulnerabilites/labs/Remote code execution via web shell upload/Remote code execution via web shell upload.md",
+    "FileUploadVulnerabilites/File upload vulnerabilities.md",
+    "InformationDisclosure/Information disclosure vulnerabilities.md",
+    "InformationDisclosure/labs/Information disclosure in version control history/Information disclosure in version control history.md"
+  ]
+}

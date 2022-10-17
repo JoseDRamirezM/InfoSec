@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f773ff8ca6a1f779",
+        "id": "6869510ec6658929",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "InformationDisclosure/labs/Information disclosure on debug page/Information disclosure on debug page.md",
+            "file": "InformationDisclosure/labs/Source code disclosure via backup files/Source code disclosure via backup files.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InformationDisclosure/labs/Information disclosure on debug page/Information disclosure on debug page.md",
+                "file": "InformationDisclosure/labs/Source code disclosure via backup files/Source code disclosure via backup files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,17 +88,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fbdf8a589956dbf3",
+  "active": "6869510ec6658929",
   "lastOpenFiles": [
     "InformationDisclosure/How to find and exploit information disclosure vulnerabilities.md",
+    "InformationDisclosure/labs/Information disclosure on debug page/Information disclosure on debug page.md",
+    "InformationDisclosure/labs/Information disclosure on debug page.md",
     "InformationDisclosure/Information disclosure vulnerabilities.md",
     "InformationDisclosure/labs/Information disclosure in error messages/Information disclosure in error messages.md",
     "Methodology.md",
     "BusinessLogic/labs/Flawed enforcement of business rules/Flawed enforcement of business rules.md",
     "BusinessLogic/labs/Authentication bypass via flawed state machine/Authentication bypass via flawed state machine.md",
     "BusinessLogic/labs/Insufficient workflow validation/Insufficient workflow validation.md",
-    "BusinessLogic/labs/Weak isolation on dual-use endpoint/Weak isolation on dual-use endpoint.md",
-    "BusinessLogic/labs/Inconsistent security controls/Inconsistent security controls.md",
-    "BusinessLogic/Business Logic Vulnerabilities.md"
+    "BusinessLogic/labs/Weak isolation on dual-use endpoint/Weak isolation on dual-use endpoint.md"
   ]
 }

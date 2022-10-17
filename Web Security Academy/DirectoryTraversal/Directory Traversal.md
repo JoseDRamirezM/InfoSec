@@ -71,7 +71,7 @@ If the code strips these sequences non-recursively the result path will contain 
 
 ### URL decode file path
 
-The URL path of a filename parameter of a `multipart/form-data` request the server may strip traversal sequences before passing the value as input to the application. To bypass this try these techniques with traversal sequences `../`:
+The URL path of a `filename` parameter of a `multipart/form-data` request the server may strip traversal sequences before passing the value as input to the application. To bypass this try these techniques with traversal sequences `../`:
 
 1. URL encoding
 	- `../` -->  `%2e%2e%2f`
