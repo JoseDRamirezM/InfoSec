@@ -4,28 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6e655016a8ddb205",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Main.md",
-            "mode": "source",
-            "source": false
+        "id": "36eb1066ded6056f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e655016a8ddb205",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "375c6b4101ea4f10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exploitation RCE port 8080.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "97d0acacc9d4ab1b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Untitled.md",
-            "mode": "source",
-            "source": false
-          }
-        }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -43,7 +50,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -90,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main.md",
+                "file": "Exploitation RCE port 8080.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main.md",
+                "file": "Exploitation RCE port 8080.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main.md"
+                "file": "Exploitation RCE port 8080.md"
               }
             }
           }
@@ -141,13 +150,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6e655016a8ddb205",
+  "active": "375c6b4101ea4f10",
   "lastOpenFiles": [
-    "Exploitation.md",
-    "Main.md",
     "Vulnerability assessment.md",
     "Footprinting and port scanning.md",
+    "Main.md",
     "Untitled.md",
+    "Exploitation.md",
     "Untitled 1.md",
     "Information gathering.md",
     "Vulnerability report.md",

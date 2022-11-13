@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FileUploadVulnerabilites/labs/Web shell upload via extension blacklist bypass/Web shell upload via extension blacklist bypass.md",
+                "file": "FileUploadVulnerabilites/Exploitation techniques.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e919758e2b45305",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "How to prevent file upload vulnerabilities.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FileUploadVulnerabilites/labs/Web shell upload via extension blacklist bypass/Web shell upload via extension blacklist bypass.md",
+                "file": "How to prevent file upload vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,20 +133,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "b328895076fb336b",
+  "active": "3e919758e2b45305",
   "lastOpenFiles": [
+    "FileUploadVulnerabilites/Exploitation techniques.md",
+    "FileUploadVulnerabilites/labs/Remote code execution via polyglot web shell upload/Remote code execution via polyglot web shell upload.md",
+    "FileUploadVulnerabilites/File upload vulnerabilities.md",
+    "FileUploadVulnerabilites/labs/Web shell upload via extension blacklist bypass/Web shell upload via extension blacklist bypass.md",
     "FileUploadVulnerabilites/labs/Web shell upload via path traversal/Web shell upload via path traversal.md",
     "FileUploadVulnerabilites/labs/Web shell upload via obfuscated file extension/Web shell upload via obfuscated file extension.md",
-    "FileUploadVulnerabilites/Exploitation techniques.md",
-    "FileUploadVulnerabilites/labs/Web shell upload via extension blacklist bypass/Web shell upload via extension blacklist bypass.md",
     "DirectoryTraversal/Directory Traversal.md",
     "FileUploadVulnerabilites/labs/Web shell upload via Content-Type restriction bypass/Web shell upload via Content-Type restriction bypass.md",
     "FileUploadVulnerabilites/labs/Remote code execution via web shell upload/Remote code execution via web shell upload.md",
-    "FileUploadVulnerabilites/File upload vulnerabilities.md",
-    "InformationDisclosure/Information disclosure vulnerabilities.md",
-    "InformationDisclosure/labs/Information disclosure in version control history/Information disclosure in version control history.md"
+    "InformationDisclosure/Information disclosure vulnerabilities.md"
   ]
 }
