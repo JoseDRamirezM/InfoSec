@@ -1,0 +1,25 @@
+# Nmap 7.92 scan initiated Sun Nov 13 11:54:38 2022 as: nmap -O -sS -n -Pn -p- --min-rate 5000 -oN allPorts 10.10.11.182
+Nmap scan report for 10.10.11.182
+Host is up (0.16s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+9999/tcp open  abyss
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.92%E=4%D=11/13%OT=22%CT=1%CU=38668%PV=Y%DS=2%DC=I%G=Y%TM=637121
+OS:6E%P=x86_64-pc-linux-gnu)SEQ(SP=FD%GCD=1%ISR=106%TI=Z%CI=Z%II=I%TS=A)SEQ
+OS:(SP=FD%GCD=1%ISR=106%TI=Z%CI=Z%TS=A)OPS(O1=M537ST11NW7%O2=M537ST11NW7%O3
+OS:=M537NNT11NW7%O4=M537ST11NW7%O5=M537ST11NW7%O6=M537ST11)WIN(W1=FE88%W2=F
+OS:E88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M537NNSNW
+OS:7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF
+OS:=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=
+OS:%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=
+OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RI
+OS:PCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Nov 13 11:55:10 2022 -- 1 IP address (1 host up) scanned in 32.17 seconds

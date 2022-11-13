@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "1fae273e5e2bb5ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "22bdb4229efa585b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "940e50dd344cf567",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vulnerability assessment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "188953b1ab63ed56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vulnerability assessment Server Machine.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d43c43c2f56e8cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exploitation Command Injection port 80.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a6a21fd9c2dff50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vulnerability report.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a525ca8c4c8201a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "adca4193fa1071c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "992b7ea594508a6d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7a83bd7bc7a3a80b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e1f59597ca0dcd8c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8385cd735ef2c26f",
+    "type": "split",
+    "children": [
+      {
+        "id": "adb02c0fde9d21a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e628c8fa0b4c888d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Vulnerability report.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a9e3783a4b6084ce",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Vulnerability report.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9666e5ee1466b0a1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8ff6a48d2f62805d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Vulnerability report.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1a6a21fd9c2dff50",
+  "lastOpenFiles": [
+    "Main.md",
+    "Vulnerability assessment.md",
+    "Exploitation Command Injection port 80.md",
+    "Information gathering.md",
+    "Exploitation Server Machine.md",
+    "Vulnerability report.md",
+    "Exploitation.md",
+    "Vulnerability assessment port 9999.md",
+    "Vulnerability assessment Server Machine.md",
+    "Footprinting and port scanning.md"
+  ]
+}
