@@ -31,11 +31,11 @@ A file will be downloaded which contains the custom header that is appended some
 
 ## Exploitation
 
-Now all I got to do was to put the pieces together this means: request the `/admin` endpoint with the custom header set to a private IP address to comply to be a `local user`.
+Now all I got to do was to put the pieces together, this means: request the `/admin` endpoint with the custom header set to a private IP address to "identify" as a `local user`.
 
 ![[InformationDisclosure/labs/Authentication bypass via information disclosure/images/bypass.png]]
 
-The request returns `200 OK` and I got access to the admin interface. Lastly delete Carlo's account and the lab is solved.
+The request returns `200 OK` and I got access to the admin interface. Lastly delete Carlos account and the lab is solved.
 
 
 

@@ -12,7 +12,7 @@ I checked if the `robots.txt` file was available.
 
 `https://lab-url/robots.txt`
 
-![[robots.png]]
+![[InformationDisclosure/labs/Source code disclosure via backup files/images/robots.png]]
 
 I went to the directory and I found the source code backup.
 
