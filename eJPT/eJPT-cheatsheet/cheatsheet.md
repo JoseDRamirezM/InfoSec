@@ -100,6 +100,8 @@ nikto -h target.site
 
 ### dirb
 
+dirb $TARGET $WORDLIST -X zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,inc,config,txt,xxx,old,bak,sql,php,html,js,json,png,jpg,01,bac,_bak,001,000,inc,~
+
 ### dirsearch
 
 ```bash
