@@ -7,7 +7,7 @@ The scenario is similar to [[retrieving data from other tables writeup]]
 ## 1. Determine the number of columns of the result set 
 
 
-![[SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, retrieving data from other tables/images/columns.png]]
+![[columns.png]]
 
 
 ## 2. Determine which columns can hold string data
@@ -27,10 +27,10 @@ The payload is as follows:
 
 Remember that ONLY the second column of the result set can hold string data. The lab context mentions that the table and columns exist in the database.
 
-![[SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, retrieving multiple values in a single column/images/credentials.png]]
+![[credentials.png]]
 
 Once injected the credentials for all users are retrieved.
 
 Log in as `administrator` to solve the lab!
 
-![[SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, retrieving data from other tables/images/solved.png]]
+![[solved.png]]

@@ -8,11 +8,11 @@ The SQL injection point is on the product category filter.
 
 ## Determine number of columns
 
-![[SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, retrieving data from other tables/images/columns.png]]
+![[columns.png]]
 
 ## Determine which columns can hold string data
 
-![[SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, retrieving data from other tables/images/string data.png]]
+![[string data.png]]
 
 Both columns can hold string data.
 
@@ -28,8 +28,8 @@ So the payload is
 
 Once placed in the injection point the following appears
 
-![[SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, retrieving data from other tables/images/credentials.png]]
+![[credentials.png]]
 
 Next login as the `administrator` to solve the lab!
 
-![[SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, retrieving data from other tables/images/solved.png]]
+![[solved.png]]

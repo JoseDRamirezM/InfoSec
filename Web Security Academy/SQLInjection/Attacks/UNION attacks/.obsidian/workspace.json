@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "841624b6a133c0da",
+    "type": "split",
+    "children": [
+      {
+        "id": "e20158a95a65a843",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cd980cfb17952ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "labs/SQL injection UNION attack, retrieving multiple values in a single column/retrieving multiple values in a single column writeup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a7e8da55e2ab11ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5d675ba452c9426",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64c11aaaf240ce50",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "480a1cca991f23e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "147668a3b65afddf",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "21b9f1d567c48087",
+    "type": "split",
+    "children": [
+      {
+        "id": "d53c2e86ec79300b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76e0e6a28ad44842",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "labs/SQL injection UNION attack, retrieving multiple values in a single column/retrieving multiple values in a single column writeup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "841efc3f75cea564",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "labs/SQL injection UNION attack, retrieving multiple values in a single column/retrieving multiple values in a single column writeup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3120e1be89e708fd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "66cebae8d201c56e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "labs/SQL injection UNION attack, retrieving multiple values in a single column/retrieving multiple values in a single column writeup.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1cd980cfb17952ae",
+  "lastOpenFiles": [
+    "labs/SQL injection UNION attack, retrieving data from other tables/retrieving data from other tables writeup.md",
+    "SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, retrieving data from other tables/images/string data.png.md",
+    "labs/SQL injection UNION attack, finding a column containing text/data type writeup.md",
+    "labs/SQL injection UNION attack, retrieving data from other tables/images/columns.png",
+    "labs/SQL injection UNION attack, determining the number of columns returned by the query/number of columns writeup.md",
+    "UNION attacks.md",
+    "Retrieving multiple values within a single column.md",
+    "Retrieve interesting data using an SQL injection UNION attack.md",
+    "Methodology UNION attacks.md",
+    "Number of columns required in an SQL injection UNION attack.md"
+  ]
+}
