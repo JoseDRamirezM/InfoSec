@@ -100,15 +100,17 @@ nikto -h target.site
 
 ### dirb
 
+dirb $TARGET $WORDLIST -X zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,inc,config,txt,xxx,old,bak,sql,php,html,js,json,png,jpg,01,bac,_bak,001,000,inc,~
+
 ### dirsearch
 
 ```bash
-dirsearch -u $TARGET -w $WORDLISTS -e zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,inc,config,txt,xxx,old,bak,sql,php,html,js,json,png,jpg -f
+dirsearch -u $TARGET -w $WORDLISTS -e zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,inc,config,txt,xxx,old,bak,sql,php,html,js,json,png,jpg,01,bac,_bak,001,000,inc,~ -f
 ```
 
 ### gobuster
 ```bash
-gobuster dir -u $URL -w $WORDLIST -q -o $OUTPUT_FILE zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,inc,config,txt,xxx,old,bak,sql,php,html,js,json,png,jpg
+gobuster dir -u $URL -w $WORDLIST -q -o $OUTPUT_FILE -x zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,inc,config,txt,xxx,old,bak,sql,php,html,js,json,png,jpg,01,bac,_bak,001,000,inc,~ 
 ```
 # XSS
 
