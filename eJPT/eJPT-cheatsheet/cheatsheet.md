@@ -10,6 +10,11 @@ nmap -sn -n $IP_range_CIDR -oN network_hosts
 
 ### Port scanning
 
+#### Most complete command so far
+```shell
+nmap -sS -n -Pn -p- -T3 -sV -sC -O $target_IP -oN targetx -oG targetx
+```
+
 #### SYN scan (noisy)
 ```shell
 nmap -sS -n -Pn -p- --min-rate 5000 $target_IP -oN allPorts -oG allPorts
