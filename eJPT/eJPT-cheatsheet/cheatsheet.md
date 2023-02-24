@@ -173,6 +173,14 @@ xsser --url "http://demo.ine.local/index.php?page=user-poll.php&csrf-token=&choi
 
 ## SQLMap
 
+General thorough scan
+
+```bash
+sqlmap -r helpdesk.req --threads 10 --level 3 --risk 2 --answers="follow=Y" --batch 
+```
+
+To avoid the tool from prompting use these flags: `--answers="follow=Y" --batch`
+
 ### GET parameters
 
 Enumerate DBMS banner, the current Database and it's tables using 10 threads
