@@ -1,0 +1,135 @@
+# Secrets
+
+secret
+pass
+password
+admin
+pwd
+clave
+apikey
+key
+keystore
+accesstoken
+accesskey
+cert
+kubernetes
+login
+admin
+ConnenctionString
+settings.xml (search in repo)
+WITH PASSWORD
+ClearTextPassword
+client-certificate-data
+smtp
+ftp
+jwt
+
+# Supply chain attack NPM
+
+1. Look for .npmrc file including:
+
+- scope, registry, username
+- _auth (base64 authentication string)
+
+And decode the _auth string and login to the private npm registry with the command:
+
+npm login --scope=@org --registry=http://...
+
+2 Then set the proper config, this way the publish action will go to the correct (target) registry
+
+npm config set registry <registry url>
+
+3. After that place changes into a package
+4. Publish changes with
+    npm publish
+in the folder that contains the package.json file
+
+
+# XSS
+## DOM XSS
+innerHTML
+
+# API KEYS
+
+AKIA
+client-id
+client_id
+clientid
+IV
+
+# Cert validation
+SSL
+callback
+HostnameVerifier
+ServerCertificateValidationCallback
+trustAllCerts
+trustAllHosts
+
+--force-ssl SQLMAP when the server is HTTPS
+
+# Session/Local storage
+
+setItem
+
+# MS Azure
+
+## AUTH clientid & secret
+curl https://login.microsoftonline.com/<tenant-ID>/oauth2/token -H "Content-Type: application/x-www-form-urlencoded" --data "grant_type=client_credentials&client_id=<Client ID>&client_secret=<Client Secret>&resource=https%3A%2F%2Fmanagement.core.windows.net%2F"
+
+
+Try to consume this endpoint:
+https://graph.microsoft.com/v1.0/applicationTemplates
+
+# AWS
+
+Resource: '*
+Resource: "*
+
+## Amazon s3
+aws
+s3
+s3.amazon.com
+
+# Host verification
+
+
+# Auth
+Bearer
+Basic
+auth
+
+# RCE
+runtime.exec
+processbuilder
+os.popen
+eval
+cmd
+exec
+xp_cmdshell
+Process.start
+
+# Access mode
+chmod 755
+fs.appendFile()
+fs.open()
+fs.writeFile()
+
+# Cached form fields
+
+autocomplete
+
+# CSRF
+
+csrf
+
+# Insecure Cookies
+
+cookie
+samesite
+httponly
+secure
+
+# kubernetes
+
+securityContext
+client-certificate-data // WOW!
