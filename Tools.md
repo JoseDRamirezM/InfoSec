@@ -36,8 +36,22 @@
 - Google dorks (site:aaa.com)
 - More operators
 
-# Vuln assessment
+# Vuln assessment & exploitation
 
-# Exploitation
+# Web
+
+- Nikto
+- Burp Suite
+- xsser
+- sqlmap
+- ReScue
+- seclists
+
+# Repo
+
+- trufflehog
+- gitleaks
+- git-secrets
+- settings-decoder (Maven artifactory credentials)
 
 # Reporting
