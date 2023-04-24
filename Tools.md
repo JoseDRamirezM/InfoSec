@@ -38,7 +38,7 @@
 
 # Vuln assessment & exploitation
 
-# Web
+## Web
 
 - Nikto
 - Burp Suite
@@ -47,11 +47,29 @@
 - ReScue
 - seclists
 
-# Repo
+## Repo
 
 - trufflehog
 - gitleaks
 - git-secrets
 - settings-decoder (Maven artifactory credentials)
+- JKS-private-key-cracker-hashcat
+
+## Multi
+
+- hydra
+- john
+- Nessus
+
+## AWS
+
+- enumerate-iam
+
+## Azure
+
+- az cli
+- Graph API
 
 # Reporting
+
+- pwndoc
