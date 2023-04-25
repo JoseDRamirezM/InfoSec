@@ -111,6 +111,10 @@ dirb $TARGET $WORDLIST -X zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,
 
 ```bash
 dirsearch -u $TARGET -w $WORDLISTS -e zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,inc,config,txt,xxx,old,bak,sql,php,html,js,json,png,jpg,01,bac,_bak,001,000,inc,~ -f
+
+
+python3 ./dirsearch.py -u 'https://miurl.com'  -R 3 -r  -w tools/SecLists/Discovery/Web-Content/raft-large-words-lowercase.txt
+
 ```
 
 ### gobuster
