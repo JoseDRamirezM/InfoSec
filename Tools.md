@@ -54,6 +54,7 @@
 - git-secrets
 - settings-decoder (Maven artifactory credentials)
 - JKS-private-key-cracker-hashcat
+- grep -rni "$EXP"
 
 ## Multi
 
