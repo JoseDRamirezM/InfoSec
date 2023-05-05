@@ -10,6 +10,11 @@ nmap -sn -n $IP_range_CIDR -oN network_hosts
 
 ### Port scanning
 
+#### Most complete command so far
+```shell
+nmap -sS -n -Pn -p- -T3 -sV -sC -O $target_IP -oN targetx -oG targetx
+```
+
 #### SYN scan (noisy)
 ```shell
 nmap -sS -n -Pn -p- --min-rate 5000 $target_IP -oN allPorts -oG allPorts
@@ -106,6 +111,10 @@ dirb $TARGET $WORDLIST -X zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,
 
 ```bash
 dirsearch -u $TARGET -w $WORDLISTS -e zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xlsx,pptx,asa,inc,config,txt,xxx,old,bak,sql,php,html,js,json,png,jpg,01,bac,_bak,001,000,inc,~ -f
+
+
+python3 ./dirsearch.py -u 'https://miurl.com'  -R 3 -r  -w tools/SecLists/Discovery/Web-Content/raft-large-words-lowercase.txt
+
 ```
 
 ### gobuster
@@ -167,6 +176,14 @@ xsser --url "http://demo.ine.local/index.php?page=user-poll.php&csrf-token=&choi
 # SQLInjection
 
 ## SQLMap
+
+General thorough scan
+
+```bash
+sqlmap -r helpdesk.req --threads 10 --level 3 --risk 2 --answers="follow=Y" --batch 
+```
+
+To avoid the tool from prompting use these flags: `--answers="follow=Y" --batch`
 
 ### GET parameters
 

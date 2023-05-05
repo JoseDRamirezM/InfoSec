@@ -1,0 +1,219 @@
+# Secrets
+
+secret
+pass
+password
+changeit
+admin
+pwd
+ftp
+ssh
+clave
+key
+keystore
+accesstoken
+accesskey
+cert
+kubernetes
+jfrog
+artifactory
+login
+ConnenctionString
+settings.xml (search in repo)
+WITH PASSWORD
+ClearTextPassword
+client-certificate-data
+smtp
+ftp
+ssh
+jwt
+
+# Supply chain attack NPM
+
+1. Look for .npmrc file including:
+
+- scope, registry, username
+- _auth (base64 authentication string)
+
+And decode the _auth string and login to the private npm registry with the command:
+
+npm login --scope=@org --registry=http://...
+
+2 Then set the proper config, this way the publish action will go to the correct (target) registry
+
+npm config set registry <registry url>
+
+3. After that place changes into a package
+4. Publish changes with
+    npm publish
+in the folder that contains the package.json file
+
+# find emails
+^\S+@\S+$
+
+
+# XSS
+## DOM XSS
+innerHTML
+
+# API KEYS
+
+AKIA
+client-id
+client_id
+clientid
+IV
+apikey
+api-key
+
+# Cert validation
+SSL
+callback
+HostnameVerifier
+verify(
+ServerCertificateValidationCallback
+trustAllCerts
+trustAllHosts
+
+--force-ssl SQLMAP when the server is HTTPS
+
+# Session/Local storage
+
+setItem
+
+# MS Azure
+
+## AUTH clientid & secret
+curl https://login.microsoftonline.com/<tenant-ID>/oauth2/token -H "Content-Type: application/x-www-form-urlencoded" --data "grant_type=client_credentials&client_id=<Client ID>&client_secret=<Client Secret>&resource=https%3A%2F%2Fmanagement.core.windows.net%2F"
+
+
+Try to consume this endpoint:
+https://graph.microsoft.com/v1.0/applicationTemplates
+
+# AWS
+
+Resource: '*
+Resource: "*
+
+## Amazon s3
+([^A-Z0-9]|^)(AKIA|A3T|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{12,}
+aws
+bucket
+
+s3
+s3.amazon.com
+
+SSE
+
+# DynamoDB
+DynamoDbTable: DeletionProtectionEnabled
+
+
+# Insecure crypt
+TLS
+
+
+# Host verification
+
+
+# Auth
+Bearer
+Basic
+auth
+
+# RCE
+runtime.exec
+processbuilder
+os.popen
+eval
+cmd
+exec
+Process.start
+
+# Access mode
+chmod 755
+fs.appendFile()
+fs.open()
+fs.writeFile()
+createNewFile
+
+# path traversal
+
+readFileSync
+
+# Cached form fields
+
+autocomplete
+
+# CSRF
+
+csrf
+
+# Insecure Cookies
+
+cookie
+samesite
+httponly
+secure
+
+# kubernetes
+
+securityContext
+client-certificate-data // WOW!
+
+# Print, console & stacktrace
+
+println
+format
+printf
+print
+console.log
+printstacktrace
+
+# Unrestricted access network segments
+0.0.0.0/0
+
+
+#XML injection
+SAXparser
+
+# XPath injection
+XPathFactory
+XPath
+
+# Lack data validation headers
+setHeader
+response.setHeader
+request.headers.get
+
+certificate
+x509certificate
+ciphertext
+BasicHttpSecurityMode
+
+"sourceMap": true
+
+# SQL injection
++
+' +
+'+
+"+
+" +
+SELECT
+INSERT
+GROUP BY
+EXECUTE AS
+xp_cmdshell
+
+# Insecure Random Numbers
+java.util.random
+
+# Insecure deserialization
+enableDefaultTyping
+setTrustAllPackages
+ActiveMQConnectionFactory
+JmsConnectionFactory
+
+# Sharepoint
+
+Add to url /landing
