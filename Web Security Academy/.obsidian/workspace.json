@@ -8,73 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "18cf3d898a0948ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AccessControl/Access control exploitation techniques.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f366486af4cff8f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SSRF/labs/basicSSRF/basicSSRF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "086ab68bac0ee058",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "SSRF/labs/basicSSRF/images/Pasted image 20230505150956.png"
-              }
-            }
-          },
-          {
             "id": "ef8a4c1de72664d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SSRF/SSRF exploitation techniques.md",
+                "file": "SSRF/labs/SSRFviaOpenRedirection/SSRFviaOpenRedirection.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "4fc3a33bd9f4d775",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "AccessControl/labs/User ID controlled by request parameter, with unpredictable user IDs/images/targetGUID.png"
-              }
-            }
-          },
-          {
-            "id": "34777e15a54b01f5",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "AccessControl/labs/User ID controlled by request parameter/images/userID.png"
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,13 +56,20 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "ba2e035d15908193",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cc485481a34e5c24",
@@ -133,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SSRF/SSRF exploitation techniques.md",
+                "file": "SSRF/labs/SSRFviaOpenRedirection/SSRFviaOpenRedirection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,10 +114,28 @@
   },
   "active": "ef8a4c1de72664d4",
   "lastOpenFiles": [
-    "SSRF/labs/SSRFOtherBackends/SSRFOtherBackends.md",
-    "SSRF/Server Side Request Forgery.md",
+    "SSRF/labs/SSRFviaOpenRedirection/images/open.png",
+    "SSRF/labs/SSRFWhitelistFilter/images/vulnLink.png",
     "SSRF/SSRF exploitation techniques.md",
+    "SSRF/labs/SSRFviaOpenRedirection/images",
+    "SSRF/labs/SSRFviaOpenRedirection/SSRFviaOpenRedirection.md",
+    "SSRF/labs/SSRFviaOpenRedirection",
+    "SSRF/Server Side Request Forgery.md",
+    "SSRF/labs/SSRFWhitelistFilter/SSRFWhitelistFilter.md",
+    "AccessControl/Access control exploitation techniques.md",
     "SSRF/labs/basicSSRF/basicSSRF.md",
+    "SSRF/labs/SSRFWhitelistFilter/images/deletePanel.png",
+    "SSRF/labs/SSRFWhitelistFilter/images/payload.png",
+    "SSRF/labs/SSRFWhitelistFilter/images/first.png",
+    "SSRF/labs/SSRFWhitelistFilter/images/hint.png",
+    "SSRF/labs/SSRFWhitelistFilter/images",
+    "SSRF/labs/SSRFWhitelistFilter",
+    "SSRF/labs/SSRFBlacklistFilter/SSRFBlacklistFilter.md",
+    "SSRF/labs/SSRFBlacklistFilter/images/exploit.png",
+    "SSRF/labs/SSRFBlacklistFilter/images/payload.png",
+    "SSRF/labs/SSRFBlacklistFilter/images",
+    "SSRF/labs/SSRFBlacklistFilter",
+    "SSRF/labs/SSRFOtherBackends/SSRFOtherBackends.md",
     "SSRF/labs/basicSSRF/images/Pasted image 20230505151216.png",
     "SSRF/labs/basicSSRF/images/Pasted image 20230505150956.png",
     "SSRF/labs/basicSSRF/images/Pasted image 20230505151136.png",

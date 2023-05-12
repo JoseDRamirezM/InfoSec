@@ -3,5 +3,6 @@
   "livePreview": true,
   "spellcheck": true,
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "SSRF/labs/SSRFWhitelistFilter/images"
 }
