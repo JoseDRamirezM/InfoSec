@@ -68,6 +68,19 @@ Then perform requests
 ```
 OPTIONS / HTTP/1.0  <- append TWO spaces at the end!
 ```
+To prevent the listener from closing use:
+
+```bash
+nc -lvp 80 -k
+```
+
+To add a timeout for connections:
+
+```bash
+nc -lvp 80 -k -w 1
+```
+
+
 ### OpenSSL
 
 Use this for HTTPS context
