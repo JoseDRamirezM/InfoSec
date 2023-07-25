@@ -302,3 +302,12 @@ GET /example/exploit.php?command=id HTTP/1.1
 # Common ports 
 
 21,22,25,53,443,5000,8000,8080,3306
+
+
+# Misc
+
+## Apache server environment variables
+
+```bash
+/etc/apache2/envvars
+```
