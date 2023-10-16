@@ -48,7 +48,11 @@ nmap -sC -sV -p $OPEN_PORTS -oN targeted
 ```shell
 nmap -sV --script vuln -p $OPEN_PORTS -oN scripts
 ```
+### Nmap RMI Recon
 
+```bash
+nmap --script rmi-dumpregistry -p 1099 demo.ine.local
+```
 
 ## Other tools
 
