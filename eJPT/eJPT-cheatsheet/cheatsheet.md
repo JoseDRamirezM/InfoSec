@@ -133,6 +133,14 @@ dirsearch -u $TARGET -w $WORDLISTS -e zip,tar,gz,tgz,rar,java,cs,pdf,docx,rtf,xl
 python3 ./dirsearch.py -u 'https://miurl.com'  -R 3 -r  -w ~/tools/SecLists/Discovery/Web-Content/raft-large-words-lowercase.txt
 
 ```
+**Use it with tor ;)**
+
+Install it first
+
+```bash
+python3 ./dirsearch.py -u 'https://miurl.com'  -R 3 -r  -w ~/tools/SecLists/Discovery/Web-Content/raft-large-words-lowercase.txt --proxy='socks5://127.0.0.1:9050'
+```
+
 
 ### gobuster
 ```bash
