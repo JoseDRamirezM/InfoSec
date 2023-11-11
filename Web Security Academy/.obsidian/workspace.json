@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SSRF/labs/SSRFviaOpenRedirection/SSRFviaOpenRedirection.md",
+                "file": "XXE/Labs/XEE2SSRF/Lab 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SSRF/labs/SSRFviaOpenRedirection/SSRFviaOpenRedirection.md",
+                "file": "XXE/Labs/XEE2SSRF/Lab 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,13 +114,26 @@
   },
   "active": "ef8a4c1de72664d4",
   "lastOpenFiles": [
+    "XXE/Labs/XEE2SSRF/images/exploited.png",
+    "XXE/Labs/XEE2SSRF/images/strange.png",
+    "XXE/Labs/XEE2SSRF/images",
+    "XXE/Labs/XEE2SSRF/Lab 2.md",
+    "XXE/Labs/ExternalEntities/Lab 1.md",
+    "XXE/Labs/XEE2SSRF",
+    "XXE/Labs/ExternalEntities/images/exploited.png",
+    "XXE/Labs/ExternalEntities/images/stockFunct.png",
+    "SSRF/labs/SSRFWhitelistFilter/images/Pasted image 20231111115003.png",
+    "SSRF/SSRF exploitation techniques.md",
+    "XXE/Labs/ExternalEntities/images",
+    "XXE/Labs/ExternalEntities",
+    "XXE/Labs",
+    "XXE",
+    "SSRF/Server Side Request Forgery.md",
+    "SSRF/labs/SSRFviaOpenRedirection/SSRFviaOpenRedirection.md",
     "SSRF/labs/SSRFviaOpenRedirection/images/open.png",
     "SSRF/labs/SSRFWhitelistFilter/images/vulnLink.png",
-    "SSRF/SSRF exploitation techniques.md",
     "SSRF/labs/SSRFviaOpenRedirection/images",
-    "SSRF/labs/SSRFviaOpenRedirection/SSRFviaOpenRedirection.md",
     "SSRF/labs/SSRFviaOpenRedirection",
-    "SSRF/Server Side Request Forgery.md",
     "SSRF/labs/SSRFWhitelistFilter/SSRFWhitelistFilter.md",
     "AccessControl/Access control exploitation techniques.md",
     "SSRF/labs/basicSSRF/basicSSRF.md",
@@ -131,14 +144,7 @@
     "SSRF/labs/SSRFWhitelistFilter/images",
     "SSRF/labs/SSRFWhitelistFilter",
     "SSRF/labs/SSRFBlacklistFilter/SSRFBlacklistFilter.md",
-    "SSRF/labs/SSRFBlacklistFilter/images/exploit.png",
-    "SSRF/labs/SSRFBlacklistFilter/images/payload.png",
-    "SSRF/labs/SSRFBlacklistFilter/images",
-    "SSRF/labs/SSRFBlacklistFilter",
     "SSRF/labs/SSRFOtherBackends/SSRFOtherBackends.md",
-    "SSRF/labs/basicSSRF/images/Pasted image 20230505151216.png",
-    "SSRF/labs/basicSSRF/images/Pasted image 20230505150956.png",
-    "SSRF/labs/basicSSRF/images/Pasted image 20230505151136.png",
     "FileUploadVulnerabilites/labs/Web shell upload via path traversal/Web shell upload via path traversal.md",
     "FileUploadVulnerabilites/labs/Web shell upload via obfuscated file extension/Web shell upload via obfuscated file extension.md",
     "FileUploadVulnerabilites/labs/Web shell upload via Content-Type restriction bypass/Web shell upload via Content-Type restriction bypass.md"
