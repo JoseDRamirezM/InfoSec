@@ -4,5 +4,5 @@
   "spellcheck": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "SSRF/labs/SSRFWhitelistFilter/images"
+  "attachmentFolderPath": "XXE/Labs/XEE2SSRF/images"
 }

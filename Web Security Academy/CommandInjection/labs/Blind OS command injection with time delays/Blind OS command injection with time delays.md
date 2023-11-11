@@ -16,6 +16,6 @@ Test all for parameters of this form.
 
 ![[test_params.png]]
 
-![[exploited.png]]
+![[CommandInjection/labs/Blind OS command injection with time delays/images/exploited.png]]
 
 After making this request the lab is solved.
