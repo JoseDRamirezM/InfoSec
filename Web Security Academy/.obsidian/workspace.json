@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XXE/Labs/XEE2SSRF/Lab 2.md",
+                "file": "XXE/Labs/Blind XXE OOB Parameter/Lab 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "63d28401af3773f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XXE/Labs/XXE Via File Upload/Lab 8.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ACCESSCONTROL",
+                "query": "XEE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XXE/Labs/XEE2SSRF/Lab 2.md",
+                "file": "XXE/Labs/XXE Via File Upload/Lab 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,37 +125,43 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ef8a4c1de72664d4",
+  "active": "63d28401af3773f3",
   "lastOpenFiles": [
-    "XXE/Labs/XEE2SSRF/images/exploited.png",
-    "XXE/Labs/XEE2SSRF/images/strange.png",
-    "XXE/Labs/XEE2SSRF/images",
-    "XXE/Labs/XEE2SSRF/Lab 2.md",
+    "XXE/Labs/XXE Via File Upload/images/exploited.png",
+    "XXE/Labs/XXE Via File Upload/images/img.png",
+    "XXE/Labs/XXE Via File Upload/images/payload.png",
+    "XXE/Labs/XXE Via File Upload/test.svg",
+    "XXE/Labs/XXE Via File Upload/images",
     "XXE/Labs/ExternalEntities/Lab 1.md",
-    "XXE/Labs/XEE2SSRF",
-    "XXE/Labs/ExternalEntities/images/exploited.png",
-    "XXE/Labs/ExternalEntities/images/stockFunct.png",
-    "SSRF/labs/SSRFWhitelistFilter/images/Pasted image 20231111115003.png",
+    "XXE/Labs/XXE Via File Upload/Lab 8.md",
+    "XXE/Labs/XXE via XInclude/Lab 7.md",
+    "XXE/Labs/XXE Via File Upload",
+    "XXE/Labs/XXE via XInclude",
+    "XXE/Labs/Blind XXE OOB Parameter/images/exploited-3.png",
+    "XXE/Labs/Blind XXE Error Messages/Lab 6.md",
+    "XXE/Labs/Blind XXE OOB Parameter/images/exploited-2.png",
+    "XXE/Labs/Blind XXE OOB Parameter/Lab 4.md",
+    "XXE/Labs/Blind XXE External DTD/Lab 5.md",
+    "XXE/Labs/Blind XXE Error Messages",
+    "XXE/Labs/Blind XXE OOB Parameter/images/exploited-1.png",
+    "XXE/Labs/Blind XXE OOB Parameter/images/trigger.png",
+    "XXE/Labs/Blind XXE OOB Parameter/images/evilDTD.png",
+    "XXE/Labs/Blind XXE External DTD",
+    "XXE/Labs/Blind XXE OOB Parameter/images/exploited.png",
+    "XXE/Labs/Blind XXE OOB Parameter/images/payload.png",
+    "XXE/Labs/Blind XXE OOB Parameter/images",
+    "XXE/Labs/Blind XXE OOB/Lab 3.md",
+    "XXE/Labs/Blind XXE OOB Parameter",
+    "XXE/Labs/Blind XXE OOB/images",
+    "XXE/Labs/Blind XXE OOB",
+    "XXE/Labs/XXE2SSRF/Lab 2.md",
+    "XXE/Labs/XXE2SSRF/images",
     "SSRF/SSRF exploitation techniques.md",
-    "XXE/Labs/ExternalEntities/images",
-    "XXE/Labs/ExternalEntities",
-    "XXE/Labs",
-    "XXE",
     "SSRF/Server Side Request Forgery.md",
     "SSRF/labs/SSRFviaOpenRedirection/SSRFviaOpenRedirection.md",
-    "SSRF/labs/SSRFviaOpenRedirection/images/open.png",
-    "SSRF/labs/SSRFWhitelistFilter/images/vulnLink.png",
-    "SSRF/labs/SSRFviaOpenRedirection/images",
-    "SSRF/labs/SSRFviaOpenRedirection",
     "SSRF/labs/SSRFWhitelistFilter/SSRFWhitelistFilter.md",
     "AccessControl/Access control exploitation techniques.md",
     "SSRF/labs/basicSSRF/basicSSRF.md",
-    "SSRF/labs/SSRFWhitelistFilter/images/deletePanel.png",
-    "SSRF/labs/SSRFWhitelistFilter/images/payload.png",
-    "SSRF/labs/SSRFWhitelistFilter/images/first.png",
-    "SSRF/labs/SSRFWhitelistFilter/images/hint.png",
-    "SSRF/labs/SSRFWhitelistFilter/images",
-    "SSRF/labs/SSRFWhitelistFilter",
     "SSRF/labs/SSRFBlacklistFilter/SSRFBlacklistFilter.md",
     "SSRF/labs/SSRFOtherBackends/SSRFOtherBackends.md",
     "FileUploadVulnerabilites/labs/Web shell upload via path traversal/Web shell upload via path traversal.md",

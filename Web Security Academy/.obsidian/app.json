@@ -4,5 +4,5 @@
   "spellcheck": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "XXE/Labs/XEE2SSRF/images"
+  "attachmentFolderPath": "XXE/Labs/XXE Via File Upload/images"
 }

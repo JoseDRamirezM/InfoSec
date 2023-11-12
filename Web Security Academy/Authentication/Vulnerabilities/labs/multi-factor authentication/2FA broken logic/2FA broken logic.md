@@ -33,7 +33,7 @@ As I don't have Burp Suite Professional I managed to do it with `OWASP ZAP`.
 
 - Trigger the verification code generation
 
-![[trigger.png]]
+![[Authentication/Vulnerabilities/labs/multi-factor authentication/2FA broken logic/images/trigger.png]]
 
 - Brute force the verification code
 

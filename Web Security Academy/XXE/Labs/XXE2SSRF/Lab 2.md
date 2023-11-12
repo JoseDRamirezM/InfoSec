@@ -35,4 +35,4 @@ It took me a while to understand the `latest`, but checking [this](https://docs.
 </stockCheck>
 ```
 
-![[XXE/Labs/XEE2SSRF/images/exploited.png]]
+![[XXE/Labs/XXE2SSRF/images/exploited.png]]
