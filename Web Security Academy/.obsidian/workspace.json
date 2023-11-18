@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ef8a4c1de72664d4",
+            "id": "63d28401af3773f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XXE/Labs/Blind XXE OOB Parameter/Lab 4.md",
+                "file": "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/Visible error-based SQL injection.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "63d28401af3773f3",
+            "id": "c01f36d20a1ab741",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XXE/Labs/XXE Repurposing Local DTD/Lab 9.md",
+                "file": "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/Visible error-based SQL injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "XEE",
+                "query": "conditional",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XXE/Labs/XXE Repurposing Local DTD/Lab 9.md",
+                "file": "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/Visible error-based SQL injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,48 +125,52 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "63d28401af3773f3",
+  "active": "c01f36d20a1ab741",
   "lastOpenFiles": [
-    "XXE/Labs/XXE Repurposing Local DTD/images/exploited.png",
+    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/images/password.png",
+    "SSRF/labs/SSRF-ShellShock/images/username.png",
+    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/images/injection-point.png",
+    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/images",
+    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/Visible error-based SQL injection.md",
+    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/images/error-username.png",
+    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/Error Based SQL injection.md",
+    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection",
+    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs",
+    "SQLInjection/Attacks/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
+    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection",
     "XXE/Labs/Blind XXE OOB Parameter/Lab 4.md",
+    "SQLInjection/Attacks/Blind SQL injection/Blind SQL injection.md",
+    "SQLInjection/SQL injection.md",
+    "SSRF/labs/SSRF-ShellShock/SSRF-ShellShock.md",
+    "SSRF/labs/SSRF-ShellShock/images/ShellShock.png",
+    "SSRF/labs/SSRF-ShellShock/images/interaction.png",
+    "SSRF/labs/SSRF-ShellShock/images/entrypoint.png",
+    "SSRF/labs/SSRF-ShellShock/images/Pasted image 20231113134801.png",
+    "SSRF/labs/SSRF-ShellShock/images",
+    "SSRF/labs/SSRF-ShellShock",
+    "SSRF/labs/SSRFviaOpenRedirection/SSRFviaOpenRedirection.md",
+    "SSRF/labs/BlindSSRF-OOB/images/exploited.png",
+    "SSRF/labs/BlindSSRF-OOB/images/SSRF.png",
+    "SSRF/SSRF exploitation techniques.md",
+    "SSRF/labs/SSRFWhitelistFilter/SSRFWhitelistFilter.md",
+    "SSRF/labs/SSRFBlacklistFilter/SSRFBlacklistFilter.md",
+    "SSRF/labs/basicSSRF/basicSSRF.md",
+    "SSRF/labs/BlindSSRF-OOB/Blind SSRF with out-of-band detection.md",
+    "SSRF/labs/BlindSSRF-OOB/images",
+    "SSRF/labs/BlindSSRF-OOB",
+    "SSRF/labs/SSRFOtherBackends/SSRFOtherBackends.md",
     "XXE/Labs/XXE Repurposing Local DTD/Lab 9.md",
-    "XXE/Labs/XXE Repurposing Local DTD/images/entityFile.png",
-    "XXE/Labs/XXE Repurposing Local DTD/images/fileExists.png",
     "XXE/Labs/XXE Repurposing Local DTD/images",
-    "XXE/Labs/XXE Repurposing Local DTD/images/fileDontExist.png",
     "XXE/Labs/XXE Via File Upload/Lab 8.md",
     "XXE/Labs/XXE Repurposing Local DTD",
-    "XXE/Labs/XXE Via File Upload/images/exploited.png",
-    "XXE/Labs/XXE Via File Upload/images/img.png",
-    "XXE/Labs/XXE Via File Upload/images/payload.png",
-    "XXE/Labs/XXE Via File Upload/test.svg",
-    "XXE/Labs/XXE Via File Upload/images",
     "XXE/Labs/ExternalEntities/Lab 1.md",
     "XXE/Labs/XXE via XInclude/Lab 7.md",
-    "XXE/Labs/XXE Via File Upload",
-    "XXE/Labs/XXE via XInclude",
-    "XXE/Labs/Blind XXE OOB Parameter/images/exploited-3.png",
     "XXE/Labs/Blind XXE Error Messages/Lab 6.md",
-    "XXE/Labs/Blind XXE OOB Parameter/images/exploited-2.png",
     "XXE/Labs/Blind XXE External DTD/Lab 5.md",
-    "XXE/Labs/Blind XXE Error Messages",
-    "XXE/Labs/Blind XXE OOB Parameter/images/exploited-1.png",
-    "XXE/Labs/Blind XXE External DTD",
-    "XXE/Labs/Blind XXE OOB Parameter/images",
     "XXE/Labs/Blind XXE OOB/Lab 3.md",
-    "XXE/Labs/Blind XXE OOB Parameter",
-    "XXE/Labs/Blind XXE OOB/images",
     "XXE/Labs/XXE2SSRF/Lab 2.md",
-    "SSRF/SSRF exploitation techniques.md",
     "SSRF/Server Side Request Forgery.md",
-    "SSRF/labs/SSRFviaOpenRedirection/SSRFviaOpenRedirection.md",
-    "SSRF/labs/SSRFWhitelistFilter/SSRFWhitelistFilter.md",
     "AccessControl/Access control exploitation techniques.md",
-    "SSRF/labs/basicSSRF/basicSSRF.md",
-    "SSRF/labs/SSRFBlacklistFilter/SSRFBlacklistFilter.md",
-    "SSRF/labs/SSRFOtherBackends/SSRFOtherBackends.md",
-    "FileUploadVulnerabilites/labs/Web shell upload via path traversal/Web shell upload via path traversal.md",
-    "FileUploadVulnerabilites/labs/Web shell upload via obfuscated file extension/Web shell upload via obfuscated file extension.md",
-    "FileUploadVulnerabilites/labs/Web shell upload via Content-Type restriction bypass/Web shell upload via Content-Type restriction bypass.md"
+    "FileUploadVulnerabilites/labs/Web shell upload via path traversal/Web shell upload via path traversal.md"
   ]
 }

@@ -4,5 +4,5 @@
   "spellcheck": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "XXE/Labs/XXE Repurposing Local DTD/images"
+  "attachmentFolderPath": "SSRF/labs/SSRF-ShellShock/images"
 }
