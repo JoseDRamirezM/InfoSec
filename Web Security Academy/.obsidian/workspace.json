@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccessControl/labs/Insecure direct object references/Insecure direct object references.md",
+                "file": "AccessControl/labs/Referer-based access control/Referer-based access control.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AccessControl/labs/Multi-step process with no access control on one step/Multi-step process with no access control on one step.md",
+                "file": "AccessControl/labs/Referer-based access control/Referer-based access control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,20 +148,28 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c01f36d20a1ab741",
+  "active": "63d28401af3773f3",
   "lastOpenFiles": [
+    "AccessControl/labs/Referer-based access control/images/exploit.png",
+    "AccessControl/labs/Referer-based access control/images/admin-401.png",
+    "AccessControl/labs/Referer-based access control/images/admin-panel.png",
+    "AccessControl/labs/Referer-based access control/images/admin-upgrade.png",
+    "AccessControl/labs/Referer-based access control/images",
+    "AccessControl/Access control exploitation techniques.md",
+    "AccessControl/labs/Referer-based access control/Referer-based access control.md",
+    "AccessControl/labs/Referer-based access control",
+    "AccessControl/labs/Insecure direct object references/Insecure direct object references.md",
+    "AccessControl/labs/User ID controlled by request parameter/User ID controlled by request parameter.md",
+    "AccessControl/labs/User ID controlled by request parameter with password disclosure/User ID controlled by request parameter with password disclosure.md",
+    "AccessControl/labs/Multi-step process with no access control on one step/Multi-step process with no access control on one step.md",
     "AccessControl/labs/Multi-step process with no access control on one step/images/solved.png",
     "AccessControl/labs/Multi-step process with no access control on one step/images/exploit.png",
     "AccessControl/labs/Multi-step process with no access control on one step/images/second-step.png",
     "AccessControl/labs/Multi-step process with no access control on one step/images/confirmation.png",
     "AccessControl/labs/Multi-step process with no access control on one step/images/admin-panel.png",
     "AccessControl/labs/Multi-step process with no access control on one step/images",
-    "AccessControl/Access control exploitation techniques.md",
-    "AccessControl/labs/Multi-step process with no access control on one step/Multi-step process with no access control on one step.md",
     "AccessControl/labs/Multi-step process with no access control on one step",
     "CommandInjection/labs/Blind OS Command Injection OOB data exfiltration/Blind OS Command Injection OOB data exfiltration.md",
-    "AccessControl/labs/User ID controlled by request parameter with password disclosure/User ID controlled by request parameter with password disclosure.md",
-    "AccessControl/labs/Insecure direct object references/Insecure direct object references.md",
     "AccessControl/labs/Insecure direct object references/images/user-pass.png",
     "AccessControl/labs/User ID controlled by request parameter with password disclosure/images/Pasted image 20231209111024.png",
     "AccessControl/labs/Insecure direct object references/images",
@@ -170,22 +177,15 @@
     "AccessControl/Access Control Security Models.md",
     "AccessControl/Untitled.md",
     "AccessControl/labs/User ID controlled by request parameter, with unpredictable user IDs/User ID controlled by request parameter, with unpredictable user IDs.md",
-    "AccessControl/labs/User ID controlled by request parameter/User ID controlled by request parameter.md",
-    "AccessControl/labs/User ID controlled by request parameter with password disclosure/images/admin-ass.png",
     "AccessControl/labs/User ID controlled by request parameter with password disclosure/images",
     "AccessControl/labs/User ID controlled by request parameter with password disclosure",
     "AccessControl/Access control.md",
     "CommandInjection/OS Command Injection.md",
-    "CommandInjection/labs/Blind OS command injection with output redirection/images/injected_req.png",
-    "CommandInjection/labs/Blind OS Command Injection OOB data exfiltration/images/payload.png",
-    "CommandInjection/labs/Blind OS Command Injection OOB data exfiltration/images/username.png",
     "SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL Injection OOB interaction/Blind SQL Injection OOB interaction.md",
     "CommandInjection/labs/Blind OS Command Injection OOB data exfiltration/images",
     "CommandInjection/labs/Blind OS Command Injection OOB interaction/Blind OS Command Injection OOB interaction.md",
     "CommandInjection/labs/Blind OS Command Injection OOB data exfiltration",
-    "CommandInjection/labs/Blind OS Command Injection OOB interaction/images",
     "SQLInjection/Attacks/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
-    "CommandInjection/labs/Blind OS Command Injection OOB interaction",
     "CommandInjection/labs/Blind OS command injection with output redirection/Blind OS command injection with output redirection.md",
     "SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL injection with OOB data exfiltration/Blind SQL injection with OOB data exfiltration.md",
     "SQLInjection/Attacks/Blind SQL injection/OAST SQLi.md",
@@ -195,7 +195,6 @@
     "SQLInjection/OAST.md",
     "SQLInjection/Attacks/Blind SQL injection/Inducing conditional responses by triggering SQL errors.md",
     "SQLInjection/Attacks/Blind SQL injection/Exploiting blind SQL injection by triggering time delays.md",
-    "SQLInjection/Attacks/Blind SQL injection/Blind SQL injection.md",
-    "SQLInjection/Attacks/1. Retrieving hidden data/labs/SQLi XML encoding bypass/SQLi XML encoding bypass.md"
+    "SQLInjection/Attacks/Blind SQL injection/Blind SQL injection.md"
   ]
 }

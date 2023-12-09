@@ -7,7 +7,7 @@ To solve the lab, log in using the credentials `wiener:peter` and exploit the fl
 
 The admin panel:
 
-![[admin-panel.png]]
+![[AccessControl/labs/Multi-step process with no access control on one step/images/admin-panel.png]]
 
 This process involves two requests:
 1. Initial click on upgrade/downgrade user
