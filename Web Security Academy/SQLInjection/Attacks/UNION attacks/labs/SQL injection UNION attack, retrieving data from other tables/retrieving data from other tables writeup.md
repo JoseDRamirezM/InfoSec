@@ -32,4 +32,4 @@ Once placed in the injection point the following appears
 
 Next login as the `administrator` to solve the lab!
 
-![[solved.png]]
+![[SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, retrieving data from other tables/images/solved.png]]

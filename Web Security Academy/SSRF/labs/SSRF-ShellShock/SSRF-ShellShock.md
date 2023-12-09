@@ -4,4 +4,4 @@
 
 ![[ShellShock.png]]
 
-![[username.png]]
+![[SSRF/labs/SSRF-ShellShock/images/username.png]]

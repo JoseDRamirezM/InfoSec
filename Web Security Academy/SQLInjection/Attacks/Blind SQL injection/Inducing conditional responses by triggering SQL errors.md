@@ -1,5 +1,3 @@
-# Inducing conditional responses by triggering SQL errors
-
 #BLINDSQLI 
 
 Suppose the same scenario from [[Blind SQL injection with conditional responses]] but in this case the application does not behave any differently depending on whether the query returns any data. So Boolean conditions will no longer work as there's no difference to the application's response.

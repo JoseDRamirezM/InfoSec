@@ -1,4 +1,3 @@
-# User ID controlled by request parameter
 
 #WRITEUP 
 #ACCESSCONTROL 

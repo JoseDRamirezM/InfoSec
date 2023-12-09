@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/Visible error-based SQL injection.md",
+                "file": "AccessControl/labs/Insecure direct object references/Insecure direct object references.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "862bb86b919788e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AccessControl/labs/User ID controlled by request parameter with password disclosure/User ID controlled by request parameter with password disclosure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fbe8c8320cabb4bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AccessControl/labs/User ID controlled by request parameter/User ID controlled by request parameter.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/Visible error-based SQL injection.md",
+                "file": "AccessControl/labs/Multi-step process with no access control on one step/Multi-step process with no access control on one step.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -61,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "conditional",
+                "query": "cookie",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/Visible error-based SQL injection.md",
+                "file": "AccessControl/labs/Multi-step process with no access control on one step/Multi-step process with no access control on one step.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,50 +151,51 @@
   },
   "active": "c01f36d20a1ab741",
   "lastOpenFiles": [
-    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/images/password.png",
-    "SSRF/labs/SSRF-ShellShock/images/username.png",
-    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/images/injection-point.png",
-    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/images",
-    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/Visible error-based SQL injection.md",
-    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/images/error-username.png",
-    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/Error Based SQL injection.md",
-    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection",
-    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs",
-    "SQLInjection/Attacks/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
-    "SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection",
-    "XXE/Labs/Blind XXE OOB Parameter/Lab 4.md",
-    "SQLInjection/Attacks/Blind SQL injection/Blind SQL injection.md",
-    "SQLInjection/SQL injection.md",
-    "SSRF/labs/SSRF-ShellShock/SSRF-ShellShock.md",
-    "SSRF/labs/SSRF-ShellShock/images/ShellShock.png",
-    "SSRF/labs/SSRF-ShellShock/images/interaction.png",
-    "SSRF/labs/SSRF-ShellShock/images/entrypoint.png",
-    "SSRF/labs/SSRF-ShellShock/images/Pasted image 20231113134801.png",
-    "SSRF/labs/SSRF-ShellShock/images",
-    "SSRF/labs/SSRF-ShellShock",
-    "SSRF/labs/SSRFviaOpenRedirection/SSRFviaOpenRedirection.md",
-    "SSRF/labs/BlindSSRF-OOB/images/exploited.png",
-    "SSRF/labs/BlindSSRF-OOB/images/SSRF.png",
-    "SSRF/SSRF exploitation techniques.md",
-    "SSRF/labs/SSRFWhitelistFilter/SSRFWhitelistFilter.md",
-    "SSRF/labs/SSRFBlacklistFilter/SSRFBlacklistFilter.md",
-    "SSRF/labs/basicSSRF/basicSSRF.md",
-    "SSRF/labs/BlindSSRF-OOB/Blind SSRF with out-of-band detection.md",
-    "SSRF/labs/BlindSSRF-OOB/images",
-    "SSRF/labs/BlindSSRF-OOB",
-    "SSRF/labs/SSRFOtherBackends/SSRFOtherBackends.md",
-    "XXE/Labs/XXE Repurposing Local DTD/Lab 9.md",
-    "XXE/Labs/XXE Repurposing Local DTD/images",
-    "XXE/Labs/XXE Via File Upload/Lab 8.md",
-    "XXE/Labs/XXE Repurposing Local DTD",
-    "XXE/Labs/ExternalEntities/Lab 1.md",
-    "XXE/Labs/XXE via XInclude/Lab 7.md",
-    "XXE/Labs/Blind XXE Error Messages/Lab 6.md",
-    "XXE/Labs/Blind XXE External DTD/Lab 5.md",
-    "XXE/Labs/Blind XXE OOB/Lab 3.md",
-    "XXE/Labs/XXE2SSRF/Lab 2.md",
-    "SSRF/Server Side Request Forgery.md",
+    "AccessControl/labs/Multi-step process with no access control on one step/images/solved.png",
+    "AccessControl/labs/Multi-step process with no access control on one step/images/exploit.png",
+    "AccessControl/labs/Multi-step process with no access control on one step/images/second-step.png",
+    "AccessControl/labs/Multi-step process with no access control on one step/images/confirmation.png",
+    "AccessControl/labs/Multi-step process with no access control on one step/images/admin-panel.png",
+    "AccessControl/labs/Multi-step process with no access control on one step/images",
     "AccessControl/Access control exploitation techniques.md",
-    "FileUploadVulnerabilites/labs/Web shell upload via path traversal/Web shell upload via path traversal.md"
+    "AccessControl/labs/Multi-step process with no access control on one step/Multi-step process with no access control on one step.md",
+    "AccessControl/labs/Multi-step process with no access control on one step",
+    "CommandInjection/labs/Blind OS Command Injection OOB data exfiltration/Blind OS Command Injection OOB data exfiltration.md",
+    "AccessControl/labs/User ID controlled by request parameter with password disclosure/User ID controlled by request parameter with password disclosure.md",
+    "AccessControl/labs/Insecure direct object references/Insecure direct object references.md",
+    "AccessControl/labs/Insecure direct object references/images/user-pass.png",
+    "AccessControl/labs/User ID controlled by request parameter with password disclosure/images/Pasted image 20231209111024.png",
+    "AccessControl/labs/Insecure direct object references/images",
+    "AccessControl/labs/Insecure direct object references",
+    "AccessControl/Access Control Security Models.md",
+    "AccessControl/Untitled.md",
+    "AccessControl/labs/User ID controlled by request parameter, with unpredictable user IDs/User ID controlled by request parameter, with unpredictable user IDs.md",
+    "AccessControl/labs/User ID controlled by request parameter/User ID controlled by request parameter.md",
+    "AccessControl/labs/User ID controlled by request parameter with password disclosure/images/admin-ass.png",
+    "AccessControl/labs/User ID controlled by request parameter with password disclosure/images",
+    "AccessControl/labs/User ID controlled by request parameter with password disclosure",
+    "AccessControl/Access control.md",
+    "CommandInjection/OS Command Injection.md",
+    "CommandInjection/labs/Blind OS command injection with output redirection/images/injected_req.png",
+    "CommandInjection/labs/Blind OS Command Injection OOB data exfiltration/images/payload.png",
+    "CommandInjection/labs/Blind OS Command Injection OOB data exfiltration/images/username.png",
+    "SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL Injection OOB interaction/Blind SQL Injection OOB interaction.md",
+    "CommandInjection/labs/Blind OS Command Injection OOB data exfiltration/images",
+    "CommandInjection/labs/Blind OS Command Injection OOB interaction/Blind OS Command Injection OOB interaction.md",
+    "CommandInjection/labs/Blind OS Command Injection OOB data exfiltration",
+    "CommandInjection/labs/Blind OS Command Injection OOB interaction/images",
+    "SQLInjection/Attacks/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
+    "CommandInjection/labs/Blind OS Command Injection OOB interaction",
+    "CommandInjection/labs/Blind OS command injection with output redirection/Blind OS command injection with output redirection.md",
+    "SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL injection with OOB data exfiltration/Blind SQL injection with OOB data exfiltration.md",
+    "SQLInjection/Attacks/Blind SQL injection/OAST SQLi.md",
+    "SQLInjection/Attacks/1. Retrieving hidden data/Retrieving hidden data.md",
+    "SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL injection with time delays and information retrieval/Blind SQL injection with time delays and information retrieval.md",
+    "SQLInjection/Attacks/UNION attacks/Methodology UNION attacks.md",
+    "SQLInjection/OAST.md",
+    "SQLInjection/Attacks/Blind SQL injection/Inducing conditional responses by triggering SQL errors.md",
+    "SQLInjection/Attacks/Blind SQL injection/Exploiting blind SQL injection by triggering time delays.md",
+    "SQLInjection/Attacks/Blind SQL injection/Blind SQL injection.md",
+    "SQLInjection/Attacks/1. Retrieving hidden data/labs/SQLi XML encoding bypass/SQLi XML encoding bypass.md"
   ]
 }

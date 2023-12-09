@@ -29,7 +29,7 @@ Once obtained check the commits information
 
 Then get the changes made between the commits using `git diff 3c6c9f 9fdd5b`
 
-![[admin-pass.png]]
+![[InformationDisclosure/labs/Information disclosure in version control history/images/admin-pass.png]]
 
 Then login as the administrator user delete Carlo's account and the lab is solved.
 

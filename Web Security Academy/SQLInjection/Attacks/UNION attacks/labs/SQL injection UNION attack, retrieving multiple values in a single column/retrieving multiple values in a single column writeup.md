@@ -33,4 +33,4 @@ Once injected the credentials for all users are retrieved.
 
 Log in as `administrator` to solve the lab!
 
-![[solved.png]]
+![[SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, retrieving data from other tables/images/solved.png]]

@@ -33,3 +33,24 @@ https://insecure-website.com/products?category=Gifts'+OR+1=1--
 SELECT * FROM products WHERE category = 'Gifts' OR 1=1--' AND released = 1
 ```
 
+# SQL Injection in different contexts
+
+Injections can happen in any controllable input that is processed as a SQL query by the application. Some applications may take JSON or XML format to use it on the database.
+
+These formats can provide ways to obfuscate attacks that are otherwise blocked by WAFs and other defense mechanisms. Weak filter implementations often look for common SQL injection keywords within the request so these controls may be bypassed by encoding or escaping characters.
+
+## Payload using XML escape sequence
+
+XML escape sequence to encode the `S` character in `SELECT`:
+
+```XML
+<stockCheck>
+	<productId>
+		123
+	</productId>
+	<storeId>999 &#x53;ELECT * FROM information_schema.tables</storeId> 
+</stockCheck>
+```
+This will be decoded server-side before being passed to the SQL interpreter.
+
+
