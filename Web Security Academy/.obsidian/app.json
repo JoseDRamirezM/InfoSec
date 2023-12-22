@@ -4,5 +4,5 @@
   "spellcheck": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "AccessControl/labs/Referer-based access control/images"
+  "attachmentFolderPath": "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with most tags and attributes blocked/images"
 }

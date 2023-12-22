@@ -28,10 +28,9 @@ I figured out that it was an UNIX timestamp with the date and time that the user
 
 Now the question is: How can this be abused?
 
-Basically there's a way to encrypt and decrypt data with the notification cookie. Providing an invalid email will encrypt user supplied data and also print it in clear text.
+Basically the request to post a comment is used to encrypt data and the request of a blog post that contains the `notification` cookie is used to decrypt data. Providing an invalid email will encrypt user supplied data and also print it in clear text once the blog post is requested again.
 
 The only thing that interferes with the exploitation is that there's an unwanted string `Invalid email address: ` in the notification cookie. For that strip those bytes using Burp Decoder.
-
 
 ### Payload construction
 
@@ -39,14 +38,19 @@ Take the encrypted payload (cookie) and follow these steps:
 
 1. URL decode.
 2. Base-64 decode.
-3. Delete the first 23 bytes.
+3. Add 9 characters to the payload i.e `xxxxxxxxxadministrator:timestamp`. This is done to effectively removing the part of the cookie that reads: "`Invalid email address:`" adding a 9 character padding to sum up 32 bytes to be removed. Doing this will prevent the block decryption algorithm to fail.
+4. Delete the first 32 bytes.
+5. Rencode (Base64 and URL) and submit the cookie to check the output.
 
-Submit the cookie to check the output.
+![[cookie-working.png]]
 
-![[error.png]]
+5. Remove the session cookie and replace the `stay-logged-in` cookie with the crafted payload
 
-The thing is that the deleted bytes must 
+Once the request is issued the Admin panel should appear:
 
-7JMagw/pIOLHSI6ybdm+XQfdTf9nkHW2Mb6ZGMlXP4AkhXfIBz+/NqQOmopd6c6TAxBXLTwuwBAV5QqjhgRspA==
+![[cookie-worked.png]]
 
-7JMagw/pIOLHSI6ybdm+XVjU02/Rp3faaYOQgTREgk4=
+Access the admin panel and delete user carlos:
+
+![[fin.png]]
+

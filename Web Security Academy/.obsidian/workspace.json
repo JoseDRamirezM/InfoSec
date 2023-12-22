@@ -13,49 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccessControl/labs/Referer-based access control/Referer-based access control.md",
+                "file": "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with most tags and attributes blocked/Reflected XSS into HTML context with most tags and attributes blocked.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "862bb86b919788e4",
+            "id": "3d79c65d465c42d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccessControl/labs/User ID controlled by request parameter with password disclosure/User ID controlled by request parameter with password disclosure.md",
+                "file": "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with all tags blocked except custom ones/Reflected XSS into HTML context with all tags blocked except custom ones.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fbe8c8320cabb4bf",
+            "id": "c6711a396338a1b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccessControl/labs/User ID controlled by request parameter/User ID controlled by request parameter.md",
+                "file": "Client-Side Vulnerabilities/XSS/Reflected XSS/Reflected XSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c01f36d20a1ab741",
+            "id": "69fd0040ccba836d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccessControl/labs/Multi-step process with no access control on one step/Multi-step process with no access control on one step.md",
+                "file": "Client-Side Vulnerabilities/XSS/Stored XSS/Stored XSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8515a90feb1f537",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Client-Side Vulnerabilities/XSS/DOM XSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AccessControl/labs/Referer-based access control/Referer-based access control.md",
+                "file": "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with all tags blocked except custom ones/Reflected XSS into HTML context with all tags blocked except custom ones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,53 +161,52 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "63d28401af3773f3",
+  "active": "3d79c65d465c42d8",
   "lastOpenFiles": [
-    "AccessControl/labs/Referer-based access control/images/exploit.png",
-    "AccessControl/labs/Referer-based access control/images/admin-401.png",
-    "AccessControl/labs/Referer-based access control/images/admin-panel.png",
-    "AccessControl/labs/Referer-based access control/images/admin-upgrade.png",
-    "AccessControl/labs/Referer-based access control/images",
-    "AccessControl/Access control exploitation techniques.md",
-    "AccessControl/labs/Referer-based access control/Referer-based access control.md",
-    "AccessControl/labs/Referer-based access control",
-    "AccessControl/labs/Insecure direct object references/Insecure direct object references.md",
-    "AccessControl/labs/User ID controlled by request parameter/User ID controlled by request parameter.md",
-    "AccessControl/labs/User ID controlled by request parameter with password disclosure/User ID controlled by request parameter with password disclosure.md",
-    "AccessControl/labs/Multi-step process with no access control on one step/Multi-step process with no access control on one step.md",
-    "AccessControl/labs/Multi-step process with no access control on one step/images/solved.png",
-    "AccessControl/labs/Multi-step process with no access control on one step/images/exploit.png",
-    "AccessControl/labs/Multi-step process with no access control on one step/images/second-step.png",
-    "AccessControl/labs/Multi-step process with no access control on one step/images/confirmation.png",
-    "AccessControl/labs/Multi-step process with no access control on one step/images/admin-panel.png",
-    "AccessControl/labs/Multi-step process with no access control on one step/images",
-    "AccessControl/labs/Multi-step process with no access control on one step",
-    "CommandInjection/labs/Blind OS Command Injection OOB data exfiltration/Blind OS Command Injection OOB data exfiltration.md",
-    "AccessControl/labs/Insecure direct object references/images/user-pass.png",
-    "AccessControl/labs/User ID controlled by request parameter with password disclosure/images/Pasted image 20231209111024.png",
-    "AccessControl/labs/Insecure direct object references/images",
-    "AccessControl/labs/Insecure direct object references",
-    "AccessControl/Access Control Security Models.md",
-    "AccessControl/Untitled.md",
-    "AccessControl/labs/User ID controlled by request parameter, with unpredictable user IDs/User ID controlled by request parameter, with unpredictable user IDs.md",
-    "AccessControl/labs/User ID controlled by request parameter with password disclosure/images",
-    "AccessControl/labs/User ID controlled by request parameter with password disclosure",
-    "AccessControl/Access control.md",
-    "CommandInjection/OS Command Injection.md",
-    "SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL Injection OOB interaction/Blind SQL Injection OOB interaction.md",
-    "CommandInjection/labs/Blind OS Command Injection OOB data exfiltration/images",
-    "CommandInjection/labs/Blind OS Command Injection OOB interaction/Blind OS Command Injection OOB interaction.md",
-    "CommandInjection/labs/Blind OS Command Injection OOB data exfiltration",
-    "SQLInjection/Attacks/Blind SQL injection/Exploiting blind SQL injection by triggering conditional responses.md",
-    "CommandInjection/labs/Blind OS command injection with output redirection/Blind OS command injection with output redirection.md",
-    "SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL injection with OOB data exfiltration/Blind SQL injection with OOB data exfiltration.md",
-    "SQLInjection/Attacks/Blind SQL injection/OAST SQLi.md",
-    "SQLInjection/Attacks/1. Retrieving hidden data/Retrieving hidden data.md",
-    "SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL injection with time delays and information retrieval/Blind SQL injection with time delays and information retrieval.md",
-    "SQLInjection/Attacks/UNION attacks/Methodology UNION attacks.md",
-    "SQLInjection/OAST.md",
-    "SQLInjection/Attacks/Blind SQL injection/Inducing conditional responses by triggering SQL errors.md",
-    "SQLInjection/Attacks/Blind SQL injection/Exploiting blind SQL injection by triggering time delays.md",
-    "SQLInjection/Attacks/Blind SQL injection/Blind SQL injection.md"
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with most tags and attributes blocked/Reflected XSS into HTML context with most tags and attributes blocked.md",
+    "Client-Side Vulnerabilities/XSS/Cross-Site Scripting.md",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with all tags blocked except custom ones/Reflected XSS into HTML context with all tags blocked except custom ones.md",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with all tags blocked except custom ones/images",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/Reflected XSS into HTML context with all tags blocked except custom ones/Untitled.md",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with all tags blocked except custom ones",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with most tags and attributes blocked/images/exploit.png",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with most tags and attributes blocked/images/allowed-events.png",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with most tags and attributes blocked/images/attributes-blocked.png",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with most tags and attributes blocked/images/available-tags.png",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with most tags and attributes blocked/images/tags.png",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with most tags and attributes blocked/images/tag-blocked.png",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with most tags and attributes blocked/images",
+    "Client-Side Vulnerabilities/XSS/Stored XSS/labs/Stored XSS into HTML context with nothing encoded/Stored XSS into HTML context with nothing encoded.md",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with most tags and attributes blocked",
+    "Client-Side Vulnerabilities/XSS/Stored XSS/labs/Stored XSS into HTML context with nothing encoded/images/payload.png",
+    "Client-Side Vulnerabilities/XSS/Stored XSS/labs/Stored XSS into HTML context with nothing encoded/images",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with nothing encoded/Reflected XSS into HTML context with nothing encoded.md",
+    "Client-Side Vulnerabilities/XSS/Stored XSS/labs/Stored XSS into HTML context with nothing encoded",
+    "Client-Side Vulnerabilities/XSS/Stored XSS/labs",
+    "Client-Side Vulnerabilities/XSS/Stored XSS",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with nothing encoded/images/exploit.png",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with nothing encoded/images/reflection-point.png",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with nothing encoded/images/entry-point.png",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with nothing encoded/images",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with nothing encoded",
+    "Client-Side Vulnerabilities/XSS/Untitled.md",
+    "Client-Side Vulnerabilities/XSS/XSS Contexts.md",
+    "Client-Side Vulnerabilities/XSS/DOM XSS.md",
+    "Client-Side Vulnerabilities/XSS/Stored XSS/Stored XSS.md",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/Reflected XSS.md",
+    "BusinessLogic/labs/Authentication bypass via encryption oracle/Authentication bypass via encryption oracle.md",
+    "Server-Side Vulnerabilities/XXE/Labs/XXE2SSRF/Lab 2.md",
+    "Server-Side Vulnerabilities/XXE/Labs/XXE via XInclude/Lab 7.md",
+    "Server-Side Vulnerabilities/XXE/Labs/XXE Via File Upload/Lab 8.md",
+    "Server-Side Vulnerabilities/XXE/Labs/XXE Repurposing Local DTD/Lab 9.md",
+    "Server-Side Vulnerabilities/XXE/Labs/ExternalEntities/Lab 1.md",
+    "Server-Side Vulnerabilities/XXE/Labs/Blind XXE OOB Parameter/Lab 4.md",
+    "Server-Side Vulnerabilities/XXE/Labs/Blind XXE OOB/Lab 3.md",
+    "Server-Side Vulnerabilities/XXE/Labs/Blind XXE External DTD/Lab 5.md",
+    "Server-Side Vulnerabilities/XXE/Labs/Blind XXE Error Messages/Lab 6.md",
+    "Server-Side Vulnerabilities/SSRF/labs/SSRFviaOpenRedirection/SSRFviaOpenRedirection.md",
+    "Server-Side Vulnerabilities/SSRF/labs/basicSSRF/basicSSRF.md",
+    "Server-Side Vulnerabilities/SSRF/labs/SSRFWhitelistFilter/SSRFWhitelistFilter.md",
+    "Server-Side Vulnerabilities/SSRF/labs/SSRFOtherBackends/SSRFOtherBackends.md"
   ]
 }

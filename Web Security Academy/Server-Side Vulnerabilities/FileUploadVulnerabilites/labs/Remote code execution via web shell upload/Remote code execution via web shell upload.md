@@ -17,7 +17,7 @@ You can log in to your own account using the following credentials: `wiener:pete
 
 Identify the entry point and upload the webshell pointing to the given path.
 
-![[entry-point.png]]
+![[Server-Side Vulnerabilities/FileUploadVulnerabilites/labs/Remote code execution via web shell upload/images/entry-point.png]]
 
 The avatar image upload may be a potential entry point, craft the webshell and try to upload it.
 
