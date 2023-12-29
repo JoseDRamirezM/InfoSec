@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "c22c48d4c47f0fb9",
+    "type": "split",
+    "children": [
+      {
+        "id": "061b0c120ccd1507",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4a547ef44dd41c3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "fed796274f197021",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devvortex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09c5c3bf0008ce22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devvortex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a47afcb61097f39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devvortex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc62393f04d0eacd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devvortex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d562b3001fc7f015",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devvortex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98fae55565bd9d4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exploitation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "253ce7eefa512522",
+    "type": "split",
+    "children": [
+      {
+        "id": "d329a73d2fdde7a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53536f41174cd123",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9ce6791b21da31b0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96e7b1aa76cde101",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c9dd750ce1854741",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e0b73703d9f7d99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09d7ad4686d1200b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Exploitation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "69135b784025fae2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Exploitation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f8c9e5478683bdef",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "145112b63ea26152",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Exploitation.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "98fae55565bd9d4d",
+  "lastOpenFiles": [
+    "images/root-shell.png",
+    "images/crash.png",
+    "Devvortex.burp.backup.temp_20231219_184151",
+    "images/user-interesting.png",
+    "Devvortex.burp.backup",
+    "Devvortex.burp.backup.temp_20231219_181150",
+    "images/user-flag.png",
+    "images/cracked.png",
+    "hash.txt",
+    "Devvortex.burp.backup.temp_20231219_080036",
+    "Vuln assessment.md",
+    "Exploitation.md",
+    "db_dump.txt",
+    "images/username-password-1.png",
+    "images/mysql.png",
+    "Devvortex.burp.backup.temp_20231218_195454",
+    "exploit/shellcode.c",
+    "exploit/exploit.c",
+    "exploit/README.md",
+    "exploit/Makefile",
+    "Sudo-1.8.31-Root-Exploit-main/README.md",
+    "images/reverse-shell.png",
+    "images/webshell.png",
+    "images/template-edit-webshell.png",
+    "images/admin-panel.png",
+    "Footprinting and scanning.md",
+    "Info gathering.md",
+    "Vuln report.md",
+    "Devvortex.md",
+    "imges/Untitled.md"
+  ]
+}

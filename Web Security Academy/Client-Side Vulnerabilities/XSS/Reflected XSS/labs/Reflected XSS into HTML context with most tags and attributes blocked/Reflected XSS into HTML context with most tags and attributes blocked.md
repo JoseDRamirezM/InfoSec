@@ -6,7 +6,7 @@ When trying to inject HTML tags the WAF blocks them:
 
 Using the [XSS Cheatsheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)enumerate specifically which tags are blocked using an Intruder Attack:
 
-![[tags.png]]
+![[Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with most tags and attributes blocked/images/tags.png]]
 
 Filter the requests that contains the message from the WAF
 

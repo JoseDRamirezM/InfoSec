@@ -2,7 +2,7 @@ This lab blocks all HTML tags except custom ones.
 
 To solve the lab, perform a [cross-site scripting](https://portswigger.net/web-security/cross-site-scripting) attack that injects a custom tag and automatically alerts `document.cookie`.
 
-# Vuln assessment
+# Exploitation
 
 Follow a similar process as in [[Reflected XSS into HTML context with most tags and attributes blocked]]
 

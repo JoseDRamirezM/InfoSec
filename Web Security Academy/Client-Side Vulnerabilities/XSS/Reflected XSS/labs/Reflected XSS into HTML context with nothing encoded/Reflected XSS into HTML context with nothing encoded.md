@@ -10,7 +10,7 @@ Test the search bar entry point
 
 Anything passed in the parameter is echoed back to the user:
 
-![[reflection-point.png]]
+![[Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with nothing encoded/images/reflection-point.png]]
 
 # Exploitation
 

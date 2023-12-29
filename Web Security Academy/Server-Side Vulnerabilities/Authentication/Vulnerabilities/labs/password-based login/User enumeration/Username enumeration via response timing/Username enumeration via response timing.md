@@ -19,7 +19,7 @@ I looked for a way to bypass this and I found [this](https://medium.com/r3d-buck
 
 Basically using the `X-Forwarded-From` HTTP header it is possible to make as many request as needed for the attack. The header tricks the application by providing in this case a loopback IP address to avoid the server to block the requests.
 
-![[bypass.png]]
+![[Server-Side Vulnerabilities/Authentication/Vulnerabilities/labs/password-based login/User enumeration/Username enumeration via response timing/images/bypass.png]]
 
 ## Pitchfork attack
 #MULTIPLEPAYLOADS

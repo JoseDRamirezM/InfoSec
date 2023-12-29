@@ -8,7 +8,7 @@ The injection point is in the product filter.
 
 Once a filter category is clicked the following request is made
 
-![[request.png]]
+![[Server-Side Vulnerabilities/SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, determining the number of columns returned by the query/images/request.png]]
 
 Then I confirmed the SQL injection vulnerability.
 
