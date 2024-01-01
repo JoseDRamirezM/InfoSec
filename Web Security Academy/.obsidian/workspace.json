@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting XSS to perform CSRF/Exploiting XSS to perform CSRF.md",
+                "file": "Client-Side Vulnerabilities/CSRF/labs/CSRF where token validation depends on token being present/CSRF where token validation depends on token being present.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Client-Side Vulnerabilities/XSS/DOM XSS/DOM XSS.md",
+                "file": "Client-Side Vulnerabilities/CSRF/labs/CSRF where token is not tied to user session/CSRF where token is not tied to user session.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting XSS to perform CSRF/Exploiting XSS to perform CSRF.md",
+                "file": "Client-Side Vulnerabilities/CSRF/labs/CSRF where token is not tied to user session/CSRF where token is not tied to user session.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,8 +139,27 @@
   },
   "active": "fbdf8a589956dbf3",
   "lastOpenFiles": [
-    "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting cross-site scripting to capture passwords/images/stolen.png",
+    "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation.md",
+    "Client-Side Vulnerabilities/CSRF/labs/CSRF where token is not tied to user session/CSRF where token is not tied to user session.md",
+    "Client-Side Vulnerabilities/CSRF/labs/CSRF where token is not tied to user session",
+    "Client-Side Vulnerabilities/XSS/DOM XSS/DOM XSS.md",
+    "Client-Side Vulnerabilities/CSRF/labs/CSRF where token validation depends on token being present/CSRF where token validation depends on token being present.md",
+    "Client-Side Vulnerabilities/XSS/DOM XSS/labs/DOM XSS in innerHTML sink using source location.search/DOM XSS in innerHTML sink using source location.search.md",
+    "Client-Side Vulnerabilities/CSRF/labs/CSRF where token validation depends on token being present/original-request.png",
+    "Client-Side Vulnerabilities/CSRF/labs/CSRF where token validation depends on token being present/exploit-request.png",
+    "Client-Side Vulnerabilities/CSRF/labs/CSRF where token validation depends on request method/original-req.png",
+    "Client-Side Vulnerabilities/CSRF/labs/CSRF where token validation depends on request method/exploit-req.png",
+    "Client-Side Vulnerabilities/CSRF/labs/CSRF where token validation depends on token being present",
+    "Client-Side Vulnerabilities/CSRF/labs/CSRF where token validation depends on request method/CSRF where token validation depends on request method.md",
+    "Client-Side Vulnerabilities/CSRF/labs/CSRF where token validation depends on request method",
+    "Client-Side Vulnerabilities/CSRF/CSRF.md",
+    "Client-Side Vulnerabilities/CSRF/labs/CSRF vulnerability with no defenses/CSRF vulnerability with no defenses.md",
+    "Client-Side Vulnerabilities/CSRF/labs/CSRF vulnerability with no defenses/exploit.png",
+    "Client-Side Vulnerabilities/CSRF/labs/CSRF vulnerability with no defenses",
+    "Client-Side Vulnerabilities/CSRF/labs",
     "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting XSS to perform CSRF/Exploiting XSS to perform CSRF.md",
+    "Client-Side Vulnerabilities/CSRF",
+    "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting cross-site scripting to capture passwords/images/stolen.png",
     "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting XSS to perform CSRF/images",
     "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting cross-site scripting to capture passwords/Exploiting cross-site scripting to capture passwords.md",
     "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting XSS to perform CSRF",
@@ -150,25 +170,12 @@
     "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting cross-site scripting to steal cookies/images/interaction.png",
     "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting cross-site scripting to steal cookies/images/sess-cookie.png",
     "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting cross-site scripting to steal cookies/images/comment-body.png",
-    "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting cross-site scripting to steal cookies/images",
-    "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting cross-site scripting to steal cookies",
-    "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs",
     "Server-Side Vulnerabilities/Authentication/Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/Offline password cracking.md",
-    "Client-Side Vulnerabilities/XSS/Exploiting XSS",
     "Server-Side Vulnerabilities/Authentication/Methodology.md",
     "Client-Side Vulnerabilities/XSS/DOM XSS/labs/Stored DOM XSS/Stored DOM XSS.md",
     "Client-Side Vulnerabilities/XSS/DOM XSS/labs/Stored DOM XSS/images/poc.png",
-    "Client-Side Vulnerabilities/XSS/DOM XSS/labs/Stored DOM XSS/images/code.png",
-    "Client-Side Vulnerabilities/XSS/DOM XSS/labs/Stored DOM XSS/images",
     "Client-Side Vulnerabilities/XSS/DOM XSS/labs/Reflected DOM XSS/Reflected DOM XSS.md",
-    "Client-Side Vulnerabilities/XSS/DOM XSS/labs/Stored DOM XSS",
-    "Client-Side Vulnerabilities/XSS/DOM XSS/DOM XSS.md",
-    "Client-Side Vulnerabilities/XSS/DOM XSS/labs/DOM XSS in innerHTML sink using source location.search/DOM XSS in innerHTML sink using source location.search.md",
     "Client-Side Vulnerabilities/XSS/DOM XSS/labs/DOM XSS in jQuery selector sink using a hashchange event/DOM XSS in jQuery selector sink using a hashchange event.md",
-    "Client-Side Vulnerabilities/XSS/DOM XSS/labs/Reflected DOM XSS/images/AV.png",
-    "Client-Side Vulnerabilities/XSS/DOM XSS/labs/Reflected DOM XSS/images/query.png",
-    "Client-Side Vulnerabilities/XSS/DOM XSS/labs/Reflected DOM XSS/images/hint.png",
-    "Client-Side Vulnerabilities/XSS/DOM XSS/labs/Reflected DOM XSS/images/vuln.png",
     "Client-Side Vulnerabilities/XSS/DOM XSS/labs/DOM XSS in jQuery anchor href attribute sink using location.search source/DOM XSS in jQuery anchor href attribute sink using location.search source.md",
     "Client-Side Vulnerabilities/XSS/XSS Contexts.md",
     "Client-Side Vulnerabilities/XSS/DOM XSS/labs/DOM XSS in document.write sink using source location.search inside a select element/DOM XSS in document.write sink using source location.search inside a select element.md",
@@ -177,11 +184,6 @@
     "Client-Side Vulnerabilities/DOM based vulnerabilities/DOM based vulnerabilities.md",
     "Client-Side Vulnerabilities/XSS/Stored XSS/labs/Stored XSS into onclick event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped/Stored XSS into onclick event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped.md",
     "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into attribute with angle brackets HTML-encoded/Reflected XSS into attribute with angle brackets HTML-encoded.md",
-    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into a JavaScript string with single quote and backslash escaped/Reflected XSS into a JavaScript string with single quote and backslash escaped.md",
-    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped/Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped.md",
-    "Client-Side Vulnerabilities/XSS/Stored XSS/labs/Stored XSS into onclick event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped/Untitled.md",
-    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into a JavaScript string with angle brackets HTML encoded/Reflected XSS into a JavaScript string with angle brackets HTML encoded.md",
-    "Client-Side Vulnerabilities/XSS/Stored XSS/Stored XSS.md",
-    "Client-Side Vulnerabilities/XSS/Stored XSS/labs/Stored XSS into anchor href attribute with double quotes HTML-encoded/Stored XSS into anchor href attribute with double quotes HTML-encoded.md"
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into a JavaScript string with single quote and backslash escaped/Reflected XSS into a JavaScript string with single quote and backslash escaped.md"
   ]
 }
