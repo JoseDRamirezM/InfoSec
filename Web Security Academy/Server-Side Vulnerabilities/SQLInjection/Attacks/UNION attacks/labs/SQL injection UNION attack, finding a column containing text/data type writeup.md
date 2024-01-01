@@ -24,6 +24,6 @@ Then apply the following payloads on other `Intruder` attack:
 
 Placing the payload on the page the following appears:
 
-![[reflection.png]]
+![[Server-Side Vulnerabilities/SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, finding a column containing text/images/reflection.png]]
 
 The second column of the result set can hold string data. The lab is solved!

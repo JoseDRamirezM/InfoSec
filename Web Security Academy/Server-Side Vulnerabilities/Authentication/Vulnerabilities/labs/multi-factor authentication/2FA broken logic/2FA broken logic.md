@@ -54,7 +54,7 @@ Define the right processor to match the payload requirements.
 
 Start fuzzing and find the correct verification code.
 
-![[code.png]]
+![[Server-Side Vulnerabilities/Authentication/Vulnerabilities/labs/multi-factor authentication/2FA broken logic/images/code.png]]
 
 Then resend the request and check the response.
 

@@ -4,7 +4,7 @@
 
 Basic testing of SSRF gives a hint about the host to be used.
 
-![[hint.png]]
+![[Server-Side Vulnerabilities/SSRF/labs/SSRFWhitelistFilter/images/hint.png]]
 
 ## Vulnerability assessment
 

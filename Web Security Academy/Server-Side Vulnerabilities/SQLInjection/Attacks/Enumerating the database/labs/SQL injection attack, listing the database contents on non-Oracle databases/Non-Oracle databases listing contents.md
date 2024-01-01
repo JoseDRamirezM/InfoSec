@@ -47,7 +47,7 @@ SELECT COLUMN_NAME FROM information_schema.columns WHERE table_name = '$TABLE NA
 
 I wrote a Python script to scrape the name of every table injecting the query to the `information_schema.tables` table on the page. Then I used those tables names to inject another query to look for interesting column names like `username` or `password`. Finally the script outputs the tables that contained columns with those keywords.
 
-![[script.png]]
+![[Server-Side Vulnerabilities/SQLInjection/Attacks/Enumerating the database/labs/SQL injection attack, listing the database contents on non-Oracle databases/images/script.png]]
 
 	Note: Another option would be to extract the tables names only and use Burp's Intruder to do the job and apply a filter for the same keywords.
 

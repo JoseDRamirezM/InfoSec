@@ -120,5 +120,21 @@ and the application blocks or escapes single quote characters, you can use the f
 
 The `&apos;` sequence is an HTML entity representing an apostrophe or single quote. Because the browser HTML-decodes the value of the `onclick` attribute before the JavaScript is interpreted, the entities are decoded as quotes, which become string delimiters, and so the attack succeeds.
 
+[[Stored XSS into onclick event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped]]
 
+### XSS in JavaScript template literals
+
+JavaScript template literals are string literals that allow embedded JavaScript expressions. The embedded expressions are evaluated and are normally concatenated into the surrounding text. Template literals are encapsulated in backticks instead of normal quotation marks, and embedded expressions are identified using the `${...}` syntax.
+
+For example, the following script will print a welcome message that includes the user's display name:
+
+``document.getElementById('message').innerText = `Welcome, ${user.displayName}.`;``
+
+When the XSS context is into a JavaScript template literal, there is no need to terminate the literal. Instead, you simply need to use the `${...}` syntax to embed a JavaScript expression that will be executed when the literal is processed. For example, if the XSS context is as follows:
+
+``<script> ... var input = `controllable data here`; ... </script>``
+
+then you can use the following payload to execute JavaScript without terminating the template literal:
+
+`${alert(document.domain)}`
 

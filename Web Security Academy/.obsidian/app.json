@@ -4,5 +4,5 @@
   "spellcheck": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Client-Side Vulnerabilities/XSS/Stored XSS/labs/Stored XSS into onclick event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped/images"
+  "attachmentFolderPath": "Client-Side Vulnerabilities"
 }

@@ -19,7 +19,7 @@ The admin functionality makes a POST request to `/admin-roles` with the followin
 
 Test if it is possible to access the `/admin-roles` endpoint with an alternative HTTP method logged in as a normal user.
 
-![[PoC.png]]
+![[Server-Side Vulnerabilities/AccessControl/labs/Method-based access control can be circumvented/images/PoC.png]]
 
 ## Exploitation
 
