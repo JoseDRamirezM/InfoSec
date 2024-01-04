@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Client-Side Vulnerabilities/CSRF/Bypassing SameSite cookie restrictions.md",
+                "file": "Advanced Topics/Insecure deserialization/labs/Exploiting Java deserialization with Apache Commons/Exploiting Java deserialization with Apache Commons.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Client-Side Vulnerabilities/CSRF/Bypassing SameSite cookie restrictions.md",
+                "file": "Client-Side Vulnerabilities/CSRF/Bypassing SameSite cookie restrictions/labs/Bypassing SameSite restrictions using on-site gadgets/Bypassing SameSite restrictions using on-site gadgets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,11 +136,20 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "69fd0040ccba836d",
+  "active": "fbdf8a589956dbf3",
   "lastOpenFiles": [
+    "Client-Side Vulnerabilities/CSRF/Bypassing SameSite cookie restrictions/labs/Bypassing SameSite restrictions using on-site gadgets/redirect.png",
+    "Advanced Topics/Insecure deserialization/labs/Exploiting Java deserialization with Apache Commons/Exploiting Java deserialization with Apache Commons.md",
+    "Advanced Topics/Insecure deserialization/burp-warning.png",
+    "Advanced Topics/Insecure deserialization/gadgets.png",
+    "Advanced Topics/Insecure deserialization/labs/Exploiting Java deserialization with Apache Commons/images",
+    "Client-Side Vulnerabilities/CSRF/Bypassing SameSite cookie restrictions.md",
+    "Advanced Topics/Insecure deserialization/labs/Exploiting Java deserialization with Apache Commons",
+    "Advanced Topics/Insecure deserialization/labs",
+    "Advanced Topics/Insecure deserialization",
+    "Advanced Topics",
     "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token is tied to non-session cookie/CSRF where token is tied to non-session cookie.md",
     "Client-Side Vulnerabilities/CSRF/Bypassing SameSite cookie restrictions/labs/Bypassing SameSite restrictions using on-site gadgets/Bypassing SameSite restrictions using on-site gadgets.md",
-    "Client-Side Vulnerabilities/CSRF/Bypassing SameSite cookie restrictions.md",
     "Client-Side Vulnerabilities/CSRF/Bypassing SameSite cookie restrictions/labs/Bypassing SameSite restrictions using on-site gadgets",
     "Client-Side Vulnerabilities/CSRF/Bypassing SameSite cookie restrictions/labs",
     "Client-Side Vulnerabilities/CSRF/Bypassing SameSite cookie restrictions",
@@ -155,7 +163,6 @@
     "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token is tied to non-session cookie/cookie-injected.png",
     "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token is tied to non-session cookie/cookie-injection.png",
     "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token validation depends on token being present/CSRF where token validation depends on token being present.md",
-    "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token is tied to non-session cookie",
     "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS with some SVG markup allowed/Reflected XSS with some SVG markup allowed.md",
     "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with nothing encoded/Reflected XSS into HTML context with nothing encoded.md",
     "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into HTML context with most tags and attributes blocked/Reflected XSS into HTML context with most tags and attributes blocked.md",
@@ -165,25 +172,17 @@
     "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into a JavaScript string with single quote and backslash escaped/Reflected XSS into a JavaScript string with single quote and backslash escaped.md",
     "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into a JavaScript string with angle brackets HTML encoded/Reflected XSS into a JavaScript string with angle brackets HTML encoded.md",
     "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped/Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped.md",
-    "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token is not tied to user session",
     "Client-Side Vulnerabilities/XSS/DOM XSS/DOM XSS.md",
     "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token validation depends on token being present/original-request.png",
     "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token validation depends on token being present/exploit-request.png",
     "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token validation depends on request method/original-req.png",
     "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token validation depends on request method/exploit-req.png",
-    "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token validation depends on token being present",
     "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token validation depends on request method/CSRF where token validation depends on request method.md",
-    "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token validation depends on request method",
     "Client-Side Vulnerabilities/CSRF/CSRF.md",
     "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF vulnerability with no defenses/CSRF vulnerability with no defenses.md",
     "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF vulnerability with no defenses/exploit.png",
-    "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF vulnerability with no defenses",
     "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting XSS to perform CSRF/Exploiting XSS to perform CSRF.md",
-    "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting cross-site scripting to capture passwords/images/stolen.png",
     "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting cross-site scripting to capture passwords/Exploiting cross-site scripting to capture passwords.md",
-    "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting cross-site scripting to steal cookies/Exploiting cross-site scripting to steal cookies.md",
-    "Client-Side Vulnerabilities/XSS/Exploiting XSS/Exploiting XSS.md",
-    "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting cross-site scripting to steal cookies/images/interaction.png",
-    "Server-Side Vulnerabilities/Authentication/Vulnerabilities/labs/other authentication mechanisms/Offline password cracking/Offline password cracking.md"
+    "Client-Side Vulnerabilities/XSS/Exploiting XSS/labs/Exploiting cross-site scripting to steal cookies/Exploiting cross-site scripting to steal cookies.md"
   ]
 }

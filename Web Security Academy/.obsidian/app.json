@@ -4,5 +4,5 @@
   "spellcheck": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Client-Side Vulnerabilities"
+  "attachmentFolderPath": "Advanced Topics/Insecure deserialization"
 }
