@@ -4,40 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "a8744227ecf97cf9",
+        "id": "d72059c4bb44ae52",
         "type": "tabs",
         "children": [
           {
-            "id": "63d28401af3773f3",
+            "id": "dc2e5e4dfc8c7412",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Advanced Topics/Insecure deserialization/labs/Application functionality to exploit Deserialization/Untitled.md",
-                "mode": "source",
-                "source": false
+                "file": "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/cache-poison.png"
               }
             }
           },
           {
-            "id": "69fd0040ccba836d",
+            "id": "f5a98710e6542d93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API Testing/MassAssignment/labs/3. Exploiting a mass assignment vulnerability/3. Exploiting a mass assignment vulnerability.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8515a90feb1f537",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token is tied to non-session cookie/CSRF where token is tied to non-session cookie.md",
+                "file": "Advanced Topics/Web Cache Poisoning/Web Cache Poisoning.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"ways to exploit an XSS vulnerability.\"",
+                "query": "\"Image\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Topics/Insecure deserialization/labs/Application functionality to exploit Deserialization/Untitled.md",
+                "file": "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/cache-poison.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,53 +122,53 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "63d28401af3773f3",
+  "active": "fbdf8a589956dbf3",
   "lastOpenFiles": [
-    "exploited.png",
-    "error-home-carlos.png",
-    "delete-account-funct.png",
-    "attack-object.png",
-    "serialized-object.png",
-    "serialized-cookie.png",
-    "Advanced Topics/Insecure deserialization/labs/Application functionality to exploit Deserialization/images",
-    "Advanced Topics/Insecure deserialization/Insecure Deserialization.md",
-    "Advanced Topics/Insecure deserialization/labs/Application functionality to exploit Deserialization/Untitled.md",
-    "Advanced Topics/Insecure deserialization/labs/Application functionality to exploit Deserialization",
-    "Advanced Topics/Insecure deserialization/labs/Exploiting Java deserialization with Apache Commons/images/burp-warning.png",
-    "Advanced Topics/Insecure deserialization/labs/Exploiting Java deserialization with Apache Commons/images",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/WCP using and unknown header.md",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/exploited.png",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/victim-user-agent.png",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/exploit-server-setup.png",
+    "Advanced Topics/Web Cache Poisoning/Web Cache Poisoning.md",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped/Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped.md",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/vary-header.png",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP with multiple headers/WCP with multiple headers.md",
+    "Client-Side Vulnerabilities/XSS/Reflected XSS/Reflected XSS.md",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/header-injected.png",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/cache-poison.png",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/entrypoint.png",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP with multiple headers/images/exploit-payload.png",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP with multiple headers/images/redirect-malicious.png",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP with multiple headers/images/exploit-server-path.png",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP with an unkeyed header/WCP with an unkeyed header.md",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP with multiple headers/images",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP with multiple headers",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP with unkeyed cookie/WCP with unkeyed cookie.md",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP with unkeyed cookie/images",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP with unkeyed cookie",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP with an unkeyed header/images",
+    "Advanced Topics/Web Cache Poisoning/labs/WCP with an unkeyed header",
+    "Advanced Topics/Web Cache Poisoning/labs",
+    "API Testing/API Testing.md",
+    "Advanced Topics/Web Cache Poisoning",
     "API Testing/MassAssignment/Mass Assignment.md",
-    "API Testing/MassAssignment/labs/2. Exploiting an unused API endpoint/2. Exploiting an unused API endpoint.md",
+    "Advanced Topics/Insecure deserialization/labs/Exploit PHP deserialization with a gadget chain/Exploit PHP deserialization with a gadget chain.md",
+    "Advanced Topics/Insecure deserialization/labs/Arbitrary Object Injection PHP/Arbitrary Object Injection PHP.md",
+    "Advanced Topics/Insecure deserialization/labs/Exploit PHP deserialization with a gadget chain/images",
+    "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token is tied to non-session cookie/CSRF where token is tied to non-session cookie.md",
+    "exploited.md",
     "API Testing/MassAssignment/labs/3. Exploiting a mass assignment vulnerability/3. Exploiting a mass assignment vulnerability.md",
-    "free-jacket.png",
-    "post-checkout-zero.png",
-    "checkout-get.png",
-    "checkout-post.png",
-    "API Testing/MassAssignment/labs/3. Exploiting a mass assignment vulnerability/images",
-    "API Testing/MassAssignment/labs/3. Exploiting a mass assignment vulnerability",
-    "Advanced Topics/Insecure deserialization/labs/Exploiting Java deserialization with Apache Commons/Exploiting Java deserialization with Apache Commons.md",
-    "API Testing/MassAssignment/labs/2. Exploiting an unused API endpoint/images",
-    "API Testing/MassAssignment/labs/2. Exploiting an unused API endpoint",
+    "API Testing/MassAssignment/labs/2. Exploiting an unused API endpoint/2. Exploiting an unused API endpoint.md",
     "API Testing/MassAssignment/labs/1. API Documentation/1. API Documentation.md",
-    "API Testing/MassAssignment/labs/1. API Documentation/images",
-    "API Testing/MassAssignment/labs/1. API Documentation",
-    "API Testing/MassAssignment/labs",
+    "Advanced Topics/Insecure deserialization/labs/Application functionality to exploit Deserialization/Application funct.md",
+    "Advanced Topics/Insecure deserialization/Insecure Deserialization.md",
+    "Advanced Topics/Insecure deserialization/labs/Exploiting Java deserialization with Apache Commons/Exploiting Java deserialization with Apache Commons.md",
+    "test.md",
     "Server-Side Vulnerabilities/CommandInjection/Methodology.md",
     "Server-Side Vulnerabilities/Authentication/Methodology.md",
     "Server-Side Vulnerabilities/Authentication/Vulnerabilities/Vulnerabilities in authentication mechanisms.md",
     "Server-Side Vulnerabilities/FileUploadVulnerabilites/Exploitation techniques.md",
-    "Server-Side Vulnerabilities/FileUploadVulnerabilites/File upload vulnerabilities.md",
-    "Server-Side Vulnerabilities/SSRF/SSRF exploitation techniques.md",
-    "Server-Side Vulnerabilities/SSRF/Server Side Request Forgery.md",
-    "Server-Side Vulnerabilities/SQLInjection/Attacks/1. Retrieving hidden data/labs/SQLi XML encoding bypass/SQLi XML encoding bypass.md",
-    "Server-Side Vulnerabilities/SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL injection with time delays and information retrieval/Blind SQL injection with time delays and information retrieval.md",
-    "Server-Side Vulnerabilities/SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL injection with time delays/Blind SQL injection with time delays.md",
-    "Server-Side Vulnerabilities/SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL injection with OOB data exfiltration/Blind SQL injection with OOB data exfiltration.md",
-    "Server-Side Vulnerabilities/SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL injection with conditional responses/Blind SQL injection with conditional responses.md",
-    "Server-Side Vulnerabilities/SQLInjection/Attacks/Blind SQL injection/labs/Blind SQL injection with conditional errors/Blind SQL injection with conditional errors.md",
-    "Server-Side Vulnerabilities/SQLInjection/Attacks/Blind SQL injection/Error Based SQL injection/labs/Visible error-based SQL injection/Visible error-based SQL injection.md",
-    "Server-Side Vulnerabilities/SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, retrieving multiple values in a single column/retrieving multiple values in a single column writeup.md",
-    "Server-Side Vulnerabilities/SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, retrieving data from other tables/retrieving data from other tables writeup.md",
-    "Server-Side Vulnerabilities/SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, finding a column containing text/data type writeup.md",
-    "Server-Side Vulnerabilities/SQLInjection/Attacks/UNION attacks/labs/SQL injection UNION attack, determining the number of columns returned by the query/number of columns writeup.md"
+    "Server-Side Vulnerabilities/FileUploadVulnerabilites/File upload vulnerabilities.md"
   ]
 }
