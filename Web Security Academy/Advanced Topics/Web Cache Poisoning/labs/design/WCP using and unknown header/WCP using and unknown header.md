@@ -4,11 +4,11 @@ This lab is vulnerable to web cache poisoning. A victim user will view any comme
 
 As in previous labs it's necessary to check the application resources, this time regarding a script related to the comments functionality.
 
-![[Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/entrypoint.png]]
+![[Advanced Topics/Web Cache Poisoning/labs/design/WCP using and unknown header/images/entrypoint.png]]
 
 That didn't seem to be the entry point for the attack, I used param miner on the requests made when accessing a post and found the entry point:
 
-![[cache-poison.png]]
+![[Advanced Topics/Web Cache Poisoning/labs/design/WCP using and unknown header/images/cache-poison.png]]
 
 # Vuln assessment
 
@@ -48,4 +48,4 @@ The `Vary` header is also present, this is used to target the right subset of us
 
 3. Poison the cache for the target User-Agent
 
-![[Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/exploited.png]]
+![[Advanced Topics/Web Cache Poisoning/labs/design/WCP using and unknown header/images/exploited.png]]

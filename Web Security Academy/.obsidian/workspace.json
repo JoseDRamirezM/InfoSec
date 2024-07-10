@@ -11,9 +11,11 @@
             "id": "dc2e5e4dfc8c7412",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/cache-poison.png"
+                "file": "Advanced Topics/Web Cache Poisoning/Exploit implementation flaws.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -21,15 +23,26 @@
             "id": "f5a98710e6542d93",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/images/oracle.png"
+              }
+            }
+          },
+          {
+            "id": "b888a1c7b743a75e",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Topics/Web Cache Poisoning/Web Cache Poisoning.md",
+                "file": "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/WCP via unkeyed query string.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -58,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Image\"",
+                "query": "middle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/cache-poison.png",
+                "file": "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/images/oracle.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,51 +137,50 @@
   },
   "active": "fbdf8a589956dbf3",
   "lastOpenFiles": [
-    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/WCP using and unknown header.md",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/exploited.png",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/victim-user-agent.png",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/exploit-server-setup.png",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/WCP Parameter Cloaking.md",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/images",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/images/param-miner.png",
+    "Advanced Topics/Web Cache Poisoning/Exploit implementation flaws.md",
+    "Advanced Topics/Host Header Attacks/How to exploit.md",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/images/oracle.png",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter/WCP via unkeyed query parameter.md",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter/images/cache-oracle.png",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter/images",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter/images/cache-poison.png",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter/images/param-miner.png",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/WCP via unkeyed query string.md",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/cache-oracle.png",
+    "Advanced Topics/Web Cache Poisoning/Exploit design flaws.md",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/reflected-query-param.png",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter/images/cache-poison.png",
+    "post-param.png",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/cached-response.png",
     "Advanced Topics/Web Cache Poisoning/Web Cache Poisoning.md",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/images",
+    "Advanced Topics/Web Cache Poisoning/labs/design",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string",
+    "Advanced Topics/Host Header Attacks/labs/Web cache poisoning via ambiguous requests/Web cache poisoning via ambiguous requests.md",
+    "Advanced Topics/Host Header Attacks/labs/Web cache poisoning via ambiguous requests/images",
+    "Server-Side Vulnerabilities/Authentication/Vulnerabilities/labs/password poisoning attacks/Password reset poisoning via middleware/Password reset poisoning via middleware.md",
+    "Advanced Topics/Host Header Attacks/labs/Web cache poisoning via ambiguous requests",
+    "Server-Side Vulnerabilities/Authentication/Vulnerabilities/Password reset poisoning.md",
+    "Server-Side Vulnerabilities/Authentication/Methodology.md",
+    "Server-Side Vulnerabilities/Authentication/Vulnerabilities/labs/password poisoning attacks/Basic password reset poisoning/Basic password reset poisoning.md",
+    "Advanced Topics/Host Header Attacks/Host Header Attacks.md",
+    "Advanced Topics/Web Cache Poisoning/labs/design/WCP using and unknown header/WCP using and unknown header.md",
     "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped/Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped.md",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/vary-header.png",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP with multiple headers/WCP with multiple headers.md",
+    "Advanced Topics/Web Cache Poisoning/labs/design/WCP with multiple headers/WCP with multiple headers.md",
     "Client-Side Vulnerabilities/XSS/Reflected XSS/Reflected XSS.md",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/header-injected.png",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/cache-poison.png",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header/images/entrypoint.png",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP with multiple headers/images/exploit-payload.png",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP using and unknown header",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP with multiple headers/images/redirect-malicious.png",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP with multiple headers/images/exploit-server-path.png",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP with an unkeyed header/WCP with an unkeyed header.md",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP with multiple headers/images",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP with multiple headers",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP with unkeyed cookie/WCP with unkeyed cookie.md",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP with unkeyed cookie/images",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP with unkeyed cookie",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP with an unkeyed header/images",
-    "Advanced Topics/Web Cache Poisoning/labs/WCP with an unkeyed header",
-    "Advanced Topics/Web Cache Poisoning/labs",
+    "Advanced Topics/Web Cache Poisoning/labs/design/WCP with an unkeyed header/WCP with an unkeyed header.md",
+    "Advanced Topics/Web Cache Poisoning/labs/design/WCP with unkeyed cookie/WCP with unkeyed cookie.md",
     "API Testing/API Testing.md",
-    "Advanced Topics/Web Cache Poisoning",
     "API Testing/MassAssignment/Mass Assignment.md",
     "Advanced Topics/Insecure deserialization/labs/Exploit PHP deserialization with a gadget chain/Exploit PHP deserialization with a gadget chain.md",
     "Advanced Topics/Insecure deserialization/labs/Arbitrary Object Injection PHP/Arbitrary Object Injection PHP.md",
-    "Advanced Topics/Insecure deserialization/labs/Exploit PHP deserialization with a gadget chain/images",
     "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token is tied to non-session cookie/CSRF where token is tied to non-session cookie.md",
-    "exploited.md",
-    "API Testing/MassAssignment/labs/3. Exploiting a mass assignment vulnerability/3. Exploiting a mass assignment vulnerability.md",
-    "API Testing/MassAssignment/labs/2. Exploiting an unused API endpoint/2. Exploiting an unused API endpoint.md",
-    "API Testing/MassAssignment/labs/1. API Documentation/1. API Documentation.md",
-    "Advanced Topics/Insecure deserialization/labs/Application functionality to exploit Deserialization/Application funct.md",
-    "Advanced Topics/Insecure deserialization/Insecure Deserialization.md",
-    "Advanced Topics/Insecure deserialization/labs/Exploiting Java deserialization with Apache Commons/Exploiting Java deserialization with Apache Commons.md",
-    "test.md",
-    "Server-Side Vulnerabilities/CommandInjection/Methodology.md",
-    "Server-Side Vulnerabilities/Authentication/Methodology.md",
-    "Server-Side Vulnerabilities/Authentication/Vulnerabilities/Vulnerabilities in authentication mechanisms.md",
-    "Server-Side Vulnerabilities/FileUploadVulnerabilites/Exploitation techniques.md",
-    "Server-Side Vulnerabilities/FileUploadVulnerabilites/File upload vulnerabilities.md"
+    "exploited.md"
   ]
 }

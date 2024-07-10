@@ -6,7 +6,7 @@ This time there's no clear indication of the header that is reflected on the pag
 
 The extension found one of the two headers necessary to exploit this vuln:
 
-![[param-miner.png]]
+![[Advanced Topics/Web Cache Poisoning/labs/design/WCP with multiple headers/images/param-miner.png]]
 
 The `X-Forwarded-Host` header is also necessary:
 
