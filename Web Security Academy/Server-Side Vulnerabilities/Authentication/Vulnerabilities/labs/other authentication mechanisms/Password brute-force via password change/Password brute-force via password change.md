@@ -28,6 +28,6 @@ Use Burp Intruder to perform requests, this time with `username=carlos`, a strin
 
 Once a response with the message is found it is certain that the user password has been found.
 
-![[found.png]]
+![[Server-Side Vulnerabilities/Authentication/Vulnerabilities/labs/other authentication mechanisms/Password brute-force via password change/images/found.png]]
 
 Log in to `carlos` account and the lab is solved!

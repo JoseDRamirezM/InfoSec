@@ -11,38 +11,13 @@
             "id": "dc2e5e4dfc8c7412",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Advanced Topics/Web Cache Poisoning/Exploit implementation flaws.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5a98710e6542d93",
-            "type": "leaf",
-            "state": {
               "type": "image",
               "state": {
-                "file": "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via FAT GET/images/reflected-param.png"
-              }
-            }
-          },
-          {
-            "id": "b888a1c7b743a75e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/WCP Parameter Cloaking.md",
-                "mode": "source",
-                "source": false
+                "file": "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images/delete user.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via FAT GET/images/reflected-param.png",
+                "file": "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images/delete user.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,40 +112,43 @@
   },
   "active": "fbdf8a589956dbf3",
   "lastOpenFiles": [
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via FAT GET/images/exploited.png",
+    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/Routing Based SSRF.md",
+    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images",
+    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF",
+    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images/delete user.png",
+    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images/disable.png",
+    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images/found.png",
+    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images/ssrf.png",
+    "Advanced Topics/Host Header Attacks/How to exploit.md",
+    "Advanced Topics/Host Header Attacks/Host Header Attacks.md",
+    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/Host Header Authentication Bypass.md",
+    "Advanced Topics/Host Header Attacks/labs/Web cache poisoning via ambiguous requests/Web cache poisoning via ambiguous requests.md",
+    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/images/host-header-poison.png",
+    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/images/bypass.png",
+    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/images",
+    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/images/delete-user.png",
+    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/images/other-host-value.png",
+    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via URL normalization/deliver-to-victim.png",
+    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/images/poisoned.png",
+    "Advanced Topics/Web Cache Poisoning/Exploit implementation flaws.md",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via URL normalization/URL normalization.md",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/WCP via unkeyed query string.md",
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via URL normalization",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via FAT GET/images",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via FAT GET/WCP via FAT GET.md",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via FAT GET/images/poisoned.png",
-    "Advanced Topics/Web Cache Poisoning/Exploit implementation flaws.md",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via FAT GET/images/reflected-param.png",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/images/oracle.png",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via FAT GET",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/WCP Parameter Cloaking.md",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/reflected.png",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/images/cache-poison.png",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/images/confusing.png",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/images/home-geolocate.png",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/images/desired-response.png",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/WCP via unkeyed query string.md",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/images",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/images/param-miner.png",
-    "Advanced Topics/Host Header Attacks/How to exploit.md",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter/WCP via unkeyed query parameter.md",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter/images",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter",
     "Advanced Topics/Web Cache Poisoning/Exploit design flaws.md",
     "Advanced Topics/Web Cache Poisoning/Web Cache Poisoning.md",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/images",
-    "Advanced Topics/Web Cache Poisoning/labs/design",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string",
-    "Advanced Topics/Host Header Attacks/labs/Web cache poisoning via ambiguous requests/Web cache poisoning via ambiguous requests.md",
     "Server-Side Vulnerabilities/Authentication/Vulnerabilities/labs/password poisoning attacks/Password reset poisoning via middleware/Password reset poisoning via middleware.md",
     "Server-Side Vulnerabilities/Authentication/Vulnerabilities/Password reset poisoning.md",
     "Server-Side Vulnerabilities/Authentication/Methodology.md",
     "Server-Side Vulnerabilities/Authentication/Vulnerabilities/labs/password poisoning attacks/Basic password reset poisoning/Basic password reset poisoning.md",
-    "Advanced Topics/Host Header Attacks/Host Header Attacks.md",
     "Advanced Topics/Web Cache Poisoning/labs/design/WCP using and unknown header/WCP using and unknown header.md",
     "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped/Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped.md",
     "Advanced Topics/Web Cache Poisoning/labs/design/WCP with multiple headers/WCP with multiple headers.md",
@@ -178,9 +156,6 @@
     "Advanced Topics/Web Cache Poisoning/labs/design/WCP with an unkeyed header/WCP with an unkeyed header.md",
     "Advanced Topics/Web Cache Poisoning/labs/design/WCP with unkeyed cookie/WCP with unkeyed cookie.md",
     "API Testing/API Testing.md",
-    "API Testing/MassAssignment/Mass Assignment.md",
-    "Advanced Topics/Insecure deserialization/labs/Exploit PHP deserialization with a gadget chain/Exploit PHP deserialization with a gadget chain.md",
-    "Advanced Topics/Insecure deserialization/labs/Arbitrary Object Injection PHP/Arbitrary Object Injection PHP.md",
-    "Client-Side Vulnerabilities/CSRF/Bypassing CSRF token validation/labs/CSRF where token is tied to non-session cookie/CSRF where token is tied to non-session cookie.md"
+    "API Testing/MassAssignment/Mass Assignment.md"
   ]
 }

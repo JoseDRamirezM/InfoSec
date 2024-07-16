@@ -8,7 +8,7 @@ To solve the lab, poison the home page with a response that executes `alert(1)` 
 
 Request to any of the blog posts will reveal cache information:
 
-![[Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/cache-oracle.png]]
+![[Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/images/cache-oracle.png]]
 
 ![[cache-oracle-1.png]]
 

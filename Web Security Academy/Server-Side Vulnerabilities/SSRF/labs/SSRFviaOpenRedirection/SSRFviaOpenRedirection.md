@@ -32,7 +32,7 @@ Payload for the stock check functionality (URL encode it):
 /product/nextProduct?path=http://192.168.0.12:8080/admin
 ```
 
-![[SSRF.png]]
+![[Server-Side Vulnerabilities/SSRF/labs/BlindSSRF-OOB/images/SSRF.png]]
 
 Now we hace access to the admin interface.
 

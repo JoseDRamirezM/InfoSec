@@ -27,4 +27,4 @@ Basically maintaining the same GET parameter, overriding the request method with
 
 When requesting the resource as the front-end does it:
 
-![[poisoned.png]]
+![[Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via FAT GET/images/poisoned.png]]
