@@ -13,7 +13,7 @@ Use the request sent when inspecting a product, to set up the param miner extens
 
 The result shows that `X-Forwarded-Host` header is used to generate a dynamic `<script>` HTML element to fetch resources. Inject the header with the appropriate payload to perform the desired action.
 
-![[lab-solved.png]]
+![[Advanced Topics/Web Cache Poisoning/labs/design/WCP with an unkeyed header/images/lab-solved.png]]
 
 In the end it was a matter of achieving the XSS attack
 

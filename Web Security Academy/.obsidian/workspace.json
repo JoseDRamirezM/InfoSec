@@ -8,12 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dc2e5e4dfc8c7412",
+            "id": "59fa563ac9f52cf5",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images/delete user.png"
+                "file": "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries/images/dom-invader.png"
+              }
+            }
+          },
+          {
+            "id": "b864964957c0bd80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via client-side prototype pollution/DOM XSS via client-side prototype pollution.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5eeee69fece5916",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/Routing Based SSRF.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images/delete user.png",
+                "file": "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries/images/dom-invader.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,50 +136,50 @@
   },
   "active": "fbdf8a589956dbf3",
   "lastOpenFiles": [
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries/Client-side prototype pollution in third-party libraries.md",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries/images/solved.png",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries/images/dom-invader.png",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries/images",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/Client-Side Prototype Pollution.md",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/images/bypass-sanitization.png",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/Client-side prototype pollution via flawed sanitization.md",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/images",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/images/exploited.png",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via an alternative prototype pollution vector/DOM XSS via an alternative prototype pollution vector.md",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via client-side prototype pollution/DOM XSS via client-side prototype pollution.md",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/images/gadget.png",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/images/PP.png",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization",
+    "Advanced Topics/Host Header Attacks/labs/SSRF via flawed request parsing/images/admin-panel-request.png",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via an alternative prototype pollution vector/images/eval-sink.png",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via an alternative prototype pollution vector/images/PP-vector.png",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via an alternative prototype pollution vector/images",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via an alternative prototype pollution vector/images/exploited.png",
     "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/Routing Based SSRF.md",
-    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images",
-    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF",
-    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images/delete user.png",
-    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images/disable.png",
-    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images/found.png",
-    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/images/ssrf.png",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via an alternative prototype pollution vector",
+    "Advanced Topics/Host Header Attacks/labs/Host validation bypass via connection state attack/Host validation bypass via connection state attack.md",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via client-side prototype pollution/images",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via client-side prototype pollution",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/Untitled.md",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/images",
+    "Advanced Topics/Prototype pollution/Prototype pollution.md",
     "Advanced Topics/Host Header Attacks/How to exploit.md",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/images/JavaScript prototypes and inheritance.md",
+    "Advanced Topics/Host Header Attacks/labs/SSRF via flawed request parsing/SSRF via flawed request parsing.md",
+    "Server-Side Vulnerabilities/SSRF/SSRF exploitation techniques.md",
     "Advanced Topics/Host Header Attacks/Host Header Attacks.md",
     "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/Host Header Authentication Bypass.md",
     "Advanced Topics/Host Header Attacks/labs/Web cache poisoning via ambiguous requests/Web cache poisoning via ambiguous requests.md",
-    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/images/host-header-poison.png",
-    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/images/bypass.png",
-    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/images",
-    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/images/delete-user.png",
-    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/images/other-host-value.png",
-    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via URL normalization/deliver-to-victim.png",
-    "Advanced Topics/Host Header Attacks/labs/Host Header authentication bypass/images/poisoned.png",
     "Advanced Topics/Web Cache Poisoning/Exploit implementation flaws.md",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via URL normalization/URL normalization.md",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/WCP via unkeyed query string.md",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via URL normalization",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via FAT GET/images",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via FAT GET/WCP via FAT GET.md",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via FAT GET",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/WCP Parameter Cloaking.md",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/images",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter/WCP via unkeyed query parameter.md",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter/images",
     "Advanced Topics/Web Cache Poisoning/Exploit design flaws.md",
     "Advanced Topics/Web Cache Poisoning/Web Cache Poisoning.md",
-    "Server-Side Vulnerabilities/Authentication/Vulnerabilities/labs/password poisoning attacks/Password reset poisoning via middleware/Password reset poisoning via middleware.md",
-    "Server-Side Vulnerabilities/Authentication/Vulnerabilities/Password reset poisoning.md",
-    "Server-Side Vulnerabilities/Authentication/Methodology.md",
-    "Server-Side Vulnerabilities/Authentication/Vulnerabilities/labs/password poisoning attacks/Basic password reset poisoning/Basic password reset poisoning.md",
-    "Advanced Topics/Web Cache Poisoning/labs/design/WCP using and unknown header/WCP using and unknown header.md",
-    "Client-Side Vulnerabilities/XSS/Reflected XSS/labs/Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped/Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped.md",
-    "Advanced Topics/Web Cache Poisoning/labs/design/WCP with multiple headers/WCP with multiple headers.md",
-    "Client-Side Vulnerabilities/XSS/Reflected XSS/Reflected XSS.md",
-    "Advanced Topics/Web Cache Poisoning/labs/design/WCP with an unkeyed header/WCP with an unkeyed header.md",
-    "Advanced Topics/Web Cache Poisoning/labs/design/WCP with unkeyed cookie/WCP with unkeyed cookie.md",
-    "API Testing/API Testing.md",
-    "API Testing/MassAssignment/Mass Assignment.md"
+    "Server-Side Vulnerabilities/Authentication/Vulnerabilities/labs/password poisoning attacks/Password reset poisoning via middleware/Password reset poisoning via middleware.md"
   ]
 }
