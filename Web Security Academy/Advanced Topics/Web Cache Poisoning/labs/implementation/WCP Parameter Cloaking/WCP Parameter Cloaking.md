@@ -24,7 +24,7 @@ Param miner gives a very confusing result, any extra parameters included into th
 
 Basically the `callback` parameter controls which function is called dynamically in the `.js` file:
 
-![[reflected.png]]
+![[Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/images/reflected.png]]
 
 Leveraging this behavior it's possible to construct a payload that will include an injected function into the file that later will be executed by the front end. This is done by exploiting parameter cloaking or pollution.
 

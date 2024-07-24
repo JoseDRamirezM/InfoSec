@@ -4,7 +4,7 @@ To solve this lab, create an injection that calls the `alert()` function.
 
 The key to this lab is to READ the application script carefully:
 
-![[vuln.png]]
+![[Client-Side Vulnerabilities/XSS/DOM XSS/labs/Reflected DOM XSS/images/vuln.png]]
 
 The script consumes an endpoint: 
 

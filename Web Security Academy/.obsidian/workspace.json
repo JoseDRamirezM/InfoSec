@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries/images/dom-invader.png"
+                "file": "Advanced Topics/Prototype pollution/Server-side prototype pollution/labs/Privilege escalation via server-side prototype pollution/images/admin-panel.png"
               }
             }
           },
@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via client-side prototype pollution/DOM XSS via client-side prototype pollution.md",
+                "file": "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/Client-side prototype pollution via flawed sanitization.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,7 +35,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/Routing Based SSRF.md",
+                "file": "Advanced Topics/Prototype pollution/Server-side prototype pollution/Server-side prototype pollution.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "813eb1719c2981f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Topics/Prototype pollution/Server-side prototype pollution/labs/Privilege escalation via server-side prototype pollution/Privilege escalation via server-side prototype pollution.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries/images/dom-invader.png",
+                "file": "Advanced Topics/Prototype pollution/Server-side prototype pollution/labs/Privilege escalation via server-side prototype pollution/images/admin-panel.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,34 +148,37 @@
   },
   "active": "fbdf8a589956dbf3",
   "lastOpenFiles": [
+    "Advanced Topics/Prototype pollution/Server-side prototype pollution/Server-side prototype pollution.md",
+    "Advanced Topics/Prototype pollution/Server-side prototype pollution/labs/Privilege escalation via server-side prototype pollution/Privilege escalation via server-side prototype pollution.md",
+    "Advanced Topics/Prototype pollution/Server-side prototype pollution/labs/Privilege escalation via server-side prototype pollution/images",
+    "Advanced Topics/Prototype pollution/Server-side prototype pollution/labs/Privilege escalation via server-side prototype pollution/images/admin-panel.png",
+    "Advanced Topics/Prototype pollution/Server-side prototype pollution/labs/Privilege escalation via server-side prototype pollution/images/priv-esc.png",
+    "Advanced Topics/Prototype pollution/Server-side prototype pollution/labs/Privilege escalation via server-side prototype pollution/images/detection.png",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/Client-side prototype pollution via flawed sanitization.md",
+    "Advanced Topics/Prototype pollution/Server-side prototype pollution/labs/Privilege escalation via server-side prototype pollution/images/update-funct.png",
+    "Advanced Topics/Prototype pollution/Server-side prototype pollution/labs/Privilege escalation via server-side prototype pollution",
+    "Advanced Topics/Prototype pollution/Prototype pollution via browser APIs/labs/Client-side prototype pollution via browser APIs/images/polluted-chain.png",
+    "Advanced Topics/Prototype pollution/Server-side prototype pollution/labs",
+    "Advanced Topics/Prototype pollution/Server-side prototype pollution",
+    "Advanced Topics/Prototype pollution/Prototype pollution via browser APIs/labs/Client-side prototype pollution via browser APIs/Client-side prototype pollution via browser APIs.md",
+    "Advanced Topics/Prototype pollution/Prototype pollution via browser APIs/labs/Client-side prototype pollution via browser APIs/images/solved.png",
+    "Advanced Topics/Prototype pollution/Prototype pollution via browser APIs/labs/Client-side prototype pollution via browser APIs/images/reflected.png",
+    "Advanced Topics/Prototype pollution/Prototype pollution via browser APIs/labs/Client-side prototype pollution via browser APIs/images/vuln.png",
+    "Advanced Topics/Prototype pollution/Prototype pollution via browser APIs/Prototype pollution via browser APIs.md",
     "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries/Client-side prototype pollution in third-party libraries.md",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via client-side prototype pollution/DOM XSS via client-side prototype pollution.md",
+    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via an alternative prototype pollution vector/DOM XSS via an alternative prototype pollution vector.md",
     "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries/images/solved.png",
     "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries/images/dom-invader.png",
+    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/Routing Based SSRF.md",
+    "Advanced Topics/Prototype pollution/Prototype pollution via browser APIs/labs/Client-side prototype pollution via browser APIs/images",
+    "Advanced Topics/Prototype pollution/Prototype pollution via browser APIs/labs/Client-side prototype pollution via browser APIs",
+    "Advanced Topics/Prototype pollution/Prototype pollution via browser APIs/labs",
+    "Advanced Topics/Prototype pollution/Prototype pollution via browser APIs",
     "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries/images",
     "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/Client-Side Prototype Pollution.md",
     "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution in third-party libraries",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/images/bypass-sanitization.png",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/Client-side prototype pollution via flawed sanitization.md",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/images",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/images/exploited.png",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via an alternative prototype pollution vector/DOM XSS via an alternative prototype pollution vector.md",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via client-side prototype pollution/DOM XSS via client-side prototype pollution.md",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/images/gadget.png",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/images/PP.png",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization",
-    "Advanced Topics/Host Header Attacks/labs/SSRF via flawed request parsing/images/admin-panel-request.png",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via an alternative prototype pollution vector/images/eval-sink.png",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via an alternative prototype pollution vector/images/PP-vector.png",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via an alternative prototype pollution vector/images",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via an alternative prototype pollution vector/images/exploited.png",
-    "Advanced Topics/Host Header Attacks/labs/Routing Based SSRF/Routing Based SSRF.md",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via an alternative prototype pollution vector",
     "Advanced Topics/Host Header Attacks/labs/Host validation bypass via connection state attack/Host validation bypass via connection state attack.md",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via client-side prototype pollution/images",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/DOM XSS via client-side prototype pollution",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/Untitled.md",
-    "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/images",
     "Advanced Topics/Prototype pollution/Prototype pollution.md",
     "Advanced Topics/Host Header Attacks/How to exploit.md",
     "Advanced Topics/Prototype pollution/Client-Side Prototype Pollution/labs/Client-side prototype pollution via flawed sanitization/images/JavaScript prototypes and inheritance.md",
@@ -177,9 +192,6 @@
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query string/WCP via unkeyed query string.md",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via FAT GET/WCP via FAT GET.md",
     "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP Parameter Cloaking/WCP Parameter Cloaking.md",
-    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter/WCP via unkeyed query parameter.md",
-    "Advanced Topics/Web Cache Poisoning/Exploit design flaws.md",
-    "Advanced Topics/Web Cache Poisoning/Web Cache Poisoning.md",
-    "Server-Side Vulnerabilities/Authentication/Vulnerabilities/labs/password poisoning attacks/Password reset poisoning via middleware/Password reset poisoning via middleware.md"
+    "Advanced Topics/Web Cache Poisoning/labs/implementation/WCP via unkeyed query parameter/WCP via unkeyed query parameter.md"
   ]
 }
